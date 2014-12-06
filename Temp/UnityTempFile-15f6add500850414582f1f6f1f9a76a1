@@ -41,8 +41,15 @@
 -define:ENABLE_PROFILER
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_OSX
-'Assets/Scripts/Player/CameraMovement.cs'
-'Assets/Scripts/Player/CameraZoom.cs'
+'Assets/Scripts/Game/GameManager.cs'
+'Assets/Scripts/Player/Actions.cs'
+'Assets/Scripts/Player/Camera/CameraMovement.cs'
+'Assets/Scripts/Player/Camera/CameraZoom.cs'
 'Assets/Scripts/Player/Movement.cs'
+'Assets/Scripts/Turret/AllTurret.cs'
+'Assets/Scripts/Turret/Base.cs'
+'Assets/Scripts/Turret/Bullet.cs'
+'Assets/Scripts/Turret/LookAtEnemy.cs'
+'Assets/Scripts/Turret/Shoot.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'

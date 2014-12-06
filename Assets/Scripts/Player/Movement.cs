@@ -8,8 +8,8 @@ public class Movement : MonoBehaviour {
 	private Quaternion newRot;
 
 	//Declare speed of the Player/Object
-	private float duration = 25f;
-	private float rotSpeed = 3f;
+	private float duration = 15f;
+	private float rotSpeed = 7f;
 
 	//Set to true if mouse button is clicked
 	private bool flag = false;
