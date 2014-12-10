@@ -14,33 +14,41 @@ public class Actions : MonoBehaviour {
 	//Vertical Position of the Turret
 	private float yAxis;
 
+	//Box containing Turret Selection Buttons
+	private Rect ButtonBox = new Rect(0, 0, 400, 100);
+	private Movement movementScript;
+
 	void Start() 
 	{
 		turretSelected = false;
-		yAxis = allTurrets[selectedTower].transform.position.y;
+		yAxis = allTurrets[selectedTower].transform.position.y + transform.lossyScale.y;
+		movementScript = GetComponent<Movement>();
 	}
 
 	void Update()
 	{
-		//SelectTurret();
 		Spawn();
-	}
-	
-//	void SelectTurret()
-//	{
-//		if(Input.GetKeyDown(KeyCode.Q))
-//		{
-//			print("Standard Turret Selected.");
-//			turretSelected = true;
-//		}
-//	}
 
+		//This will determine whether or not the mouse is in the box, so that it can prevent moving upon click a button
+		if(ButtonBox.Contains(Input.mousePosition))
+		{
+			movementScript.mouseOnGUI = true;
+			//Debug.Log("Mouse On GUI is " + movementScript.mouseOnGUI + " On Position: " + Input.mousePosition);
+		}
+		else
+		{
+			movementScript.mouseOnGUI = false;
+			//Debug.Log("Mouse On GUI is " + movementScript.mouseOnGUI);
+		}
+	}
+
+	//Buttons for Selecting the different kinds of Turrets
 	void OnGUI()
 	{
 		//Buttons for Turret Selection
-		GUI.BeginGroup(new Rect(Screen.width / 2 - 200, 0, 600, 100));
+		GUI.BeginGroup(new Rect(Screen.width / 2 - 200, 0, 400, 100));
 
-		GUI.Box(new Rect(0, 0, 400, 100), "Select a Turret");
+		GUI.Box(ButtonBox, "Select a Turret");
 
 		if(GUI.Button(new Rect(40, 30, 100, 50), "Standard Turret") || Input.GetKeyDown(KeyCode.Alpha1))
 		{
@@ -49,9 +57,9 @@ public class Actions : MonoBehaviour {
 
 			selectedTower = 0;
 		}
-		if(GUI.Button(new Rect(150, 30, 100, 50), "Rapid Turret") || Input.GetKeyDown(KeyCode.Alpha2))
+		if(GUI.Button(new Rect(150, 30, 100, 50), "Defence Turret") || Input.GetKeyDown(KeyCode.Alpha2))
 		{
-			print("Rapid Turret Selected.");
+			print("Defence Turret Selected.");
 			turretSelected = true;
 
 			selectedTower = 1;
@@ -67,6 +75,7 @@ public class Actions : MonoBehaviour {
 		GUI.EndGroup();
 	}
 
+	//Spawn the Selected Turret on the Hotspot you have clicked on
 	void Spawn()
 	{
 		if(Base.spawnable && turretSelected && Input.GetMouseButtonDown(0))

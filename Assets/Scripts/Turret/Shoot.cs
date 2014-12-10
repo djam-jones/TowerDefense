@@ -7,7 +7,7 @@ public class Shoot : MonoBehaviour {
 	public Transform bullet;
 	public Transform spawnPoint;
 
-	public static bool isActive;
+	public bool isActive;
 
 	void Start () 
 	{

@@ -3,46 +3,32 @@ using System.Collections;
 
 public class AllTurret : MonoBehaviour {
 
-	public enum TurretKind {
-		StandardTurret,
-		HeavyTurret,
-		RapidTurret
-	}
-
-	public TurretKind currentTurret;
-	public bool hitting = false;
-
 	private float armor;
+	public static float rateOfFire;
 
 	void Start()
 	{
-
+		//
 	}
 
 	void Update()
 	{
-		Collider[] hitColliders = Physics.OverlapSphere(this.transform.position, 1f);
-		for (int i = 0; i < hitColliders.Length; i++) {
-			if(hitColliders[i].transform.tag != "Hotspot" && !hitColliders[i].isTrigger)
-			{
-				hitting = true;
-				break;
-			} else {
-				hitting = false;
-			}
+		if(this.transform.tag == "StandardTurret")
+		{
+			armor = 100f;
+			rateOfFire = 5f;
+		}
+		else if(this.transform.tag == "HeavyTurret")
+		{
+			armor = 75f;
+			rateOfFire = 10f;
+		}
+		else if(this.transform.tag == "DefenceTurret")
+		{
+			armor = 200f;
+			rateOfFire = 0f;
 		}
 
-//		if(currentTurret == Turret.StandardTurret)
-//		{
-//			armor = 100f;
-//		}
-//		else if(currentTurret == Turret.HeavyTurret)
-//		{
-//			armor = 200f;
-//		}
-//		else if(currentTurret = Turret.RapidTurret)
-//		{
-//			armor = 75f;
-//		}
+
 	}
 }

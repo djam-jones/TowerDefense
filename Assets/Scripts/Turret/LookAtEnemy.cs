@@ -6,8 +6,15 @@ using System;
 public class LookAtEnemy : MonoBehaviour {
 
 	private GameObject target;
-	public static List<Transform> inRange = new List<Transform>();
+	private List<Transform> inRange = new List<Transform>();
 	public float rotationSpeed;
+
+	private Shoot shootActive;
+
+	void Start()
+	{
+		shootActive = GetComponent<Shoot>();
+	}
 
 	void Update()
 	{
@@ -21,45 +28,35 @@ public class LookAtEnemy : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
-		if(other.tag == "EnemyNormal")
+		if(other.tag == "BasicGrunt")
 		{
 			inRange.Add(other.transform);
-			Shoot.isActive = true;
+			shootActive.isActive = true;
 		}
-		else if(other.tag == "EnemyFast")
+		else if(other.tag == "HeavyGrunt")
 		{
 			inRange.Add(other.transform);
-			Shoot.isActive = true;
-		}
-		else if(other.tag == "EnemyStrong")
-		{
-			inRange.Add(other.transform);
-			Shoot.isActive = true;
+			shootActive.isActive = true;
 		}
 	}
 
 	void OnTriggerExit(Collider other)
 	{
-		if(other.tag == "EnemyNormal")
+		if(other.tag == "BasicGrunt")
 		{
 			inRange.Remove(other.transform);
-			Shoot.isActive = false;
+			shootActive.isActive = false;
 		}
-		else if(other.tag == "EnemyFast")
+		else if(other.tag == "HeavyGrunt")
 		{
 			inRange.Remove(other.transform);
-			Shoot.isActive = false;
-		}
-		else if(other.tag == "EnemyStrong")
-		{
-			inRange.Remove(other.transform);
-			Shoot.isActive = false;
+			shootActive.isActive = false;
 		}
 
 		if(other.tag == null)
 		{
 			inRange.Remove(other.transform);
-			Shoot.isActive = false;
+			shootActive.isActive = false;
 		}
 	}
 }

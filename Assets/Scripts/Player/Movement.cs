@@ -13,6 +13,7 @@ public class Movement : MonoBehaviour {
 
 	//Set to true if mouse button is clicked
 	private bool flag = false;
+	public bool mouseOnGUI;
 
 	//Vertical Position of the Player/Object
 	private float yAxis;
@@ -22,7 +23,7 @@ public class Movement : MonoBehaviour {
 		yAxis = gameObject.transform.position.y;
 	}
 	
-	void Update() 
+	void Update()
 	{	
 		if(Input.GetMouseButtonDown(0))
 		{
@@ -30,14 +31,13 @@ public class Movement : MonoBehaviour {
 			Ray ray;
 
 			ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-			if(Physics.Raycast(ray, out hit))
+			if(Physics.Raycast(ray, out hit, 100))
 			{
 				flag = true;
 				newPos = hit.point;
 				newPos.y = yAxis;
 			}
 		}
-
 		if(flag && !Mathf.Approximately(gameObject.transform.position.magnitude, newPos.magnitude))
 		{
 			gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, newPos, 1/(duration * Vector3.Distance(gameObject.transform.position, newPos)));

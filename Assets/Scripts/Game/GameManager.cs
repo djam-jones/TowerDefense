@@ -2,14 +2,18 @@
 using System.Collections;
 
 public class GameManager : MonoBehaviour {
-	
+
+	//Textures for Buttons
 	public Texture pauseTexture;
 	public Texture playTexture;
+	public Texture settingsTexture;
 	private Texture newTexture;
 
+	//Booleans for pausing
 	private bool isPaused;
 	private bool pausing;
 
+	//Booleans for certain Menus
 	private bool showPauseMenu = false;
 	
 	void Start()
@@ -21,11 +25,11 @@ public class GameManager : MonoBehaviour {
 	{
 		if(isPaused)
 		{
-			newTexture = playTexture;
+			newTexture = settingsTexture;
 		}
 		else if(!isPaused)
 		{
-			newTexture = pauseTexture;
+			newTexture = settingsTexture;
 		}
 
 		if(pausing)
