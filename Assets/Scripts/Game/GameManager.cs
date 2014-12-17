@@ -9,29 +9,26 @@ public class GameManager : MonoBehaviour {
 	public Texture settingsTexture;
 	private Texture newTexture;
 
-	//Booleans for pausing
-	private bool isPaused;
+	//Boolean for pausing
 	private bool pausing;
+
+	//Integers for the amount of Gold and Points
+	public int totalGold;
+	public int totalPoints;
+
+	public bool upgradesAvailable;
 
 	//Booleans for certain Menus
 	private bool showPauseMenu = false;
 	
 	void Start()
 	{
-		//
+		totalGold = 100;
+		newTexture = settingsTexture;
 	}
 
 	void Update()
 	{
-		if(isPaused)
-		{
-			newTexture = settingsTexture;
-		}
-		else if(!isPaused)
-		{
-			newTexture = settingsTexture;
-		}
-
 		if(pausing)
 		{
 			PauseGame();
@@ -40,6 +37,25 @@ public class GameManager : MonoBehaviour {
 		{
 			ResumeGame();
 		}
+	}
+
+	public void AddGold(int earnedGold)
+	{
+		totalGold += earnedGold;
+
+//		if(totalGold >= 150f && PlayerStats.level == 4)
+//		{
+//			upgradesAvailable = true;
+//		}
+//		else
+//		{
+//			upgradesAvailable = true;
+//		}
+	}
+
+	public void AddScore(int points)
+	{
+		totalPoints += points;
 	}
 
 	void OnGUI()
@@ -51,6 +67,12 @@ public class GameManager : MonoBehaviour {
 			pausing = true;
 		}
 
+		//Display Your Score
+		GUI.Label(new Rect(10, Screen.height - 60, 100, 30), "Score: " + totalPoints.ToString());
+
+		//Display the Amount of Gold
+		GUI.Label(new Rect(10, Screen.height - 40, 100, 30), "Gold: " + totalGold.ToString());
+
 		if(showPauseMenu == true)
 		{
 			GUI.BeginGroup(new Rect(Screen.width/2 - 50, Screen.height/2 - 60, 400, 360));
@@ -59,7 +81,6 @@ public class GameManager : MonoBehaviour {
 			if(GUI.Button(new Rect(10, 30, 80, 20), "Resume"))
 			{
 				print("RESUME Game");
-				ResumeGame();
 				pausing = false;
 			}
 			if(GUI.Button(new Rect(10, 60, 80, 20), "Options"))
@@ -79,13 +100,11 @@ public class GameManager : MonoBehaviour {
 	
 	void PauseGame()
 	{
-		isPaused = true;
 		Time.timeScale = 0;
 		showPauseMenu = true;
 	}
 	void ResumeGame()
 	{
-		isPaused = false;
 		Time.timeScale = 1;
 		showPauseMenu = false;
 	}

@@ -5,8 +5,7 @@ using System;
 
 public class LookAtEnemy : MonoBehaviour {
 
-	private GameObject target;
-	private List<Transform> inRange = new List<Transform>();
+	public List<Transform> inRange = new List<Transform>();
 	public float rotationSpeed;
 
 	private Shoot shootActive;
@@ -28,12 +27,7 @@ public class LookAtEnemy : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
-		if(other.tag == "BasicGrunt")
-		{
-			inRange.Add(other.transform);
-			shootActive.isActive = true;
-		}
-		else if(other.tag == "HeavyGrunt")
+		if(other.transform.tag == "Grunt")
 		{
 			inRange.Add(other.transform);
 			shootActive.isActive = true;
@@ -42,18 +36,12 @@ public class LookAtEnemy : MonoBehaviour {
 
 	void OnTriggerExit(Collider other)
 	{
-		if(other.tag == "BasicGrunt")
+		if(other.transform.tag == "Grunt")
 		{
 			inRange.Remove(other.transform);
 			shootActive.isActive = false;
 		}
-		else if(other.tag == "HeavyGrunt")
-		{
-			inRange.Remove(other.transform);
-			shootActive.isActive = false;
-		}
-
-		if(other.tag == null)
+		else if(other.transform.tag == null)
 		{
 			inRange.Remove(other.transform);
 			shootActive.isActive = false;

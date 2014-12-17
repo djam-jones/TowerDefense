@@ -4,7 +4,6 @@ using System.Collections;
 public class CameraMovement : MonoBehaviour 
 {
 	public Transform player;
-	private float speed = 5f;
 	private float damp = 3.5f;
 	private Vector3 newPosition;
 	

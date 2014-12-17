@@ -13,7 +13,6 @@ public class Movement : MonoBehaviour {
 
 	//Set to true if mouse button is clicked
 	private bool flag = false;
-	public bool mouseOnGUI;
 
 	//Vertical Position of the Player/Object
 	private float yAxis;
@@ -31,7 +30,7 @@ public class Movement : MonoBehaviour {
 			Ray ray;
 
 			ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-			if(Physics.Raycast(ray, out hit, 100))
+			if(Physics.Raycast(ray, out hit, 1 << 9))
 			{
 				flag = true;
 				newPos = hit.point;
@@ -46,7 +45,6 @@ public class Movement : MonoBehaviour {
 		else if(flag && Mathf.Approximately(gameObject.transform.position.magnitude, newPos.magnitude))
 		{
 			flag = false;
-			Debug.Log("Destination Reached.");
 		}
 	}
 

@@ -46,15 +46,23 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Enemies\EnemyBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Enemies\EnemyStats.cs" />
+     <Compile Include="Assets\Scripts\Game\CameraSwitch.cs" />
      <Compile Include="Assets\Scripts\Game\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Game\HPBarController.cs" />
+     <Compile Include="Assets\Scripts\Game\SpawnSystem.cs" />
      <Compile Include="Assets\Scripts\Player\Actions.cs" />
      <Compile Include="Assets\Scripts\Player\Camera\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\Player\Camera\CameraZoom.cs" />
+     <Compile Include="Assets\Scripts\Player\Camera\FreeCamMovement.cs" />
      <Compile Include="Assets\Scripts\Player\Movement.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerStats.cs" />
      <Compile Include="Assets\Scripts\Turret\AllTurret.cs" />
      <Compile Include="Assets\Scripts\Turret\Base.cs" />
      <Compile Include="Assets\Scripts\Turret\Bullet.cs" />
      <Compile Include="Assets\Scripts\Turret\LookAtEnemy.cs" />
+     <Compile Include="Assets\Scripts\Turret\MortarBullet.cs" />
      <Compile Include="Assets\Scripts\Turret\Shoot.cs" />
      <None Include="Assets\Z\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Z\Standard Assets\Skyboxes\_skybox info.txt" />

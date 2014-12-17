@@ -8,7 +8,7 @@ public class SpawnSystem : MonoBehaviour {
 	private int enemyIndex;
 
 	//The amount of time between Waves and Enemies per wave
-	private float spawnDelay = 2.5f;
+	private float spawnDelay = 3f;
 
 	//The Current Wave Number
 	private int currentWave = 1;
@@ -35,7 +35,7 @@ public class SpawnSystem : MonoBehaviour {
 		if(!isSpawning)
 		{
 			//Check how many Enemies are still on the Field
-			enemiesInScene = GameObject.FindGameObjectsWithTag("BasicGrunt");
+			enemiesInScene = GameObject.FindGameObjectsWithTag("Grunt");
 			//If there aren't enemies left, increase current wave
 			if(enemiesInScene.Length <= 0)
 			{

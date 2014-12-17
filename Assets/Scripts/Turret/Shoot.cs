@@ -27,7 +27,7 @@ public class Shoot : MonoBehaviour {
 			if(cooldown <= 0)
 			{
 				Shooting();
-				cooldown = 6f;
+				cooldown = 3f;
 			}
 		}
 	}

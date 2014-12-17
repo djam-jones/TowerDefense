@@ -14,32 +14,15 @@ public class Actions : MonoBehaviour {
 	//Vertical Position of the Turret
 	private float yAxis;
 
-	//Box containing Turret Selection Buttons
-	private Rect ButtonBox = new Rect(0, 0, 400, 100);
-	private Movement movementScript;
-
 	void Start() 
 	{
 		turretSelected = false;
 		yAxis = allTurrets[selectedTower].transform.position.y + transform.lossyScale.y;
-		movementScript = GetComponent<Movement>();
 	}
 
 	void Update()
 	{
 		Spawn();
-
-		//This will determine whether or not the mouse is in the box, so that it can prevent moving upon click a button
-		if(ButtonBox.Contains(Input.mousePosition))
-		{
-			movementScript.mouseOnGUI = true;
-			//Debug.Log("Mouse On GUI is " + movementScript.mouseOnGUI + " On Position: " + Input.mousePosition);
-		}
-		else
-		{
-			movementScript.mouseOnGUI = false;
-			//Debug.Log("Mouse On GUI is " + movementScript.mouseOnGUI);
-		}
 	}
 
 	//Buttons for Selecting the different kinds of Turrets
@@ -48,25 +31,22 @@ public class Actions : MonoBehaviour {
 		//Buttons for Turret Selection
 		GUI.BeginGroup(new Rect(Screen.width / 2 - 200, 0, 400, 100));
 
-		GUI.Box(ButtonBox, "Select a Turret");
+		GUI.Box(new Rect(0, 0, 400, 100), "Select a Turret");
 
-		if(GUI.Button(new Rect(40, 30, 100, 50), "Standard Turret") || Input.GetKeyDown(KeyCode.Alpha1))
+		if(GUI.Button(new Rect(40, 30, 100, 50), "Standard Turret" + "\n" + "Cost: 100") || Input.GetKeyDown(KeyCode.Alpha1))
 		{
-			print("Standard Turret Selected.");
 			turretSelected = true;
 
 			selectedTower = 0;
 		}
-		if(GUI.Button(new Rect(150, 30, 100, 50), "Defence Turret") || Input.GetKeyDown(KeyCode.Alpha2))
+		if(GUI.Button(new Rect(150, 30, 100, 50), "Defence Turret" + "\n" + "Cost: 150") || Input.GetKeyDown(KeyCode.Alpha2))
 		{
-			print("Defence Turret Selected.");
 			turretSelected = true;
 
 			selectedTower = 1;
 		}
-		if(GUI.Button(new Rect(260, 30, 100, 50), "Heavy Turret") || Input.GetKeyDown(KeyCode.Alpha3))
+		if(GUI.Button(new Rect(260, 30, 100, 50), "Heavy Turret" + "\n" + "Cost: 250") || Input.GetKeyDown(KeyCode.Alpha3))
 		{
-			print("Heavy Turret Selected.");
 			turretSelected = true;
 
 			selectedTower = 2;
@@ -86,13 +66,12 @@ public class Actions : MonoBehaviour {
 			RaycastHit hit;
 
 			ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-			if(Physics.Raycast(ray, out hit))
+			if(Physics.Raycast(ray, out hit, 1 << 8))
 			{
 				turPos = hit.point;
 				turPos.y = yAxis;
 
 				Instantiate(allTurrets[selectedTower], turPos, Quaternion.identity);
-				print("Placed Turret");
 			}
 		}
 	}
