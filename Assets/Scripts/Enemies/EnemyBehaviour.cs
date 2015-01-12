@@ -33,4 +33,32 @@ public class EnemyBehaviour : MonoBehaviour {
 			}
 		}
 	}
+
+	void OnTriggerEnter(Collider other)
+	{
+		if(other.transform.tag == "Turret")
+		{
+			navMesh.speed = 0;
+		}
+	}
+	void OnTriggerExit(Collider other)
+	{
+		if(other.transform.tag == "Turret")
+		{
+			navMesh.speed = 3.5f;
+		}
+	}
+
+	void OnTriggerStay(Collider other)
+	{
+		if(other.transform.tag == "Turret")
+		{
+			Attack ();
+		}
+	}
+
+	public void Attack()
+	{
+
+	}
 }

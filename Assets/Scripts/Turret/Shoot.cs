@@ -9,10 +9,14 @@ public class Shoot : MonoBehaviour {
 
 	public bool isActive;
 
+	private Animator anim;
+
 	void Start () 
 	{
 		cooldown = 0f;
 		isActive = false;
+
+		anim = gameObject.GetComponentInParent<Animator>();
 	}
 
 	void Update () 
@@ -26,9 +30,15 @@ public class Shoot : MonoBehaviour {
 
 			if(cooldown <= 0)
 			{
+				anim.SetTrigger("StartShoot");
+
 				Shooting();
 				cooldown = 3f;
 			}
+		}
+		else if(isActive == false)
+		{
+			anim.SetTrigger("StopShoot");
 		}
 	}
 

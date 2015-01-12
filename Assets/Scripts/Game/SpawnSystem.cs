@@ -1,18 +1,25 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class SpawnSystem : MonoBehaviour {
 
 	//These are the Enemies that are eligible for the Waves
 	public Transform[] AllEnemies;
+	public Transform MiniBoss;
 	private int enemyIndex;
 
 	//The amount of time between Waves and Enemies per wave
 	private float spawnDelay = 3f;
+	public Text displayText;
+	public bool showCountdown;
 
 	//The Current Wave Number
 	private int currentWave = 1;
+	private int maxWave = 6;
+
 	private bool isSpawning;
+	public Text waveText;
 
 	private int maxEnemies;
 
@@ -22,7 +29,7 @@ public class SpawnSystem : MonoBehaviour {
 	void Start()
 	{
 		//Set the maximum amount of enemies for the first wave
-		maxEnemies = 5;
+		maxEnemies = 3;
 
 		//Begin the First Wave
 		StartCoroutine(NewWave());
@@ -31,6 +38,23 @@ public class SpawnSystem : MonoBehaviour {
 	void Update()
 	{
 		enemyIndex = Random.Range(0, AllEnemies.Length);
+		waveText.text = "Wave: " + currentWave.ToString() + " / " + maxWave.ToString();
+
+		if(showCountdown && isSpawning)
+		{
+			spawnDelay -= Time.deltaTime;
+			displayText.text = "Next Wave in: " + spawnDelay.ToString("f0") + " s";
+			
+			if(spawnDelay <= 0)
+			{
+				spawnDelay = 3;
+				showCountdown = false;
+			}
+		}
+		else if(!showCountdown)
+		{
+			displayText.text = "";
+		}
 
 		if(!isSpawning)
 		{
@@ -48,6 +72,8 @@ public class SpawnSystem : MonoBehaviour {
 	{
 		//We are going to spawn a wave
 		isSpawning = true;
+		showCountdown = true;
+
 		//Spawn up until the maximum number of enemies
 		for(int i = 0; i < maxEnemies; i++)
 		{
@@ -64,6 +90,18 @@ public class SpawnSystem : MonoBehaviour {
 			{
 				Instantiate(AllEnemies[enemyIndex], spawnPoint.position, spawnPoint.rotation);
 			}
+			else if(currentWave >= maxWave)
+			{
+//				if(MiniBoss != null)
+//				{
+//					Instantiate(MiniBoss, spawnPoint.position, spawnPoint.rotation);
+//				}
+//				else if(MiniBoss == null)
+//				{
+					displayText.text = "Level Completed!";
+					Time.timeScale = 0;
+//				}
+			}
 		}
 
 		//Done Spawning enemies for this round
@@ -75,15 +113,9 @@ public class SpawnSystem : MonoBehaviour {
 		//Increase the Current Wave by 1
 		currentWave++;
 		//Increase the Maximum amount of enemies per wave
-		maxEnemies += 3;
-
+		maxEnemies += 2;
+		
 		//Start the Next Wave
 		StartCoroutine(NewWave());
-	}
-
-	void OnGUI()
-	{
-		//Display the Wave Number
-		GUI.Label(new Rect(10, Screen.height - 20, 100, 30), "Wave: " + currentWave.ToString());
 	}
 }

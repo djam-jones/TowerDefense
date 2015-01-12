@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class Bullet : MonoBehaviour {
 
 	protected 	float 			destroyTime 	= 4f;
-	protected 	float 			speed 			= 100f;
+	protected 	float 			speed 			= 120f;
 	private 	float 			mass			= 10f;
 	private		GameObject		target;
 	private		Vector3			targetPos		= Vector3.zero;
@@ -15,7 +15,6 @@ public class Bullet : MonoBehaviour {
 	
 	void Start() 
 	{
-		//rigidbody.velocity = new Vector3(0, 0, 1) * speed;
 		target = null;
 
 		Destroy(this.gameObject, destroyTime);
@@ -25,7 +24,7 @@ public class Bullet : MonoBehaviour {
 	void Update() 
 	{
 		//Seek();
-
+		//rigidbody.velocity = new Vector3(1, 0, 1) * speed;
 		this.transform.Translate(Vector3.forward * speed * Time.deltaTime);
 	}
 

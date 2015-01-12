@@ -23,12 +23,12 @@ public class EnemyStats : MonoBehaviour {
 		gameManager = GameObject.FindGameObjectWithTag("GameController");
 		gm = gameManager.GetComponent<GameManager>();
 
-		turrets = GameObject.FindGameObjectsWithTag("Turret");
+		turrets = GameObject.FindGameObjectsWithTag("TurretEye");
 
 		dead = false;
 
-		gold = Random.Range(20, 30);
-		points = Random.Range(47, 56);
+		gold = Random.Range(100, 125);
+		points = Random.Range(74, 92);
 	}
 
 	void Update()
@@ -54,6 +54,7 @@ public class EnemyStats : MonoBehaviour {
 			if(lae)
 			{
 				lae.inRange.Remove(this.transform);
+				Invoke("Death", 1f);
 			}
 
 			if(gm)
@@ -64,12 +65,8 @@ public class EnemyStats : MonoBehaviour {
 				//Add Score
 				gm.AddScore(points);
 			}
-
-			Death();
 		}
 	}
-
-	//liever een CollisionManagerClass of Gameobject manager waarin je de collision en hittests met colliders test en daar ook de enemies verwijdert uit de lijsten
 
 	void Death( )
 	{

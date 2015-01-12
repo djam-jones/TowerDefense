@@ -30,7 +30,7 @@ public class Movement : MonoBehaviour {
 			Ray ray;
 
 			ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-			if(Physics.Raycast(ray, out hit, 1 << 9))
+			if(Physics.Raycast(ray, out hit, 1 << 8))
 			{
 				flag = true;
 				newPos = hit.point;
