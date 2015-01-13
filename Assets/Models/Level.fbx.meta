@@ -1,0 +1,5700 @@
+fileFormatVersion: 2
+guid: 10bde5b232e7e47bf8b919a689343aa8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bush
+    100002: Bush_1
+    100004: Bush_2
+    100006: Bush_2_2
+    100008: Bush_3
+    100010: Bush_4
+    100012: Bush_5
+    100014: Bush_6
+    100016: Bush_7
+    100018: Cone
+    100020: Cone_1
+    100022: Cone_10
+    100024: Cone_100
+    100026: Cone_101
+    100028: Cone_102
+    100030: Cone_103
+    100032: Cone_104
+    100034: Cone_105
+    100036: Cone_106
+    100038: Cone_107
+    100040: Cone_108
+    100042: Cone_109
+    100044: Cone_11
+    100046: Cone_110
+    100048: Cone_111
+    100050: Cone_112
+    100052: Cone_113
+    100054: Cone_114
+    100056: Cone_115
+    100058: Cone_116
+    100060: Cone_117
+    100062: Cone_118
+    100064: Cone_119
+    100066: Cone_12
+    100068: Cone_120
+    100070: Cone_121
+    100072: Cone_122
+    100074: Cone_123
+    100076: Cone_124
+    100078: Cone_125
+    100080: Cone_126
+    100082: Cone_127
+    100084: Cone_128
+    100086: Cone_129
+    100088: Cone_13
+    100090: Cone_130
+    100092: Cone_131
+    100094: Cone_132
+    100096: Cone_133
+    100098: Cone_134
+    100100: Cone_135
+    100102: Cone_136
+    100104: Cone_137
+    100106: Cone_138
+    100108: Cone_139
+    100110: Cone_14
+    100112: Cone_140
+    100114: Cone_141
+    100116: Cone_142
+    100118: Cone_143
+    100120: Cone_144
+    100122: Cone_145
+    100124: Cone_146
+    100126: Cone_147
+    100128: Cone_148
+    100130: Cone_149
+    100132: Cone_15
+    100134: Cone_150
+    100136: Cone_151
+    100138: Cone_152
+    100140: Cone_153
+    100142: Cone_154
+    100144: Cone_155
+    100146: Cone_156
+    100148: Cone_157
+    100150: Cone_158
+    100152: Cone_159
+    100154: Cone_16
+    100156: Cone_160
+    100158: Cone_161
+    100160: Cone_162
+    100162: Cone_163
+    100164: Cone_164
+    100166: Cone_165
+    100168: Cone_166
+    100170: Cone_167
+    100172: Cone_168
+    100174: Cone_169
+    100176: Cone_17
+    100178: Cone_170
+    100180: Cone_171
+    100182: Cone_172
+    100184: Cone_173
+    100186: Cone_174
+    100188: Cone_175
+    100190: Cone_176
+    100192: Cone_177
+    100194: Cone_178
+    100196: Cone_179
+    100198: Cone_18
+    100200: Cone_180
+    100202: Cone_181
+    100204: Cone_182
+    100206: Cone_183
+    100208: Cone_184
+    100210: Cone_185
+    100212: Cone_186
+    100214: Cone_187
+    100216: Cone_188
+    100218: Cone_189
+    100220: Cone_19
+    100222: Cone_190
+    100224: Cone_191
+    100226: Cone_192
+    100228: Cone_193
+    100230: Cone_194
+    100232: Cone_195
+    100234: Cone_196
+    100236: Cone_197
+    100238: Cone_198
+    100240: Cone_199
+    100242: Cone_1_10
+    100244: Cone_1_2
+    100246: Cone_1_3
+    100248: Cone_1_4
+    100250: Cone_1_5
+    100252: Cone_1_6
+    100254: Cone_1_7
+    100256: Cone_1_8
+    100258: Cone_1_9
+    100260: Cone_2
+    100262: Cone_20
+    100264: Cone_200
+    100266: Cone_201
+    100268: Cone_202
+    100270: Cone_203
+    100272: Cone_204
+    100274: Cone_205
+    100276: Cone_206
+    100278: Cone_207
+    100280: Cone_208
+    100282: Cone_209
+    100284: Cone_21
+    100286: Cone_210
+    100288: Cone_211
+    100290: Cone_212
+    100292: Cone_213
+    100294: Cone_214
+    100296: Cone_215
+    100298: Cone_216
+    100300: Cone_217
+    100302: Cone_218
+    100304: Cone_219
+    100306: Cone_22
+    100308: Cone_220
+    100310: Cone_221
+    100312: Cone_222
+    100314: Cone_223
+    100316: Cone_224
+    100318: Cone_225
+    100320: Cone_226
+    100322: Cone_227
+    100324: Cone_228
+    100326: Cone_23
+    100328: Cone_24
+    100330: Cone_25
+    100332: Cone_26
+    100334: Cone_27
+    100336: Cone_28
+    100338: Cone_29
+    100340: Cone_2_10
+    100342: Cone_2_11
+    100344: Cone_2_2
+    100346: Cone_2_3
+    100348: Cone_2_4
+    100350: Cone_2_5
+    100352: Cone_2_6
+    100354: Cone_2_7
+    100356: Cone_2_8
+    100358: Cone_2_9
+    100360: Cone_3
+    100362: Cone_30
+    100364: Cone_31
+    100366: Cone_32
+    100368: Cone_33
+    100370: Cone_34
+    100372: Cone_35
+    100374: Cone_36
+    100376: Cone_37
+    100378: Cone_38
+    100380: Cone_39
+    100382: Cone_3_10
+    100384: Cone_3_11
+    100386: Cone_3_2
+    100388: Cone_3_3
+    100390: Cone_3_4
+    100392: Cone_3_5
+    100394: Cone_3_6
+    100396: Cone_3_7
+    100398: Cone_3_8
+    100400: Cone_3_9
+    100402: Cone_4
+    100404: Cone_40
+    100406: Cone_41
+    100408: Cone_42
+    100410: Cone_43
+    100412: Cone_44
+    100414: Cone_45
+    100416: Cone_46
+    100418: Cone_47
+    100420: Cone_48
+    100422: Cone_49
+    100424: Cone_5
+    100426: Cone_50
+    100428: Cone_51
+    100430: Cone_52
+    100432: Cone_53
+    100434: Cone_54
+    100436: Cone_55
+    100438: Cone_56
+    100440: Cone_57
+    100442: Cone_58
+    100444: Cone_59
+    100446: Cone_6
+    100448: Cone_60
+    100450: Cone_61
+    100452: Cone_62
+    100454: Cone_63
+    100456: Cone_64
+    100458: Cone_65
+    100460: Cone_66
+    100462: Cone_67
+    100464: Cone_68
+    100466: Cone_69
+    100468: Cone_7
+    100470: Cone_70
+    100472: Cone_71
+    100474: Cone_72
+    100476: Cone_73
+    100478: Cone_74
+    100480: Cone_75
+    100482: Cone_76
+    100484: Cone_77
+    100486: Cone_78
+    100488: Cone_79
+    100490: Cone_8
+    100492: Cone_80
+    100494: Cone_81
+    100496: Cone_82
+    100498: Cone_83
+    100500: Cone_84
+    100502: Cone_85
+    100504: Cone_86
+    100506: Cone_87
+    100508: Cone_88
+    100510: Cone_89
+    100512: Cone_9
+    100514: Cone_90
+    100516: Cone_91
+    100518: Cone_92
+    100520: Cone_93
+    100522: Cone_94
+    100524: Cone_95
+    100526: Cone_96
+    100528: Cone_97
+    100530: Cone_98
+    100532: Cone_99
+    100534: Cube
+    100536: Cube_1
+    100538: Cube_10
+    100540: Cube_11
+    100542: Cube_12
+    100544: Cube_13
+    100546: Cube_14
+    100548: Cube_15
+    100550: Cube_16
+    100552: Cube_17
+    100554: Cube_18
+    100556: Cube_19
+    100558: Cube_1_10
+    100560: Cube_1_11
+    100562: Cube_1_12
+    100564: Cube_1_13
+    100566: Cube_1_14
+    100568: Cube_1_15
+    100570: Cube_1_16
+    100572: Cube_1_17
+    100574: Cube_1_18
+    100576: Cube_1_19
+    100578: Cube_1_2
+    100580: Cube_1_20
+    100582: Cube_1_21
+    100584: Cube_1_22
+    100586: Cube_1_23
+    100588: Cube_1_24
+    100590: Cube_1_25
+    100592: Cube_1_26
+    100594: Cube_1_27
+    100596: Cube_1_28
+    100598: Cube_1_29
+    100600: Cube_1_3
+    100602: Cube_1_30
+    100604: Cube_1_31
+    100606: Cube_1_32
+    100608: Cube_1_4
+    100610: Cube_1_5
+    100612: Cube_1_6
+    100614: Cube_1_7
+    100616: Cube_1_8
+    100618: Cube_1_9
+    100620: Cube_2
+    100622: Cube_20
+    100624: Cube_21
+    100626: Cube_22
+    100628: Cube_23
+    100630: Cube_24
+    100632: Cube_25
+    100634: Cube_26
+    100636: Cube_27
+    100638: Cube_28
+    100640: Cube_29
+    100642: Cube_2_2
+    100644: Cube_3
+    100646: Cube_30
+    100648: Cube_31
+    100650: Cube_32
+    100652: Cube_33
+    100654: Cube_34
+    100656: Cube_35
+    100658: Cube_36
+    100660: Cube_3_2
+    100662: Cube_4
+    100664: Cube_5
+    100666: Cube_6
+    100668: Cube_7
+    100670: Cube_8
+    100672: Cube_9
+    100674: Cylinder
+    100676: Cylinder_1
+    100678: Cylinder_10
+    100680: Cylinder_100
+    100682: Cylinder_101
+    100684: Cylinder_102
+    100686: Cylinder_103
+    100688: Cylinder_104
+    100690: Cylinder_105
+    100692: Cylinder_106
+    100694: Cylinder_107
+    100696: Cylinder_108
+    100698: Cylinder_109
+    100700: Cylinder_11
+    100702: Cylinder_110
+    100704: Cylinder_111
+    100706: Cylinder_112
+    100708: Cylinder_113
+    100710: Cylinder_114
+    100712: Cylinder_115
+    100714: Cylinder_116
+    100716: Cylinder_117
+    100718: Cylinder_118
+    100720: Cylinder_119
+    100722: Cylinder_12
+    100724: Cylinder_120
+    100726: Cylinder_121
+    100728: Cylinder_122
+    100730: Cylinder_123
+    100732: Cylinder_124
+    100734: Cylinder_125
+    100736: Cylinder_126
+    100738: Cylinder_127
+    100740: Cylinder_128
+    100742: Cylinder_129
+    100744: Cylinder_13
+    100746: Cylinder_130
+    100748: Cylinder_131
+    100750: Cylinder_132
+    100752: Cylinder_133
+    100754: Cylinder_134
+    100756: Cylinder_135
+    100758: Cylinder_136
+    100760: Cylinder_137
+    100762: Cylinder_138
+    100764: Cylinder_139
+    100766: Cylinder_14
+    100768: Cylinder_140
+    100770: Cylinder_141
+    100772: Cylinder_142
+    100774: Cylinder_143
+    100776: Cylinder_144
+    100778: Cylinder_145
+    100780: Cylinder_146
+    100782: Cylinder_147
+    100784: Cylinder_148
+    100786: Cylinder_149
+    100788: Cylinder_15
+    100790: Cylinder_150
+    100792: Cylinder_151
+    100794: Cylinder_152
+    100796: Cylinder_153
+    100798: Cylinder_154
+    100800: Cylinder_155
+    100802: Cylinder_156
+    100804: Cylinder_157
+    100806: Cylinder_158
+    100808: Cylinder_159
+    100810: Cylinder_16
+    100812: Cylinder_160
+    100814: Cylinder_161
+    100816: Cylinder_162
+    100818: Cylinder_163
+    100820: Cylinder_164
+    100822: Cylinder_165
+    100824: Cylinder_166
+    100826: Cylinder_167
+    100828: Cylinder_168
+    100830: Cylinder_169
+    100832: Cylinder_17
+    100834: Cylinder_170
+    100836: Cylinder_171
+    100838: Cylinder_172
+    100840: Cylinder_173
+    100842: Cylinder_174
+    100844: Cylinder_175
+    100846: Cylinder_176
+    100848: Cylinder_177
+    100850: Cylinder_178
+    100852: Cylinder_179
+    100854: Cylinder_18
+    100856: Cylinder_180
+    100858: Cylinder_181
+    100860: Cylinder_182
+    100862: Cylinder_183
+    100864: Cylinder_184
+    100866: Cylinder_185
+    100868: Cylinder_186
+    100870: Cylinder_187
+    100872: Cylinder_188
+    100874: Cylinder_189
+    100876: Cylinder_19
+    100878: Cylinder_190
+    100880: Cylinder_191
+    100882: Cylinder_192
+    100884: Cylinder_193
+    100886: Cylinder_194
+    100888: Cylinder_195
+    100890: Cylinder_196
+    100892: Cylinder_197
+    100894: Cylinder_198
+    100896: Cylinder_199
+    100898: Cylinder_1_10
+    100900: Cylinder_1_11
+    100902: Cylinder_1_12
+    100904: Cylinder_1_13
+    100906: Cylinder_1_14
+    100908: Cylinder_1_15
+    100910: Cylinder_1_2
+    100912: Cylinder_1_3
+    100914: Cylinder_1_4
+    100916: Cylinder_1_5
+    100918: Cylinder_1_6
+    100920: Cylinder_1_7
+    100922: Cylinder_1_8
+    100924: Cylinder_1_9
+    100926: Cylinder_2
+    100928: Cylinder_20
+    100930: Cylinder_200
+    100932: Cylinder_201
+    100934: Cylinder_202
+    100936: Cylinder_203
+    100938: Cylinder_204
+    100940: Cylinder_205
+    100942: Cylinder_206
+    100944: Cylinder_207
+    100946: Cylinder_208
+    100948: Cylinder_209
+    100950: Cylinder_21
+    100952: Cylinder_210
+    100954: Cylinder_211
+    100956: Cylinder_212
+    100958: Cylinder_213
+    100960: Cylinder_214
+    100962: Cylinder_215
+    100964: Cylinder_216
+    100966: Cylinder_217
+    100968: Cylinder_218
+    100970: Cylinder_219
+    100972: Cylinder_22
+    100974: Cylinder_220
+    100976: Cylinder_221
+    100978: Cylinder_222
+    100980: Cylinder_223
+    100982: Cylinder_224
+    100984: Cylinder_225
+    100986: Cylinder_226
+    100988: Cylinder_227
+    100990: Cylinder_228
+    100992: Cylinder_229
+    100994: Cylinder_23
+    100996: Cylinder_230
+    100998: Cylinder_231
+    101000: Cylinder_232
+    101002: Cylinder_233
+    101004: Cylinder_24
+    101006: Cylinder_25
+    101008: Cylinder_26
+    101010: Cylinder_27
+    101012: Cylinder_28
+    101014: Cylinder_29
+    101016: Cylinder_2_2
+    101018: Cylinder_2_3
+    101020: Cylinder_2_4
+    101022: Cylinder_2_5
+    101024: Cylinder_2_6
+    101026: Cylinder_3
+    101028: Cylinder_30
+    101030: Cylinder_31
+    101032: Cylinder_32
+    101034: Cylinder_33
+    101036: Cylinder_34
+    101038: Cylinder_35
+    101040: Cylinder_36
+    101042: Cylinder_37
+    101044: Cylinder_38
+    101046: Cylinder_39
+    101048: Cylinder_4
+    101050: Cylinder_40
+    101052: Cylinder_41
+    101054: Cylinder_42
+    101056: Cylinder_43
+    101058: Cylinder_44
+    101060: Cylinder_45
+    101062: Cylinder_46
+    101064: Cylinder_47
+    101066: Cylinder_48
+    101068: Cylinder_49
+    101070: Cylinder_5
+    101072: Cylinder_50
+    101074: Cylinder_51
+    101076: Cylinder_52
+    101078: Cylinder_53
+    101080: Cylinder_54
+    101082: Cylinder_55
+    101084: Cylinder_56
+    101086: Cylinder_57
+    101088: Cylinder_58
+    101090: Cylinder_59
+    101092: Cylinder_6
+    101094: Cylinder_60
+    101096: Cylinder_61
+    101098: Cylinder_62
+    101100: Cylinder_63
+    101102: Cylinder_64
+    101104: Cylinder_65
+    101106: Cylinder_66
+    101108: Cylinder_67
+    101110: Cylinder_68
+    101112: Cylinder_69
+    101114: Cylinder_7
+    101116: Cylinder_70
+    101118: Cylinder_71
+    101120: Cylinder_72
+    101122: Cylinder_73
+    101124: Cylinder_74
+    101126: Cylinder_75
+    101128: Cylinder_76
+    101130: Cylinder_77
+    101132: Cylinder_78
+    101134: Cylinder_79
+    101136: Cylinder_8
+    101138: Cylinder_80
+    101140: Cylinder_81
+    101142: Cylinder_82
+    101144: Cylinder_83
+    101146: Cylinder_84
+    101148: Cylinder_85
+    101150: Cylinder_86
+    101152: Cylinder_87
+    101154: Cylinder_88
+    101156: Cylinder_89
+    101158: Cylinder_9
+    101160: Cylinder_90
+    101162: Cylinder_91
+    101164: Cylinder_92
+    101166: Cylinder_93
+    101168: Cylinder_94
+    101170: Cylinder_95
+    101172: Cylinder_96
+    101174: Cylinder_97
+    101176: Cylinder_98
+    101178: Cylinder_99
+    101180: Disc
+    101182: Gate
+    101184: Ground
+    101186: Landscape_1
+    101188: Landscape_2
+    101190: Landscape_3
+    101192: Landscape_4
+    101194: Landscape_5
+    101196: Landscape_6
+    101198: Landscape_7
+    101200: //RootNode
+    101202: Outer_edge
+    101204: Pine_Tree_1
+    101206: Pine_Tree_1_1
+    101208: Pine_Tree_1_10
+    101210: Pine_Tree_1_10_2
+    101212: Pine_Tree_1_11
+    101214: Pine_Tree_1_11_2
+    101216: Pine_Tree_1_12
+    101218: Pine_Tree_1_12_2
+    101220: Pine_Tree_1_13
+    101222: Pine_Tree_1_14
+    101224: Pine_Tree_1_15
+    101226: Pine_Tree_1_16
+    101228: Pine_Tree_1_17
+    101230: Pine_Tree_1_18
+    101232: Pine_Tree_1_19
+    101234: Pine_Tree_1_1_10
+    101236: Pine_Tree_1_1_11
+    101238: Pine_Tree_1_1_12
+    101240: Pine_Tree_1_1_13
+    101242: Pine_Tree_1_1_14
+    101244: Pine_Tree_1_1_15
+    101246: Pine_Tree_1_1_16
+    101248: Pine_Tree_1_1_17
+    101250: Pine_Tree_1_1_18
+    101252: Pine_Tree_1_1_19
+    101254: Pine_Tree_1_1_2
+    101256: Pine_Tree_1_1_20
+    101258: Pine_Tree_1_1_21
+    101260: Pine_Tree_1_1_22
+    101262: Pine_Tree_1_1_23
+    101264: Pine_Tree_1_1_24
+    101266: Pine_Tree_1_1_25
+    101268: Pine_Tree_1_1_26
+    101270: Pine_Tree_1_1_27
+    101272: Pine_Tree_1_1_28
+    101274: Pine_Tree_1_1_29
+    101276: Pine_Tree_1_1_3
+    101278: Pine_Tree_1_1_30
+    101280: Pine_Tree_1_1_31
+    101282: Pine_Tree_1_1_32
+    101284: Pine_Tree_1_1_33
+    101286: Pine_Tree_1_1_34
+    101288: Pine_Tree_1_1_35
+    101290: Pine_Tree_1_1_36
+    101292: Pine_Tree_1_1_37
+    101294: Pine_Tree_1_1_38
+    101296: Pine_Tree_1_1_39
+    101298: Pine_Tree_1_1_4
+    101300: Pine_Tree_1_1_40
+    101302: Pine_Tree_1_1_41
+    101304: Pine_Tree_1_1_42
+    101306: Pine_Tree_1_1_43
+    101308: Pine_Tree_1_1_5
+    101310: Pine_Tree_1_1_6
+    101312: Pine_Tree_1_1_7
+    101314: Pine_Tree_1_1_8
+    101316: Pine_Tree_1_1_9
+    101318: Pine_Tree_1_2
+    101320: Pine_Tree_1_20
+    101322: Pine_Tree_1_21
+    101324: Pine_Tree_1_22
+    101326: Pine_Tree_1_23
+    101328: Pine_Tree_1_24
+    101330: Pine_Tree_1_25
+    101332: Pine_Tree_1_26
+    101334: Pine_Tree_1_27
+    101336: Pine_Tree_1_28
+    101338: Pine_Tree_1_29
+    101340: Pine_Tree_1_2_10
+    101342: Pine_Tree_1_2_11
+    101344: Pine_Tree_1_2_12
+    101346: Pine_Tree_1_2_13
+    101348: Pine_Tree_1_2_14
+    101350: Pine_Tree_1_2_15
+    101352: Pine_Tree_1_2_16
+    101354: Pine_Tree_1_2_17
+    101356: Pine_Tree_1_2_18
+    101358: Pine_Tree_1_2_19
+    101360: Pine_Tree_1_2_2
+    101362: Pine_Tree_1_2_20
+    101364: Pine_Tree_1_2_21
+    101366: Pine_Tree_1_2_22
+    101368: Pine_Tree_1_2_23
+    101370: Pine_Tree_1_2_24
+    101372: Pine_Tree_1_2_25
+    101374: Pine_Tree_1_2_26
+    101376: Pine_Tree_1_2_27
+    101378: Pine_Tree_1_2_28
+    101380: Pine_Tree_1_2_29
+    101382: Pine_Tree_1_2_3
+    101384: Pine_Tree_1_2_30
+    101386: Pine_Tree_1_2_31
+    101388: Pine_Tree_1_2_32
+    101390: Pine_Tree_1_2_33
+    101392: Pine_Tree_1_2_34
+    101394: Pine_Tree_1_2_35
+    101396: Pine_Tree_1_2_36
+    101398: Pine_Tree_1_2_37
+    101400: Pine_Tree_1_2_38
+    101402: Pine_Tree_1_2_39
+    101404: Pine_Tree_1_2_4
+    101406: Pine_Tree_1_2_40
+    101408: Pine_Tree_1_2_41
+    101410: Pine_Tree_1_2_42
+    101412: Pine_Tree_1_2_43
+    101414: Pine_Tree_1_2_44
+    101416: Pine_Tree_1_2_5
+    101418: Pine_Tree_1_2_6
+    101420: Pine_Tree_1_2_7
+    101422: Pine_Tree_1_2_8
+    101424: Pine_Tree_1_2_9
+    101426: Pine_Tree_1_3
+    101428: Pine_Tree_1_30
+    101430: Pine_Tree_1_31
+    101432: Pine_Tree_1_32
+    101434: Pine_Tree_1_33
+    101436: Pine_Tree_1_34
+    101438: Pine_Tree_1_35
+    101440: Pine_Tree_1_36
+    101442: Pine_Tree_1_37
+    101444: Pine_Tree_1_38
+    101446: Pine_Tree_1_39
+    101448: Pine_Tree_1_3_10
+    101450: Pine_Tree_1_3_11
+    101452: Pine_Tree_1_3_12
+    101454: Pine_Tree_1_3_13
+    101456: Pine_Tree_1_3_14
+    101458: Pine_Tree_1_3_15
+    101460: Pine_Tree_1_3_16
+    101462: Pine_Tree_1_3_17
+    101464: Pine_Tree_1_3_18
+    101466: Pine_Tree_1_3_19
+    101468: Pine_Tree_1_3_2
+    101470: Pine_Tree_1_3_20
+    101472: Pine_Tree_1_3_21
+    101474: Pine_Tree_1_3_22
+    101476: Pine_Tree_1_3_23
+    101478: Pine_Tree_1_3_24
+    101480: Pine_Tree_1_3_25
+    101482: Pine_Tree_1_3_26
+    101484: Pine_Tree_1_3_27
+    101486: Pine_Tree_1_3_28
+    101488: Pine_Tree_1_3_29
+    101490: Pine_Tree_1_3_3
+    101492: Pine_Tree_1_3_30
+    101494: Pine_Tree_1_3_31
+    101496: Pine_Tree_1_3_32
+    101498: Pine_Tree_1_3_33
+    101500: Pine_Tree_1_3_34
+    101502: Pine_Tree_1_3_35
+    101504: Pine_Tree_1_3_36
+    101506: Pine_Tree_1_3_37
+    101508: Pine_Tree_1_3_38
+    101510: Pine_Tree_1_3_39
+    101512: Pine_Tree_1_3_4
+    101514: Pine_Tree_1_3_40
+    101516: Pine_Tree_1_3_41
+    101518: Pine_Tree_1_3_42
+    101520: Pine_Tree_1_3_43
+    101522: Pine_Tree_1_3_44
+    101524: Pine_Tree_1_3_5
+    101526: Pine_Tree_1_3_6
+    101528: Pine_Tree_1_3_7
+    101530: Pine_Tree_1_3_8
+    101532: Pine_Tree_1_3_9
+    101534: Pine_Tree_1_4
+    101536: Pine_Tree_1_40
+    101538: Pine_Tree_1_41
+    101540: Pine_Tree_1_42
+    101542: Pine_Tree_1_43
+    101544: Pine_Tree_1_4_10
+    101546: Pine_Tree_1_4_11
+    101548: Pine_Tree_1_4_12
+    101550: Pine_Tree_1_4_13
+    101552: Pine_Tree_1_4_14
+    101554: Pine_Tree_1_4_15
+    101556: Pine_Tree_1_4_16
+    101558: Pine_Tree_1_4_17
+    101560: Pine_Tree_1_4_18
+    101562: Pine_Tree_1_4_19
+    101564: Pine_Tree_1_4_2
+    101566: Pine_Tree_1_4_20
+    101568: Pine_Tree_1_4_21
+    101570: Pine_Tree_1_4_22
+    101572: Pine_Tree_1_4_23
+    101574: Pine_Tree_1_4_24
+    101576: Pine_Tree_1_4_25
+    101578: Pine_Tree_1_4_26
+    101580: Pine_Tree_1_4_27
+    101582: Pine_Tree_1_4_28
+    101584: Pine_Tree_1_4_29
+    101586: Pine_Tree_1_4_3
+    101588: Pine_Tree_1_4_30
+    101590: Pine_Tree_1_4_31
+    101592: Pine_Tree_1_4_32
+    101594: Pine_Tree_1_4_33
+    101596: Pine_Tree_1_4_34
+    101598: Pine_Tree_1_4_35
+    101600: Pine_Tree_1_4_36
+    101602: Pine_Tree_1_4_37
+    101604: Pine_Tree_1_4_38
+    101606: Pine_Tree_1_4_39
+    101608: Pine_Tree_1_4_4
+    101610: Pine_Tree_1_4_40
+    101612: Pine_Tree_1_4_41
+    101614: Pine_Tree_1_4_42
+    101616: Pine_Tree_1_4_43
+    101618: Pine_Tree_1_4_44
+    101620: Pine_Tree_1_4_5
+    101622: Pine_Tree_1_4_6
+    101624: Pine_Tree_1_4_7
+    101626: Pine_Tree_1_4_8
+    101628: Pine_Tree_1_4_9
+    101630: Pine_Tree_1_5
+    101632: Pine_Tree_1_5_2
+    101634: Pine_Tree_1_6
+    101636: Pine_Tree_1_6_2
+    101638: Pine_Tree_1_7
+    101640: Pine_Tree_1_7_2
+    101642: Pine_Tree_1_8
+    101644: Pine_Tree_1_8_2
+    101646: Pine_Tree_1_9
+    101648: Pine_Tree_1_9_2
+    101650: Pine_Tree_2
+    101652: Pine_Tree_2_1
+    101654: Pine_Tree_2_2
+    101656: Pine_Tree_2_3
+    101658: Pine_Tree_2_4
+    101660: Pine_Tree_2_5
+    101662: Pine_Tree_2_6
+    101664: Pine_Tree_2_7
+    101666: Pine_Tree_2_8
+    101668: Pine_Tree_2_9
+    101670: Shrine
+    101672: Small_things
+    101674: Small_things_1
+    101676: Small_things_2
+    101678: Small_things_3
+    101680: Stone_Fence
+    101682: Stone_Fence_1
+    101684: Stone_Fence_10
+    101686: Stone_Fence_10_2
+    101688: Stone_Fence_11
+    101690: Stone_Fence_11_2
+    101692: Stone_Fence_12
+    101694: Stone_Fence_12_2
+    101696: Stone_Fence_13
+    101698: Stone_Fence_14
+    101700: Stone_Fence_15
+    101702: Stone_Fence_2
+    101704: Stone_Fence_2_2
+    101706: Stone_Fence_2_3
+    101708: Stone_Fence_3
+    101710: Stone_Fence_3_2
+    101712: Stone_Fence_4
+    101714: Stone_Fence_4_2
+    101716: Stone_Fence_5
+    101718: Stone_Fence_5_2
+    101720: Stone_Fence_6
+    101722: Stone_Fence_6_2
+    101724: Stone_Fence_7
+    101726: Stone_Fence_7_2
+    101728: Stone_Fence_8
+    101730: Stone_Fence_8_2
+    101732: Stone_Fence_9
+    101734: Stone_Fence_9_2
+    101736: Stone_fences_left_side
+    101738: Stone_fences_right_side
+    101740: stones
+    101742: Torch
+    101744: Torch_1
+    101746: Torch_10
+    101748: Torch_11
+    101750: Torch_12
+    101752: Torch_13
+    101754: Torch_14
+    101756: Torch_15
+    101758: Torch_16
+    101760: Torch_17
+    101762: Torch_2
+    101764: Torch_3
+    101766: Torch_4
+    101768: Torch_5
+    101770: Torch_6
+    101772: Torch_7
+    101774: Torch_8
+    101776: Torch_9
+    101778: Torches
+    101780: Tower
+    101782: Tower_1
+    101784: Tree
+    101786: Tree_1
+    101788: Tree_2
+    101790: Tree_3
+    101792: Tree_4
+    101794: Tree_line
+    101796: Tree_line_1
+    101798: Tree_line_10
+    101800: Tree_line_11
+    101802: Tree_line_12
+    101804: Tree_line_13
+    101806: Tree_line_14
+    101808: Tree_line_15
+    101810: Tree_line_16
+    101812: Tree_line_17
+    101814: Tree_line_18
+    101816: Tree_line_19
+    101818: Tree_line_2
+    101820: Tree_line_20
+    101822: Tree_line_21
+    101824: Tree_line_22
+    101826: Tree_line_23
+    101828: Tree_line_24
+    101830: Tree_line_25
+    101832: Tree_line_26
+    101834: Tree_line_27
+    101836: Tree_line_28
+    101838: Tree_line_29
+    101840: Tree_line_3
+    101842: Tree_line_30
+    101844: Tree_line_31
+    101846: Tree_line_32
+    101848: Tree_line_33
+    101850: Tree_line_34
+    101852: Tree_line_35
+    101854: Tree_line_36
+    101856: Tree_line_37
+    101858: Tree_line_38
+    101860: Tree_line_39
+    101862: Tree_line_4
+    101864: Tree_line_40
+    101866: Tree_line_41
+    101868: Tree_line_5
+    101870: Tree_line_6
+    101872: Tree_line_7
+    101874: Tree_line_8
+    101876: Tree_line_9
+    101878: Trees
+    101880: Trees_2
+    400000: Bush
+    400002: Bush_1
+    400004: Bush_2
+    400006: Bush_2_2
+    400008: Bush_3
+    400010: Bush_4
+    400012: Bush_5
+    400014: Bush_6
+    400016: Bush_7
+    400018: Cone
+    400020: Cone_1
+    400022: Cone_10
+    400024: Cone_100
+    400026: Cone_101
+    400028: Cone_102
+    400030: Cone_103
+    400032: Cone_104
+    400034: Cone_105
+    400036: Cone_106
+    400038: Cone_107
+    400040: Cone_108
+    400042: Cone_109
+    400044: Cone_11
+    400046: Cone_110
+    400048: Cone_111
+    400050: Cone_112
+    400052: Cone_113
+    400054: Cone_114
+    400056: Cone_115
+    400058: Cone_116
+    400060: Cone_117
+    400062: Cone_118
+    400064: Cone_119
+    400066: Cone_12
+    400068: Cone_120
+    400070: Cone_121
+    400072: Cone_122
+    400074: Cone_123
+    400076: Cone_124
+    400078: Cone_125
+    400080: Cone_126
+    400082: Cone_127
+    400084: Cone_128
+    400086: Cone_129
+    400088: Cone_13
+    400090: Cone_130
+    400092: Cone_131
+    400094: Cone_132
+    400096: Cone_133
+    400098: Cone_134
+    400100: Cone_135
+    400102: Cone_136
+    400104: Cone_137
+    400106: Cone_138
+    400108: Cone_139
+    400110: Cone_14
+    400112: Cone_140
+    400114: Cone_141
+    400116: Cone_142
+    400118: Cone_143
+    400120: Cone_144
+    400122: Cone_145
+    400124: Cone_146
+    400126: Cone_147
+    400128: Cone_148
+    400130: Cone_149
+    400132: Cone_15
+    400134: Cone_150
+    400136: Cone_151
+    400138: Cone_152
+    400140: Cone_153
+    400142: Cone_154
+    400144: Cone_155
+    400146: Cone_156
+    400148: Cone_157
+    400150: Cone_158
+    400152: Cone_159
+    400154: Cone_16
+    400156: Cone_160
+    400158: Cone_161
+    400160: Cone_162
+    400162: Cone_163
+    400164: Cone_164
+    400166: Cone_165
+    400168: Cone_166
+    400170: Cone_167
+    400172: Cone_168
+    400174: Cone_169
+    400176: Cone_17
+    400178: Cone_170
+    400180: Cone_171
+    400182: Cone_172
+    400184: Cone_173
+    400186: Cone_174
+    400188: Cone_175
+    400190: Cone_176
+    400192: Cone_177
+    400194: Cone_178
+    400196: Cone_179
+    400198: Cone_18
+    400200: Cone_180
+    400202: Cone_181
+    400204: Cone_182
+    400206: Cone_183
+    400208: Cone_184
+    400210: Cone_185
+    400212: Cone_186
+    400214: Cone_187
+    400216: Cone_188
+    400218: Cone_189
+    400220: Cone_19
+    400222: Cone_190
+    400224: Cone_191
+    400226: Cone_192
+    400228: Cone_193
+    400230: Cone_194
+    400232: Cone_195
+    400234: Cone_196
+    400236: Cone_197
+    400238: Cone_198
+    400240: Cone_199
+    400242: Cone_1_10
+    400244: Cone_1_2
+    400246: Cone_1_3
+    400248: Cone_1_4
+    400250: Cone_1_5
+    400252: Cone_1_6
+    400254: Cone_1_7
+    400256: Cone_1_8
+    400258: Cone_1_9
+    400260: Cone_2
+    400262: Cone_20
+    400264: Cone_200
+    400266: Cone_201
+    400268: Cone_202
+    400270: Cone_203
+    400272: Cone_204
+    400274: Cone_205
+    400276: Cone_206
+    400278: Cone_207
+    400280: Cone_208
+    400282: Cone_209
+    400284: Cone_21
+    400286: Cone_210
+    400288: Cone_211
+    400290: Cone_212
+    400292: Cone_213
+    400294: Cone_214
+    400296: Cone_215
+    400298: Cone_216
+    400300: Cone_217
+    400302: Cone_218
+    400304: Cone_219
+    400306: Cone_22
+    400308: Cone_220
+    400310: Cone_221
+    400312: Cone_222
+    400314: Cone_223
+    400316: Cone_224
+    400318: Cone_225
+    400320: Cone_226
+    400322: Cone_227
+    400324: Cone_228
+    400326: Cone_23
+    400328: Cone_24
+    400330: Cone_25
+    400332: Cone_26
+    400334: Cone_27
+    400336: Cone_28
+    400338: Cone_29
+    400340: Cone_2_10
+    400342: Cone_2_11
+    400344: Cone_2_2
+    400346: Cone_2_3
+    400348: Cone_2_4
+    400350: Cone_2_5
+    400352: Cone_2_6
+    400354: Cone_2_7
+    400356: Cone_2_8
+    400358: Cone_2_9
+    400360: Cone_3
+    400362: Cone_30
+    400364: Cone_31
+    400366: Cone_32
+    400368: Cone_33
+    400370: Cone_34
+    400372: Cone_35
+    400374: Cone_36
+    400376: Cone_37
+    400378: Cone_38
+    400380: Cone_39
+    400382: Cone_3_10
+    400384: Cone_3_11
+    400386: Cone_3_2
+    400388: Cone_3_3
+    400390: Cone_3_4
+    400392: Cone_3_5
+    400394: Cone_3_6
+    400396: Cone_3_7
+    400398: Cone_3_8
+    400400: Cone_3_9
+    400402: Cone_4
+    400404: Cone_40
+    400406: Cone_41
+    400408: Cone_42
+    400410: Cone_43
+    400412: Cone_44
+    400414: Cone_45
+    400416: Cone_46
+    400418: Cone_47
+    400420: Cone_48
+    400422: Cone_49
+    400424: Cone_5
+    400426: Cone_50
+    400428: Cone_51
+    400430: Cone_52
+    400432: Cone_53
+    400434: Cone_54
+    400436: Cone_55
+    400438: Cone_56
+    400440: Cone_57
+    400442: Cone_58
+    400444: Cone_59
+    400446: Cone_6
+    400448: Cone_60
+    400450: Cone_61
+    400452: Cone_62
+    400454: Cone_63
+    400456: Cone_64
+    400458: Cone_65
+    400460: Cone_66
+    400462: Cone_67
+    400464: Cone_68
+    400466: Cone_69
+    400468: Cone_7
+    400470: Cone_70
+    400472: Cone_71
+    400474: Cone_72
+    400476: Cone_73
+    400478: Cone_74
+    400480: Cone_75
+    400482: Cone_76
+    400484: Cone_77
+    400486: Cone_78
+    400488: Cone_79
+    400490: Cone_8
+    400492: Cone_80
+    400494: Cone_81
+    400496: Cone_82
+    400498: Cone_83
+    400500: Cone_84
+    400502: Cone_85
+    400504: Cone_86
+    400506: Cone_87
+    400508: Cone_88
+    400510: Cone_89
+    400512: Cone_9
+    400514: Cone_90
+    400516: Cone_91
+    400518: Cone_92
+    400520: Cone_93
+    400522: Cone_94
+    400524: Cone_95
+    400526: Cone_96
+    400528: Cone_97
+    400530: Cone_98
+    400532: Cone_99
+    400534: Cube
+    400536: Cube_1
+    400538: Cube_10
+    400540: Cube_11
+    400542: Cube_12
+    400544: Cube_13
+    400546: Cube_14
+    400548: Cube_15
+    400550: Cube_16
+    400552: Cube_17
+    400554: Cube_18
+    400556: Cube_19
+    400558: Cube_1_10
+    400560: Cube_1_11
+    400562: Cube_1_12
+    400564: Cube_1_13
+    400566: Cube_1_14
+    400568: Cube_1_15
+    400570: Cube_1_16
+    400572: Cube_1_17
+    400574: Cube_1_18
+    400576: Cube_1_19
+    400578: Cube_1_2
+    400580: Cube_1_20
+    400582: Cube_1_21
+    400584: Cube_1_22
+    400586: Cube_1_23
+    400588: Cube_1_24
+    400590: Cube_1_25
+    400592: Cube_1_26
+    400594: Cube_1_27
+    400596: Cube_1_28
+    400598: Cube_1_29
+    400600: Cube_1_3
+    400602: Cube_1_30
+    400604: Cube_1_31
+    400606: Cube_1_32
+    400608: Cube_1_4
+    400610: Cube_1_5
+    400612: Cube_1_6
+    400614: Cube_1_7
+    400616: Cube_1_8
+    400618: Cube_1_9
+    400620: Cube_2
+    400622: Cube_20
+    400624: Cube_21
+    400626: Cube_22
+    400628: Cube_23
+    400630: Cube_24
+    400632: Cube_25
+    400634: Cube_26
+    400636: Cube_27
+    400638: Cube_28
+    400640: Cube_29
+    400642: Cube_2_2
+    400644: Cube_3
+    400646: Cube_30
+    400648: Cube_31
+    400650: Cube_32
+    400652: Cube_33
+    400654: Cube_34
+    400656: Cube_35
+    400658: Cube_36
+    400660: Cube_3_2
+    400662: Cube_4
+    400664: Cube_5
+    400666: Cube_6
+    400668: Cube_7
+    400670: Cube_8
+    400672: Cube_9
+    400674: Cylinder
+    400676: Cylinder_1
+    400678: Cylinder_10
+    400680: Cylinder_100
+    400682: Cylinder_101
+    400684: Cylinder_102
+    400686: Cylinder_103
+    400688: Cylinder_104
+    400690: Cylinder_105
+    400692: Cylinder_106
+    400694: Cylinder_107
+    400696: Cylinder_108
+    400698: Cylinder_109
+    400700: Cylinder_11
+    400702: Cylinder_110
+    400704: Cylinder_111
+    400706: Cylinder_112
+    400708: Cylinder_113
+    400710: Cylinder_114
+    400712: Cylinder_115
+    400714: Cylinder_116
+    400716: Cylinder_117
+    400718: Cylinder_118
+    400720: Cylinder_119
+    400722: Cylinder_12
+    400724: Cylinder_120
+    400726: Cylinder_121
+    400728: Cylinder_122
+    400730: Cylinder_123
+    400732: Cylinder_124
+    400734: Cylinder_125
+    400736: Cylinder_126
+    400738: Cylinder_127
+    400740: Cylinder_128
+    400742: Cylinder_129
+    400744: Cylinder_13
+    400746: Cylinder_130
+    400748: Cylinder_131
+    400750: Cylinder_132
+    400752: Cylinder_133
+    400754: Cylinder_134
+    400756: Cylinder_135
+    400758: Cylinder_136
+    400760: Cylinder_137
+    400762: Cylinder_138
+    400764: Cylinder_139
+    400766: Cylinder_14
+    400768: Cylinder_140
+    400770: Cylinder_141
+    400772: Cylinder_142
+    400774: Cylinder_143
+    400776: Cylinder_144
+    400778: Cylinder_145
+    400780: Cylinder_146
+    400782: Cylinder_147
+    400784: Cylinder_148
+    400786: Cylinder_149
+    400788: Cylinder_15
+    400790: Cylinder_150
+    400792: Cylinder_151
+    400794: Cylinder_152
+    400796: Cylinder_153
+    400798: Cylinder_154
+    400800: Cylinder_155
+    400802: Cylinder_156
+    400804: Cylinder_157
+    400806: Cylinder_158
+    400808: Cylinder_159
+    400810: Cylinder_16
+    400812: Cylinder_160
+    400814: Cylinder_161
+    400816: Cylinder_162
+    400818: Cylinder_163
+    400820: Cylinder_164
+    400822: Cylinder_165
+    400824: Cylinder_166
+    400826: Cylinder_167
+    400828: Cylinder_168
+    400830: Cylinder_169
+    400832: Cylinder_17
+    400834: Cylinder_170
+    400836: Cylinder_171
+    400838: Cylinder_172
+    400840: Cylinder_173
+    400842: Cylinder_174
+    400844: Cylinder_175
+    400846: Cylinder_176
+    400848: Cylinder_177
+    400850: Cylinder_178
+    400852: Cylinder_179
+    400854: Cylinder_18
+    400856: Cylinder_180
+    400858: Cylinder_181
+    400860: Cylinder_182
+    400862: Cylinder_183
+    400864: Cylinder_184
+    400866: Cylinder_185
+    400868: Cylinder_186
+    400870: Cylinder_187
+    400872: Cylinder_188
+    400874: Cylinder_189
+    400876: Cylinder_19
+    400878: Cylinder_190
+    400880: Cylinder_191
+    400882: Cylinder_192
+    400884: Cylinder_193
+    400886: Cylinder_194
+    400888: Cylinder_195
+    400890: Cylinder_196
+    400892: Cylinder_197
+    400894: Cylinder_198
+    400896: Cylinder_199
+    400898: Cylinder_1_10
+    400900: Cylinder_1_11
+    400902: Cylinder_1_12
+    400904: Cylinder_1_13
+    400906: Cylinder_1_14
+    400908: Cylinder_1_15
+    400910: Cylinder_1_2
+    400912: Cylinder_1_3
+    400914: Cylinder_1_4
+    400916: Cylinder_1_5
+    400918: Cylinder_1_6
+    400920: Cylinder_1_7
+    400922: Cylinder_1_8
+    400924: Cylinder_1_9
+    400926: Cylinder_2
+    400928: Cylinder_20
+    400930: Cylinder_200
+    400932: Cylinder_201
+    400934: Cylinder_202
+    400936: Cylinder_203
+    400938: Cylinder_204
+    400940: Cylinder_205
+    400942: Cylinder_206
+    400944: Cylinder_207
+    400946: Cylinder_208
+    400948: Cylinder_209
+    400950: Cylinder_21
+    400952: Cylinder_210
+    400954: Cylinder_211
+    400956: Cylinder_212
+    400958: Cylinder_213
+    400960: Cylinder_214
+    400962: Cylinder_215
+    400964: Cylinder_216
+    400966: Cylinder_217
+    400968: Cylinder_218
+    400970: Cylinder_219
+    400972: Cylinder_22
+    400974: Cylinder_220
+    400976: Cylinder_221
+    400978: Cylinder_222
+    400980: Cylinder_223
+    400982: Cylinder_224
+    400984: Cylinder_225
+    400986: Cylinder_226
+    400988: Cylinder_227
+    400990: Cylinder_228
+    400992: Cylinder_229
+    400994: Cylinder_23
+    400996: Cylinder_230
+    400998: Cylinder_231
+    401000: Cylinder_232
+    401002: Cylinder_233
+    401004: Cylinder_24
+    401006: Cylinder_25
+    401008: Cylinder_26
+    401010: Cylinder_27
+    401012: Cylinder_28
+    401014: Cylinder_29
+    401016: Cylinder_2_2
+    401018: Cylinder_2_3
+    401020: Cylinder_2_4
+    401022: Cylinder_2_5
+    401024: Cylinder_2_6
+    401026: Cylinder_3
+    401028: Cylinder_30
+    401030: Cylinder_31
+    401032: Cylinder_32
+    401034: Cylinder_33
+    401036: Cylinder_34
+    401038: Cylinder_35
+    401040: Cylinder_36
+    401042: Cylinder_37
+    401044: Cylinder_38
+    401046: Cylinder_39
+    401048: Cylinder_4
+    401050: Cylinder_40
+    401052: Cylinder_41
+    401054: Cylinder_42
+    401056: Cylinder_43
+    401058: Cylinder_44
+    401060: Cylinder_45
+    401062: Cylinder_46
+    401064: Cylinder_47
+    401066: Cylinder_48
+    401068: Cylinder_49
+    401070: Cylinder_5
+    401072: Cylinder_50
+    401074: Cylinder_51
+    401076: Cylinder_52
+    401078: Cylinder_53
+    401080: Cylinder_54
+    401082: Cylinder_55
+    401084: Cylinder_56
+    401086: Cylinder_57
+    401088: Cylinder_58
+    401090: Cylinder_59
+    401092: Cylinder_6
+    401094: Cylinder_60
+    401096: Cylinder_61
+    401098: Cylinder_62
+    401100: Cylinder_63
+    401102: Cylinder_64
+    401104: Cylinder_65
+    401106: Cylinder_66
+    401108: Cylinder_67
+    401110: Cylinder_68
+    401112: Cylinder_69
+    401114: Cylinder_7
+    401116: Cylinder_70
+    401118: Cylinder_71
+    401120: Cylinder_72
+    401122: Cylinder_73
+    401124: Cylinder_74
+    401126: Cylinder_75
+    401128: Cylinder_76
+    401130: Cylinder_77
+    401132: Cylinder_78
+    401134: Cylinder_79
+    401136: Cylinder_8
+    401138: Cylinder_80
+    401140: Cylinder_81
+    401142: Cylinder_82
+    401144: Cylinder_83
+    401146: Cylinder_84
+    401148: Cylinder_85
+    401150: Cylinder_86
+    401152: Cylinder_87
+    401154: Cylinder_88
+    401156: Cylinder_89
+    401158: Cylinder_9
+    401160: Cylinder_90
+    401162: Cylinder_91
+    401164: Cylinder_92
+    401166: Cylinder_93
+    401168: Cylinder_94
+    401170: Cylinder_95
+    401172: Cylinder_96
+    401174: Cylinder_97
+    401176: Cylinder_98
+    401178: Cylinder_99
+    401180: Disc
+    401182: Gate
+    401184: Ground
+    401186: Landscape_1
+    401188: Landscape_2
+    401190: Landscape_3
+    401192: Landscape_4
+    401194: Landscape_5
+    401196: Landscape_6
+    401198: Landscape_7
+    401200: //RootNode
+    401202: Outer_edge
+    401204: Pine_Tree_1
+    401206: Pine_Tree_1_1
+    401208: Pine_Tree_1_10
+    401210: Pine_Tree_1_10_2
+    401212: Pine_Tree_1_11
+    401214: Pine_Tree_1_11_2
+    401216: Pine_Tree_1_12
+    401218: Pine_Tree_1_12_2
+    401220: Pine_Tree_1_13
+    401222: Pine_Tree_1_14
+    401224: Pine_Tree_1_15
+    401226: Pine_Tree_1_16
+    401228: Pine_Tree_1_17
+    401230: Pine_Tree_1_18
+    401232: Pine_Tree_1_19
+    401234: Pine_Tree_1_1_10
+    401236: Pine_Tree_1_1_11
+    401238: Pine_Tree_1_1_12
+    401240: Pine_Tree_1_1_13
+    401242: Pine_Tree_1_1_14
+    401244: Pine_Tree_1_1_15
+    401246: Pine_Tree_1_1_16
+    401248: Pine_Tree_1_1_17
+    401250: Pine_Tree_1_1_18
+    401252: Pine_Tree_1_1_19
+    401254: Pine_Tree_1_1_2
+    401256: Pine_Tree_1_1_20
+    401258: Pine_Tree_1_1_21
+    401260: Pine_Tree_1_1_22
+    401262: Pine_Tree_1_1_23
+    401264: Pine_Tree_1_1_24
+    401266: Pine_Tree_1_1_25
+    401268: Pine_Tree_1_1_26
+    401270: Pine_Tree_1_1_27
+    401272: Pine_Tree_1_1_28
+    401274: Pine_Tree_1_1_29
+    401276: Pine_Tree_1_1_3
+    401278: Pine_Tree_1_1_30
+    401280: Pine_Tree_1_1_31
+    401282: Pine_Tree_1_1_32
+    401284: Pine_Tree_1_1_33
+    401286: Pine_Tree_1_1_34
+    401288: Pine_Tree_1_1_35
+    401290: Pine_Tree_1_1_36
+    401292: Pine_Tree_1_1_37
+    401294: Pine_Tree_1_1_38
+    401296: Pine_Tree_1_1_39
+    401298: Pine_Tree_1_1_4
+    401300: Pine_Tree_1_1_40
+    401302: Pine_Tree_1_1_41
+    401304: Pine_Tree_1_1_42
+    401306: Pine_Tree_1_1_43
+    401308: Pine_Tree_1_1_5
+    401310: Pine_Tree_1_1_6
+    401312: Pine_Tree_1_1_7
+    401314: Pine_Tree_1_1_8
+    401316: Pine_Tree_1_1_9
+    401318: Pine_Tree_1_2
+    401320: Pine_Tree_1_20
+    401322: Pine_Tree_1_21
+    401324: Pine_Tree_1_22
+    401326: Pine_Tree_1_23
+    401328: Pine_Tree_1_24
+    401330: Pine_Tree_1_25
+    401332: Pine_Tree_1_26
+    401334: Pine_Tree_1_27
+    401336: Pine_Tree_1_28
+    401338: Pine_Tree_1_29
+    401340: Pine_Tree_1_2_10
+    401342: Pine_Tree_1_2_11
+    401344: Pine_Tree_1_2_12
+    401346: Pine_Tree_1_2_13
+    401348: Pine_Tree_1_2_14
+    401350: Pine_Tree_1_2_15
+    401352: Pine_Tree_1_2_16
+    401354: Pine_Tree_1_2_17
+    401356: Pine_Tree_1_2_18
+    401358: Pine_Tree_1_2_19
+    401360: Pine_Tree_1_2_2
+    401362: Pine_Tree_1_2_20
+    401364: Pine_Tree_1_2_21
+    401366: Pine_Tree_1_2_22
+    401368: Pine_Tree_1_2_23
+    401370: Pine_Tree_1_2_24
+    401372: Pine_Tree_1_2_25
+    401374: Pine_Tree_1_2_26
+    401376: Pine_Tree_1_2_27
+    401378: Pine_Tree_1_2_28
+    401380: Pine_Tree_1_2_29
+    401382: Pine_Tree_1_2_3
+    401384: Pine_Tree_1_2_30
+    401386: Pine_Tree_1_2_31
+    401388: Pine_Tree_1_2_32
+    401390: Pine_Tree_1_2_33
+    401392: Pine_Tree_1_2_34
+    401394: Pine_Tree_1_2_35
+    401396: Pine_Tree_1_2_36
+    401398: Pine_Tree_1_2_37
+    401400: Pine_Tree_1_2_38
+    401402: Pine_Tree_1_2_39
+    401404: Pine_Tree_1_2_4
+    401406: Pine_Tree_1_2_40
+    401408: Pine_Tree_1_2_41
+    401410: Pine_Tree_1_2_42
+    401412: Pine_Tree_1_2_43
+    401414: Pine_Tree_1_2_44
+    401416: Pine_Tree_1_2_5
+    401418: Pine_Tree_1_2_6
+    401420: Pine_Tree_1_2_7
+    401422: Pine_Tree_1_2_8
+    401424: Pine_Tree_1_2_9
+    401426: Pine_Tree_1_3
+    401428: Pine_Tree_1_30
+    401430: Pine_Tree_1_31
+    401432: Pine_Tree_1_32
+    401434: Pine_Tree_1_33
+    401436: Pine_Tree_1_34
+    401438: Pine_Tree_1_35
+    401440: Pine_Tree_1_36
+    401442: Pine_Tree_1_37
+    401444: Pine_Tree_1_38
+    401446: Pine_Tree_1_39
+    401448: Pine_Tree_1_3_10
+    401450: Pine_Tree_1_3_11
+    401452: Pine_Tree_1_3_12
+    401454: Pine_Tree_1_3_13
+    401456: Pine_Tree_1_3_14
+    401458: Pine_Tree_1_3_15
+    401460: Pine_Tree_1_3_16
+    401462: Pine_Tree_1_3_17
+    401464: Pine_Tree_1_3_18
+    401466: Pine_Tree_1_3_19
+    401468: Pine_Tree_1_3_2
+    401470: Pine_Tree_1_3_20
+    401472: Pine_Tree_1_3_21
+    401474: Pine_Tree_1_3_22
+    401476: Pine_Tree_1_3_23
+    401478: Pine_Tree_1_3_24
+    401480: Pine_Tree_1_3_25
+    401482: Pine_Tree_1_3_26
+    401484: Pine_Tree_1_3_27
+    401486: Pine_Tree_1_3_28
+    401488: Pine_Tree_1_3_29
+    401490: Pine_Tree_1_3_3
+    401492: Pine_Tree_1_3_30
+    401494: Pine_Tree_1_3_31
+    401496: Pine_Tree_1_3_32
+    401498: Pine_Tree_1_3_33
+    401500: Pine_Tree_1_3_34
+    401502: Pine_Tree_1_3_35
+    401504: Pine_Tree_1_3_36
+    401506: Pine_Tree_1_3_37
+    401508: Pine_Tree_1_3_38
+    401510: Pine_Tree_1_3_39
+    401512: Pine_Tree_1_3_4
+    401514: Pine_Tree_1_3_40
+    401516: Pine_Tree_1_3_41
+    401518: Pine_Tree_1_3_42
+    401520: Pine_Tree_1_3_43
+    401522: Pine_Tree_1_3_44
+    401524: Pine_Tree_1_3_5
+    401526: Pine_Tree_1_3_6
+    401528: Pine_Tree_1_3_7
+    401530: Pine_Tree_1_3_8
+    401532: Pine_Tree_1_3_9
+    401534: Pine_Tree_1_4
+    401536: Pine_Tree_1_40
+    401538: Pine_Tree_1_41
+    401540: Pine_Tree_1_42
+    401542: Pine_Tree_1_43
+    401544: Pine_Tree_1_4_10
+    401546: Pine_Tree_1_4_11
+    401548: Pine_Tree_1_4_12
+    401550: Pine_Tree_1_4_13
+    401552: Pine_Tree_1_4_14
+    401554: Pine_Tree_1_4_15
+    401556: Pine_Tree_1_4_16
+    401558: Pine_Tree_1_4_17
+    401560: Pine_Tree_1_4_18
+    401562: Pine_Tree_1_4_19
+    401564: Pine_Tree_1_4_2
+    401566: Pine_Tree_1_4_20
+    401568: Pine_Tree_1_4_21
+    401570: Pine_Tree_1_4_22
+    401572: Pine_Tree_1_4_23
+    401574: Pine_Tree_1_4_24
+    401576: Pine_Tree_1_4_25
+    401578: Pine_Tree_1_4_26
+    401580: Pine_Tree_1_4_27
+    401582: Pine_Tree_1_4_28
+    401584: Pine_Tree_1_4_29
+    401586: Pine_Tree_1_4_3
+    401588: Pine_Tree_1_4_30
+    401590: Pine_Tree_1_4_31
+    401592: Pine_Tree_1_4_32
+    401594: Pine_Tree_1_4_33
+    401596: Pine_Tree_1_4_34
+    401598: Pine_Tree_1_4_35
+    401600: Pine_Tree_1_4_36
+    401602: Pine_Tree_1_4_37
+    401604: Pine_Tree_1_4_38
+    401606: Pine_Tree_1_4_39
+    401608: Pine_Tree_1_4_4
+    401610: Pine_Tree_1_4_40
+    401612: Pine_Tree_1_4_41
+    401614: Pine_Tree_1_4_42
+    401616: Pine_Tree_1_4_43
+    401618: Pine_Tree_1_4_44
+    401620: Pine_Tree_1_4_5
+    401622: Pine_Tree_1_4_6
+    401624: Pine_Tree_1_4_7
+    401626: Pine_Tree_1_4_8
+    401628: Pine_Tree_1_4_9
+    401630: Pine_Tree_1_5
+    401632: Pine_Tree_1_5_2
+    401634: Pine_Tree_1_6
+    401636: Pine_Tree_1_6_2
+    401638: Pine_Tree_1_7
+    401640: Pine_Tree_1_7_2
+    401642: Pine_Tree_1_8
+    401644: Pine_Tree_1_8_2
+    401646: Pine_Tree_1_9
+    401648: Pine_Tree_1_9_2
+    401650: Pine_Tree_2
+    401652: Pine_Tree_2_1
+    401654: Pine_Tree_2_2
+    401656: Pine_Tree_2_3
+    401658: Pine_Tree_2_4
+    401660: Pine_Tree_2_5
+    401662: Pine_Tree_2_6
+    401664: Pine_Tree_2_7
+    401666: Pine_Tree_2_8
+    401668: Pine_Tree_2_9
+    401670: Shrine
+    401672: Small_things
+    401674: Small_things_1
+    401676: Small_things_2
+    401678: Small_things_3
+    401680: Stone_Fence
+    401682: Stone_Fence_1
+    401684: Stone_Fence_10
+    401686: Stone_Fence_10_2
+    401688: Stone_Fence_11
+    401690: Stone_Fence_11_2
+    401692: Stone_Fence_12
+    401694: Stone_Fence_12_2
+    401696: Stone_Fence_13
+    401698: Stone_Fence_14
+    401700: Stone_Fence_15
+    401702: Stone_Fence_2
+    401704: Stone_Fence_2_2
+    401706: Stone_Fence_2_3
+    401708: Stone_Fence_3
+    401710: Stone_Fence_3_2
+    401712: Stone_Fence_4
+    401714: Stone_Fence_4_2
+    401716: Stone_Fence_5
+    401718: Stone_Fence_5_2
+    401720: Stone_Fence_6
+    401722: Stone_Fence_6_2
+    401724: Stone_Fence_7
+    401726: Stone_Fence_7_2
+    401728: Stone_Fence_8
+    401730: Stone_Fence_8_2
+    401732: Stone_Fence_9
+    401734: Stone_Fence_9_2
+    401736: Stone_fences_left_side
+    401738: Stone_fences_right_side
+    401740: stones
+    401742: Torch
+    401744: Torch_1
+    401746: Torch_10
+    401748: Torch_11
+    401750: Torch_12
+    401752: Torch_13
+    401754: Torch_14
+    401756: Torch_15
+    401758: Torch_16
+    401760: Torch_17
+    401762: Torch_2
+    401764: Torch_3
+    401766: Torch_4
+    401768: Torch_5
+    401770: Torch_6
+    401772: Torch_7
+    401774: Torch_8
+    401776: Torch_9
+    401778: Torches
+    401780: Tower
+    401782: Tower_1
+    401784: Tree
+    401786: Tree_1
+    401788: Tree_2
+    401790: Tree_3
+    401792: Tree_4
+    401794: Tree_line
+    401796: Tree_line_1
+    401798: Tree_line_10
+    401800: Tree_line_11
+    401802: Tree_line_12
+    401804: Tree_line_13
+    401806: Tree_line_14
+    401808: Tree_line_15
+    401810: Tree_line_16
+    401812: Tree_line_17
+    401814: Tree_line_18
+    401816: Tree_line_19
+    401818: Tree_line_2
+    401820: Tree_line_20
+    401822: Tree_line_21
+    401824: Tree_line_22
+    401826: Tree_line_23
+    401828: Tree_line_24
+    401830: Tree_line_25
+    401832: Tree_line_26
+    401834: Tree_line_27
+    401836: Tree_line_28
+    401838: Tree_line_29
+    401840: Tree_line_3
+    401842: Tree_line_30
+    401844: Tree_line_31
+    401846: Tree_line_32
+    401848: Tree_line_33
+    401850: Tree_line_34
+    401852: Tree_line_35
+    401854: Tree_line_36
+    401856: Tree_line_37
+    401858: Tree_line_38
+    401860: Tree_line_39
+    401862: Tree_line_4
+    401864: Tree_line_40
+    401866: Tree_line_41
+    401868: Tree_line_5
+    401870: Tree_line_6
+    401872: Tree_line_7
+    401874: Tree_line_8
+    401876: Tree_line_9
+    401878: Trees
+    401880: Trees_2
+    2300000: Bush_1
+    2300002: Bush_2
+    2300004: Bush_2_2
+    2300006: Bush_3
+    2300008: Bush_4
+    2300010: Bush_5
+    2300012: Bush_6
+    2300014: Bush_7
+    2300016: Cone
+    2300018: Cone_1
+    2300020: Cone_10
+    2300022: Cone_100
+    2300024: Cone_101
+    2300026: Cone_102
+    2300028: Cone_103
+    2300030: Cone_104
+    2300032: Cone_105
+    2300034: Cone_106
+    2300036: Cone_107
+    2300038: Cone_108
+    2300040: Cone_109
+    2300042: Cone_11
+    2300044: Cone_110
+    2300046: Cone_111
+    2300048: Cone_112
+    2300050: Cone_113
+    2300052: Cone_114
+    2300054: Cone_115
+    2300056: Cone_116
+    2300058: Cone_117
+    2300060: Cone_118
+    2300062: Cone_119
+    2300064: Cone_12
+    2300066: Cone_120
+    2300068: Cone_121
+    2300070: Cone_122
+    2300072: Cone_123
+    2300074: Cone_124
+    2300076: Cone_125
+    2300078: Cone_126
+    2300080: Cone_127
+    2300082: Cone_128
+    2300084: Cone_129
+    2300086: Cone_13
+    2300088: Cone_130
+    2300090: Cone_131
+    2300092: Cone_132
+    2300094: Cone_133
+    2300096: Cone_134
+    2300098: Cone_135
+    2300100: Cone_136
+    2300102: Cone_137
+    2300104: Cone_138
+    2300106: Cone_139
+    2300108: Cone_14
+    2300110: Cone_140
+    2300112: Cone_141
+    2300114: Cone_142
+    2300116: Cone_143
+    2300118: Cone_144
+    2300120: Cone_145
+    2300122: Cone_146
+    2300124: Cone_147
+    2300126: Cone_148
+    2300128: Cone_149
+    2300130: Cone_15
+    2300132: Cone_150
+    2300134: Cone_151
+    2300136: Cone_152
+    2300138: Cone_153
+    2300140: Cone_154
+    2300142: Cone_155
+    2300144: Cone_156
+    2300146: Cone_157
+    2300148: Cone_158
+    2300150: Cone_159
+    2300152: Cone_16
+    2300154: Cone_160
+    2300156: Cone_161
+    2300158: Cone_162
+    2300160: Cone_163
+    2300162: Cone_164
+    2300164: Cone_165
+    2300166: Cone_166
+    2300168: Cone_167
+    2300170: Cone_168
+    2300172: Cone_169
+    2300174: Cone_17
+    2300176: Cone_170
+    2300178: Cone_171
+    2300180: Cone_172
+    2300182: Cone_173
+    2300184: Cone_174
+    2300186: Cone_175
+    2300188: Cone_176
+    2300190: Cone_177
+    2300192: Cone_178
+    2300194: Cone_179
+    2300196: Cone_18
+    2300198: Cone_180
+    2300200: Cone_181
+    2300202: Cone_182
+    2300204: Cone_183
+    2300206: Cone_184
+    2300208: Cone_185
+    2300210: Cone_186
+    2300212: Cone_187
+    2300214: Cone_188
+    2300216: Cone_189
+    2300218: Cone_19
+    2300220: Cone_190
+    2300222: Cone_191
+    2300224: Cone_192
+    2300226: Cone_193
+    2300228: Cone_194
+    2300230: Cone_195
+    2300232: Cone_196
+    2300234: Cone_197
+    2300236: Cone_198
+    2300238: Cone_199
+    2300240: Cone_1_10
+    2300242: Cone_1_2
+    2300244: Cone_1_3
+    2300246: Cone_1_4
+    2300248: Cone_1_5
+    2300250: Cone_1_6
+    2300252: Cone_1_7
+    2300254: Cone_1_8
+    2300256: Cone_1_9
+    2300258: Cone_2
+    2300260: Cone_20
+    2300262: Cone_200
+    2300264: Cone_201
+    2300266: Cone_202
+    2300268: Cone_203
+    2300270: Cone_204
+    2300272: Cone_205
+    2300274: Cone_206
+    2300276: Cone_207
+    2300278: Cone_208
+    2300280: Cone_209
+    2300282: Cone_21
+    2300284: Cone_210
+    2300286: Cone_211
+    2300288: Cone_212
+    2300290: Cone_213
+    2300292: Cone_214
+    2300294: Cone_215
+    2300296: Cone_216
+    2300298: Cone_217
+    2300300: Cone_218
+    2300302: Cone_219
+    2300304: Cone_22
+    2300306: Cone_220
+    2300308: Cone_221
+    2300310: Cone_222
+    2300312: Cone_223
+    2300314: Cone_224
+    2300316: Cone_225
+    2300318: Cone_226
+    2300320: Cone_227
+    2300322: Cone_228
+    2300324: Cone_23
+    2300326: Cone_24
+    2300328: Cone_25
+    2300330: Cone_26
+    2300332: Cone_27
+    2300334: Cone_28
+    2300336: Cone_29
+    2300338: Cone_2_10
+    2300340: Cone_2_11
+    2300342: Cone_2_2
+    2300344: Cone_2_3
+    2300346: Cone_2_4
+    2300348: Cone_2_5
+    2300350: Cone_2_6
+    2300352: Cone_2_7
+    2300354: Cone_2_8
+    2300356: Cone_2_9
+    2300358: Cone_3
+    2300360: Cone_30
+    2300362: Cone_31
+    2300364: Cone_32
+    2300366: Cone_33
+    2300368: Cone_34
+    2300370: Cone_35
+    2300372: Cone_36
+    2300374: Cone_37
+    2300376: Cone_38
+    2300378: Cone_39
+    2300380: Cone_3_10
+    2300382: Cone_3_11
+    2300384: Cone_3_2
+    2300386: Cone_3_3
+    2300388: Cone_3_4
+    2300390: Cone_3_5
+    2300392: Cone_3_6
+    2300394: Cone_3_7
+    2300396: Cone_3_8
+    2300398: Cone_3_9
+    2300400: Cone_4
+    2300402: Cone_40
+    2300404: Cone_41
+    2300406: Cone_42
+    2300408: Cone_43
+    2300410: Cone_44
+    2300412: Cone_45
+    2300414: Cone_46
+    2300416: Cone_47
+    2300418: Cone_48
+    2300420: Cone_49
+    2300422: Cone_5
+    2300424: Cone_50
+    2300426: Cone_51
+    2300428: Cone_52
+    2300430: Cone_53
+    2300432: Cone_54
+    2300434: Cone_55
+    2300436: Cone_56
+    2300438: Cone_57
+    2300440: Cone_58
+    2300442: Cone_59
+    2300444: Cone_6
+    2300446: Cone_60
+    2300448: Cone_61
+    2300450: Cone_62
+    2300452: Cone_63
+    2300454: Cone_64
+    2300456: Cone_65
+    2300458: Cone_66
+    2300460: Cone_67
+    2300462: Cone_68
+    2300464: Cone_69
+    2300466: Cone_7
+    2300468: Cone_70
+    2300470: Cone_71
+    2300472: Cone_72
+    2300474: Cone_73
+    2300476: Cone_74
+    2300478: Cone_75
+    2300480: Cone_76
+    2300482: Cone_77
+    2300484: Cone_78
+    2300486: Cone_79
+    2300488: Cone_8
+    2300490: Cone_80
+    2300492: Cone_81
+    2300494: Cone_82
+    2300496: Cone_83
+    2300498: Cone_84
+    2300500: Cone_85
+    2300502: Cone_86
+    2300504: Cone_87
+    2300506: Cone_88
+    2300508: Cone_89
+    2300510: Cone_9
+    2300512: Cone_90
+    2300514: Cone_91
+    2300516: Cone_92
+    2300518: Cone_93
+    2300520: Cone_94
+    2300522: Cone_95
+    2300524: Cone_96
+    2300526: Cone_97
+    2300528: Cone_98
+    2300530: Cone_99
+    2300532: Cube
+    2300534: Cube_1
+    2300536: Cube_10
+    2300538: Cube_11
+    2300540: Cube_12
+    2300542: Cube_13
+    2300544: Cube_14
+    2300546: Cube_15
+    2300548: Cube_16
+    2300550: Cube_17
+    2300552: Cube_18
+    2300554: Cube_19
+    2300556: Cube_1_10
+    2300558: Cube_1_11
+    2300560: Cube_1_12
+    2300562: Cube_1_13
+    2300564: Cube_1_14
+    2300566: Cube_1_15
+    2300568: Cube_1_16
+    2300570: Cube_1_17
+    2300572: Cube_1_18
+    2300574: Cube_1_19
+    2300576: Cube_1_2
+    2300578: Cube_1_20
+    2300580: Cube_1_21
+    2300582: Cube_1_22
+    2300584: Cube_1_23
+    2300586: Cube_1_24
+    2300588: Cube_1_25
+    2300590: Cube_1_26
+    2300592: Cube_1_27
+    2300594: Cube_1_28
+    2300596: Cube_1_29
+    2300598: Cube_1_3
+    2300600: Cube_1_30
+    2300602: Cube_1_31
+    2300604: Cube_1_32
+    2300606: Cube_1_4
+    2300608: Cube_1_5
+    2300610: Cube_1_6
+    2300612: Cube_1_7
+    2300614: Cube_1_8
+    2300616: Cube_1_9
+    2300618: Cube_2
+    2300620: Cube_20
+    2300622: Cube_21
+    2300624: Cube_22
+    2300626: Cube_23
+    2300628: Cube_24
+    2300630: Cube_25
+    2300632: Cube_26
+    2300634: Cube_27
+    2300636: Cube_28
+    2300638: Cube_29
+    2300640: Cube_2_2
+    2300642: Cube_3
+    2300644: Cube_30
+    2300646: Cube_31
+    2300648: Cube_32
+    2300650: Cube_33
+    2300652: Cube_34
+    2300654: Cube_35
+    2300656: Cube_36
+    2300658: Cube_3_2
+    2300660: Cube_4
+    2300662: Cube_5
+    2300664: Cube_6
+    2300666: Cube_7
+    2300668: Cube_8
+    2300670: Cube_9
+    2300672: Cylinder
+    2300674: Cylinder_1
+    2300676: Cylinder_10
+    2300678: Cylinder_100
+    2300680: Cylinder_101
+    2300682: Cylinder_102
+    2300684: Cylinder_103
+    2300686: Cylinder_104
+    2300688: Cylinder_105
+    2300690: Cylinder_106
+    2300692: Cylinder_107
+    2300694: Cylinder_108
+    2300696: Cylinder_109
+    2300698: Cylinder_11
+    2300700: Cylinder_110
+    2300702: Cylinder_111
+    2300704: Cylinder_112
+    2300706: Cylinder_113
+    2300708: Cylinder_114
+    2300710: Cylinder_115
+    2300712: Cylinder_116
+    2300714: Cylinder_117
+    2300716: Cylinder_118
+    2300718: Cylinder_119
+    2300720: Cylinder_12
+    2300722: Cylinder_120
+    2300724: Cylinder_121
+    2300726: Cylinder_122
+    2300728: Cylinder_123
+    2300730: Cylinder_124
+    2300732: Cylinder_125
+    2300734: Cylinder_126
+    2300736: Cylinder_127
+    2300738: Cylinder_128
+    2300740: Cylinder_129
+    2300742: Cylinder_13
+    2300744: Cylinder_130
+    2300746: Cylinder_131
+    2300748: Cylinder_132
+    2300750: Cylinder_133
+    2300752: Cylinder_134
+    2300754: Cylinder_135
+    2300756: Cylinder_136
+    2300758: Cylinder_137
+    2300760: Cylinder_138
+    2300762: Cylinder_139
+    2300764: Cylinder_14
+    2300766: Cylinder_140
+    2300768: Cylinder_141
+    2300770: Cylinder_142
+    2300772: Cylinder_143
+    2300774: Cylinder_144
+    2300776: Cylinder_145
+    2300778: Cylinder_146
+    2300780: Cylinder_147
+    2300782: Cylinder_148
+    2300784: Cylinder_149
+    2300786: Cylinder_15
+    2300788: Cylinder_150
+    2300790: Cylinder_151
+    2300792: Cylinder_152
+    2300794: Cylinder_153
+    2300796: Cylinder_154
+    2300798: Cylinder_155
+    2300800: Cylinder_156
+    2300802: Cylinder_157
+    2300804: Cylinder_158
+    2300806: Cylinder_159
+    2300808: Cylinder_16
+    2300810: Cylinder_160
+    2300812: Cylinder_161
+    2300814: Cylinder_162
+    2300816: Cylinder_163
+    2300818: Cylinder_164
+    2300820: Cylinder_165
+    2300822: Cylinder_166
+    2300824: Cylinder_167
+    2300826: Cylinder_168
+    2300828: Cylinder_169
+    2300830: Cylinder_17
+    2300832: Cylinder_170
+    2300834: Cylinder_171
+    2300836: Cylinder_172
+    2300838: Cylinder_173
+    2300840: Cylinder_174
+    2300842: Cylinder_175
+    2300844: Cylinder_176
+    2300846: Cylinder_177
+    2300848: Cylinder_178
+    2300850: Cylinder_179
+    2300852: Cylinder_18
+    2300854: Cylinder_180
+    2300856: Cylinder_181
+    2300858: Cylinder_182
+    2300860: Cylinder_183
+    2300862: Cylinder_184
+    2300864: Cylinder_185
+    2300866: Cylinder_186
+    2300868: Cylinder_187
+    2300870: Cylinder_188
+    2300872: Cylinder_189
+    2300874: Cylinder_19
+    2300876: Cylinder_190
+    2300878: Cylinder_191
+    2300880: Cylinder_192
+    2300882: Cylinder_193
+    2300884: Cylinder_194
+    2300886: Cylinder_195
+    2300888: Cylinder_196
+    2300890: Cylinder_197
+    2300892: Cylinder_198
+    2300894: Cylinder_199
+    2300896: Cylinder_1_10
+    2300898: Cylinder_1_11
+    2300900: Cylinder_1_12
+    2300902: Cylinder_1_13
+    2300904: Cylinder_1_14
+    2300906: Cylinder_1_15
+    2300908: Cylinder_1_2
+    2300910: Cylinder_1_3
+    2300912: Cylinder_1_4
+    2300914: Cylinder_1_5
+    2300916: Cylinder_1_6
+    2300918: Cylinder_1_7
+    2300920: Cylinder_1_8
+    2300922: Cylinder_1_9
+    2300924: Cylinder_2
+    2300926: Cylinder_20
+    2300928: Cylinder_200
+    2300930: Cylinder_201
+    2300932: Cylinder_202
+    2300934: Cylinder_203
+    2300936: Cylinder_204
+    2300938: Cylinder_205
+    2300940: Cylinder_206
+    2300942: Cylinder_207
+    2300944: Cylinder_208
+    2300946: Cylinder_209
+    2300948: Cylinder_21
+    2300950: Cylinder_210
+    2300952: Cylinder_211
+    2300954: Cylinder_212
+    2300956: Cylinder_213
+    2300958: Cylinder_214
+    2300960: Cylinder_215
+    2300962: Cylinder_216
+    2300964: Cylinder_217
+    2300966: Cylinder_218
+    2300968: Cylinder_219
+    2300970: Cylinder_22
+    2300972: Cylinder_220
+    2300974: Cylinder_221
+    2300976: Cylinder_222
+    2300978: Cylinder_223
+    2300980: Cylinder_224
+    2300982: Cylinder_225
+    2300984: Cylinder_226
+    2300986: Cylinder_227
+    2300988: Cylinder_228
+    2300990: Cylinder_229
+    2300992: Cylinder_23
+    2300994: Cylinder_230
+    2300996: Cylinder_231
+    2300998: Cylinder_232
+    2301000: Cylinder_233
+    2301002: Cylinder_24
+    2301004: Cylinder_25
+    2301006: Cylinder_26
+    2301008: Cylinder_27
+    2301010: Cylinder_28
+    2301012: Cylinder_29
+    2301014: Cylinder_2_2
+    2301016: Cylinder_2_3
+    2301018: Cylinder_2_4
+    2301020: Cylinder_2_5
+    2301022: Cylinder_2_6
+    2301024: Cylinder_3
+    2301026: Cylinder_30
+    2301028: Cylinder_31
+    2301030: Cylinder_32
+    2301032: Cylinder_33
+    2301034: Cylinder_34
+    2301036: Cylinder_35
+    2301038: Cylinder_36
+    2301040: Cylinder_37
+    2301042: Cylinder_38
+    2301044: Cylinder_39
+    2301046: Cylinder_4
+    2301048: Cylinder_40
+    2301050: Cylinder_41
+    2301052: Cylinder_42
+    2301054: Cylinder_43
+    2301056: Cylinder_44
+    2301058: Cylinder_45
+    2301060: Cylinder_46
+    2301062: Cylinder_47
+    2301064: Cylinder_48
+    2301066: Cylinder_49
+    2301068: Cylinder_5
+    2301070: Cylinder_50
+    2301072: Cylinder_51
+    2301074: Cylinder_52
+    2301076: Cylinder_53
+    2301078: Cylinder_54
+    2301080: Cylinder_55
+    2301082: Cylinder_56
+    2301084: Cylinder_57
+    2301086: Cylinder_58
+    2301088: Cylinder_59
+    2301090: Cylinder_6
+    2301092: Cylinder_60
+    2301094: Cylinder_61
+    2301096: Cylinder_62
+    2301098: Cylinder_63
+    2301100: Cylinder_64
+    2301102: Cylinder_65
+    2301104: Cylinder_66
+    2301106: Cylinder_67
+    2301108: Cylinder_68
+    2301110: Cylinder_69
+    2301112: Cylinder_7
+    2301114: Cylinder_70
+    2301116: Cylinder_71
+    2301118: Cylinder_72
+    2301120: Cylinder_73
+    2301122: Cylinder_74
+    2301124: Cylinder_75
+    2301126: Cylinder_76
+    2301128: Cylinder_77
+    2301130: Cylinder_78
+    2301132: Cylinder_79
+    2301134: Cylinder_8
+    2301136: Cylinder_80
+    2301138: Cylinder_81
+    2301140: Cylinder_82
+    2301142: Cylinder_83
+    2301144: Cylinder_84
+    2301146: Cylinder_85
+    2301148: Cylinder_86
+    2301150: Cylinder_87
+    2301152: Cylinder_88
+    2301154: Cylinder_89
+    2301156: Cylinder_9
+    2301158: Cylinder_90
+    2301160: Cylinder_91
+    2301162: Cylinder_92
+    2301164: Cylinder_93
+    2301166: Cylinder_94
+    2301168: Cylinder_95
+    2301170: Cylinder_96
+    2301172: Cylinder_97
+    2301174: Cylinder_98
+    2301176: Cylinder_99
+    2301178: Disc
+    2301180: Ground
+    2301182: Landscape_1
+    2301184: Landscape_2
+    2301186: Landscape_3
+    2301188: Landscape_4
+    2301190: Landscape_5
+    2301192: Landscape_6
+    2301194: Landscape_7
+    2301196: Torch
+    2301198: Torch_1
+    2301200: Torch_10
+    2301202: Torch_11
+    2301204: Torch_12
+    2301206: Torch_13
+    2301208: Torch_14
+    2301210: Torch_15
+    2301212: Torch_16
+    2301214: Torch_17
+    2301216: Torch_2
+    2301218: Torch_3
+    2301220: Torch_4
+    2301222: Torch_5
+    2301224: Torch_6
+    2301226: Torch_7
+    2301228: Torch_8
+    2301230: Torch_9
+    3300000: Bush_1
+    3300002: Bush_2
+    3300004: Bush_2_2
+    3300006: Bush_3
+    3300008: Bush_4
+    3300010: Bush_5
+    3300012: Bush_6
+    3300014: Bush_7
+    3300016: Cone
+    3300018: Cone_1
+    3300020: Cone_10
+    3300022: Cone_100
+    3300024: Cone_101
+    3300026: Cone_102
+    3300028: Cone_103
+    3300030: Cone_104
+    3300032: Cone_105
+    3300034: Cone_106
+    3300036: Cone_107
+    3300038: Cone_108
+    3300040: Cone_109
+    3300042: Cone_11
+    3300044: Cone_110
+    3300046: Cone_111
+    3300048: Cone_112
+    3300050: Cone_113
+    3300052: Cone_114
+    3300054: Cone_115
+    3300056: Cone_116
+    3300058: Cone_117
+    3300060: Cone_118
+    3300062: Cone_119
+    3300064: Cone_12
+    3300066: Cone_120
+    3300068: Cone_121
+    3300070: Cone_122
+    3300072: Cone_123
+    3300074: Cone_124
+    3300076: Cone_125
+    3300078: Cone_126
+    3300080: Cone_127
+    3300082: Cone_128
+    3300084: Cone_129
+    3300086: Cone_13
+    3300088: Cone_130
+    3300090: Cone_131
+    3300092: Cone_132
+    3300094: Cone_133
+    3300096: Cone_134
+    3300098: Cone_135
+    3300100: Cone_136
+    3300102: Cone_137
+    3300104: Cone_138
+    3300106: Cone_139
+    3300108: Cone_14
+    3300110: Cone_140
+    3300112: Cone_141
+    3300114: Cone_142
+    3300116: Cone_143
+    3300118: Cone_144
+    3300120: Cone_145
+    3300122: Cone_146
+    3300124: Cone_147
+    3300126: Cone_148
+    3300128: Cone_149
+    3300130: Cone_15
+    3300132: Cone_150
+    3300134: Cone_151
+    3300136: Cone_152
+    3300138: Cone_153
+    3300140: Cone_154
+    3300142: Cone_155
+    3300144: Cone_156
+    3300146: Cone_157
+    3300148: Cone_158
+    3300150: Cone_159
+    3300152: Cone_16
+    3300154: Cone_160
+    3300156: Cone_161
+    3300158: Cone_162
+    3300160: Cone_163
+    3300162: Cone_164
+    3300164: Cone_165
+    3300166: Cone_166
+    3300168: Cone_167
+    3300170: Cone_168
+    3300172: Cone_169
+    3300174: Cone_17
+    3300176: Cone_170
+    3300178: Cone_171
+    3300180: Cone_172
+    3300182: Cone_173
+    3300184: Cone_174
+    3300186: Cone_175
+    3300188: Cone_176
+    3300190: Cone_177
+    3300192: Cone_178
+    3300194: Cone_179
+    3300196: Cone_18
+    3300198: Cone_180
+    3300200: Cone_181
+    3300202: Cone_182
+    3300204: Cone_183
+    3300206: Cone_184
+    3300208: Cone_185
+    3300210: Cone_186
+    3300212: Cone_187
+    3300214: Cone_188
+    3300216: Cone_189
+    3300218: Cone_19
+    3300220: Cone_190
+    3300222: Cone_191
+    3300224: Cone_192
+    3300226: Cone_193
+    3300228: Cone_194
+    3300230: Cone_195
+    3300232: Cone_196
+    3300234: Cone_197
+    3300236: Cone_198
+    3300238: Cone_199
+    3300240: Cone_1_10
+    3300242: Cone_1_2
+    3300244: Cone_1_3
+    3300246: Cone_1_4
+    3300248: Cone_1_5
+    3300250: Cone_1_6
+    3300252: Cone_1_7
+    3300254: Cone_1_8
+    3300256: Cone_1_9
+    3300258: Cone_2
+    3300260: Cone_20
+    3300262: Cone_200
+    3300264: Cone_201
+    3300266: Cone_202
+    3300268: Cone_203
+    3300270: Cone_204
+    3300272: Cone_205
+    3300274: Cone_206
+    3300276: Cone_207
+    3300278: Cone_208
+    3300280: Cone_209
+    3300282: Cone_21
+    3300284: Cone_210
+    3300286: Cone_211
+    3300288: Cone_212
+    3300290: Cone_213
+    3300292: Cone_214
+    3300294: Cone_215
+    3300296: Cone_216
+    3300298: Cone_217
+    3300300: Cone_218
+    3300302: Cone_219
+    3300304: Cone_22
+    3300306: Cone_220
+    3300308: Cone_221
+    3300310: Cone_222
+    3300312: Cone_223
+    3300314: Cone_224
+    3300316: Cone_225
+    3300318: Cone_226
+    3300320: Cone_227
+    3300322: Cone_228
+    3300324: Cone_23
+    3300326: Cone_24
+    3300328: Cone_25
+    3300330: Cone_26
+    3300332: Cone_27
+    3300334: Cone_28
+    3300336: Cone_29
+    3300338: Cone_2_10
+    3300340: Cone_2_11
+    3300342: Cone_2_2
+    3300344: Cone_2_3
+    3300346: Cone_2_4
+    3300348: Cone_2_5
+    3300350: Cone_2_6
+    3300352: Cone_2_7
+    3300354: Cone_2_8
+    3300356: Cone_2_9
+    3300358: Cone_3
+    3300360: Cone_30
+    3300362: Cone_31
+    3300364: Cone_32
+    3300366: Cone_33
+    3300368: Cone_34
+    3300370: Cone_35
+    3300372: Cone_36
+    3300374: Cone_37
+    3300376: Cone_38
+    3300378: Cone_39
+    3300380: Cone_3_10
+    3300382: Cone_3_11
+    3300384: Cone_3_2
+    3300386: Cone_3_3
+    3300388: Cone_3_4
+    3300390: Cone_3_5
+    3300392: Cone_3_6
+    3300394: Cone_3_7
+    3300396: Cone_3_8
+    3300398: Cone_3_9
+    3300400: Cone_4
+    3300402: Cone_40
+    3300404: Cone_41
+    3300406: Cone_42
+    3300408: Cone_43
+    3300410: Cone_44
+    3300412: Cone_45
+    3300414: Cone_46
+    3300416: Cone_47
+    3300418: Cone_48
+    3300420: Cone_49
+    3300422: Cone_5
+    3300424: Cone_50
+    3300426: Cone_51
+    3300428: Cone_52
+    3300430: Cone_53
+    3300432: Cone_54
+    3300434: Cone_55
+    3300436: Cone_56
+    3300438: Cone_57
+    3300440: Cone_58
+    3300442: Cone_59
+    3300444: Cone_6
+    3300446: Cone_60
+    3300448: Cone_61
+    3300450: Cone_62
+    3300452: Cone_63
+    3300454: Cone_64
+    3300456: Cone_65
+    3300458: Cone_66
+    3300460: Cone_67
+    3300462: Cone_68
+    3300464: Cone_69
+    3300466: Cone_7
+    3300468: Cone_70
+    3300470: Cone_71
+    3300472: Cone_72
+    3300474: Cone_73
+    3300476: Cone_74
+    3300478: Cone_75
+    3300480: Cone_76
+    3300482: Cone_77
+    3300484: Cone_78
+    3300486: Cone_79
+    3300488: Cone_8
+    3300490: Cone_80
+    3300492: Cone_81
+    3300494: Cone_82
+    3300496: Cone_83
+    3300498: Cone_84
+    3300500: Cone_85
+    3300502: Cone_86
+    3300504: Cone_87
+    3300506: Cone_88
+    3300508: Cone_89
+    3300510: Cone_9
+    3300512: Cone_90
+    3300514: Cone_91
+    3300516: Cone_92
+    3300518: Cone_93
+    3300520: Cone_94
+    3300522: Cone_95
+    3300524: Cone_96
+    3300526: Cone_97
+    3300528: Cone_98
+    3300530: Cone_99
+    3300532: Cube
+    3300534: Cube_1
+    3300536: Cube_10
+    3300538: Cube_11
+    3300540: Cube_12
+    3300542: Cube_13
+    3300544: Cube_14
+    3300546: Cube_15
+    3300548: Cube_16
+    3300550: Cube_17
+    3300552: Cube_18
+    3300554: Cube_19
+    3300556: Cube_1_10
+    3300558: Cube_1_11
+    3300560: Cube_1_12
+    3300562: Cube_1_13
+    3300564: Cube_1_14
+    3300566: Cube_1_15
+    3300568: Cube_1_16
+    3300570: Cube_1_17
+    3300572: Cube_1_18
+    3300574: Cube_1_19
+    3300576: Cube_1_2
+    3300578: Cube_1_20
+    3300580: Cube_1_21
+    3300582: Cube_1_22
+    3300584: Cube_1_23
+    3300586: Cube_1_24
+    3300588: Cube_1_25
+    3300590: Cube_1_26
+    3300592: Cube_1_27
+    3300594: Cube_1_28
+    3300596: Cube_1_29
+    3300598: Cube_1_3
+    3300600: Cube_1_30
+    3300602: Cube_1_31
+    3300604: Cube_1_32
+    3300606: Cube_1_4
+    3300608: Cube_1_5
+    3300610: Cube_1_6
+    3300612: Cube_1_7
+    3300614: Cube_1_8
+    3300616: Cube_1_9
+    3300618: Cube_2
+    3300620: Cube_20
+    3300622: Cube_21
+    3300624: Cube_22
+    3300626: Cube_23
+    3300628: Cube_24
+    3300630: Cube_25
+    3300632: Cube_26
+    3300634: Cube_27
+    3300636: Cube_28
+    3300638: Cube_29
+    3300640: Cube_2_2
+    3300642: Cube_3
+    3300644: Cube_30
+    3300646: Cube_31
+    3300648: Cube_32
+    3300650: Cube_33
+    3300652: Cube_34
+    3300654: Cube_35
+    3300656: Cube_36
+    3300658: Cube_3_2
+    3300660: Cube_4
+    3300662: Cube_5
+    3300664: Cube_6
+    3300666: Cube_7
+    3300668: Cube_8
+    3300670: Cube_9
+    3300672: Cylinder
+    3300674: Cylinder_1
+    3300676: Cylinder_10
+    3300678: Cylinder_100
+    3300680: Cylinder_101
+    3300682: Cylinder_102
+    3300684: Cylinder_103
+    3300686: Cylinder_104
+    3300688: Cylinder_105
+    3300690: Cylinder_106
+    3300692: Cylinder_107
+    3300694: Cylinder_108
+    3300696: Cylinder_109
+    3300698: Cylinder_11
+    3300700: Cylinder_110
+    3300702: Cylinder_111
+    3300704: Cylinder_112
+    3300706: Cylinder_113
+    3300708: Cylinder_114
+    3300710: Cylinder_115
+    3300712: Cylinder_116
+    3300714: Cylinder_117
+    3300716: Cylinder_118
+    3300718: Cylinder_119
+    3300720: Cylinder_12
+    3300722: Cylinder_120
+    3300724: Cylinder_121
+    3300726: Cylinder_122
+    3300728: Cylinder_123
+    3300730: Cylinder_124
+    3300732: Cylinder_125
+    3300734: Cylinder_126
+    3300736: Cylinder_127
+    3300738: Cylinder_128
+    3300740: Cylinder_129
+    3300742: Cylinder_13
+    3300744: Cylinder_130
+    3300746: Cylinder_131
+    3300748: Cylinder_132
+    3300750: Cylinder_133
+    3300752: Cylinder_134
+    3300754: Cylinder_135
+    3300756: Cylinder_136
+    3300758: Cylinder_137
+    3300760: Cylinder_138
+    3300762: Cylinder_139
+    3300764: Cylinder_14
+    3300766: Cylinder_140
+    3300768: Cylinder_141
+    3300770: Cylinder_142
+    3300772: Cylinder_143
+    3300774: Cylinder_144
+    3300776: Cylinder_145
+    3300778: Cylinder_146
+    3300780: Cylinder_147
+    3300782: Cylinder_148
+    3300784: Cylinder_149
+    3300786: Cylinder_15
+    3300788: Cylinder_150
+    3300790: Cylinder_151
+    3300792: Cylinder_152
+    3300794: Cylinder_153
+    3300796: Cylinder_154
+    3300798: Cylinder_155
+    3300800: Cylinder_156
+    3300802: Cylinder_157
+    3300804: Cylinder_158
+    3300806: Cylinder_159
+    3300808: Cylinder_16
+    3300810: Cylinder_160
+    3300812: Cylinder_161
+    3300814: Cylinder_162
+    3300816: Cylinder_163
+    3300818: Cylinder_164
+    3300820: Cylinder_165
+    3300822: Cylinder_166
+    3300824: Cylinder_167
+    3300826: Cylinder_168
+    3300828: Cylinder_169
+    3300830: Cylinder_17
+    3300832: Cylinder_170
+    3300834: Cylinder_171
+    3300836: Cylinder_172
+    3300838: Cylinder_173
+    3300840: Cylinder_174
+    3300842: Cylinder_175
+    3300844: Cylinder_176
+    3300846: Cylinder_177
+    3300848: Cylinder_178
+    3300850: Cylinder_179
+    3300852: Cylinder_18
+    3300854: Cylinder_180
+    3300856: Cylinder_181
+    3300858: Cylinder_182
+    3300860: Cylinder_183
+    3300862: Cylinder_184
+    3300864: Cylinder_185
+    3300866: Cylinder_186
+    3300868: Cylinder_187
+    3300870: Cylinder_188
+    3300872: Cylinder_189
+    3300874: Cylinder_19
+    3300876: Cylinder_190
+    3300878: Cylinder_191
+    3300880: Cylinder_192
+    3300882: Cylinder_193
+    3300884: Cylinder_194
+    3300886: Cylinder_195
+    3300888: Cylinder_196
+    3300890: Cylinder_197
+    3300892: Cylinder_198
+    3300894: Cylinder_199
+    3300896: Cylinder_1_10
+    3300898: Cylinder_1_11
+    3300900: Cylinder_1_12
+    3300902: Cylinder_1_13
+    3300904: Cylinder_1_14
+    3300906: Cylinder_1_15
+    3300908: Cylinder_1_2
+    3300910: Cylinder_1_3
+    3300912: Cylinder_1_4
+    3300914: Cylinder_1_5
+    3300916: Cylinder_1_6
+    3300918: Cylinder_1_7
+    3300920: Cylinder_1_8
+    3300922: Cylinder_1_9
+    3300924: Cylinder_2
+    3300926: Cylinder_20
+    3300928: Cylinder_200
+    3300930: Cylinder_201
+    3300932: Cylinder_202
+    3300934: Cylinder_203
+    3300936: Cylinder_204
+    3300938: Cylinder_205
+    3300940: Cylinder_206
+    3300942: Cylinder_207
+    3300944: Cylinder_208
+    3300946: Cylinder_209
+    3300948: Cylinder_21
+    3300950: Cylinder_210
+    3300952: Cylinder_211
+    3300954: Cylinder_212
+    3300956: Cylinder_213
+    3300958: Cylinder_214
+    3300960: Cylinder_215
+    3300962: Cylinder_216
+    3300964: Cylinder_217
+    3300966: Cylinder_218
+    3300968: Cylinder_219
+    3300970: Cylinder_22
+    3300972: Cylinder_220
+    3300974: Cylinder_221
+    3300976: Cylinder_222
+    3300978: Cylinder_223
+    3300980: Cylinder_224
+    3300982: Cylinder_225
+    3300984: Cylinder_226
+    3300986: Cylinder_227
+    3300988: Cylinder_228
+    3300990: Cylinder_229
+    3300992: Cylinder_23
+    3300994: Cylinder_230
+    3300996: Cylinder_231
+    3300998: Cylinder_232
+    3301000: Cylinder_233
+    3301002: Cylinder_24
+    3301004: Cylinder_25
+    3301006: Cylinder_26
+    3301008: Cylinder_27
+    3301010: Cylinder_28
+    3301012: Cylinder_29
+    3301014: Cylinder_2_2
+    3301016: Cylinder_2_3
+    3301018: Cylinder_2_4
+    3301020: Cylinder_2_5
+    3301022: Cylinder_2_6
+    3301024: Cylinder_3
+    3301026: Cylinder_30
+    3301028: Cylinder_31
+    3301030: Cylinder_32
+    3301032: Cylinder_33
+    3301034: Cylinder_34
+    3301036: Cylinder_35
+    3301038: Cylinder_36
+    3301040: Cylinder_37
+    3301042: Cylinder_38
+    3301044: Cylinder_39
+    3301046: Cylinder_4
+    3301048: Cylinder_40
+    3301050: Cylinder_41
+    3301052: Cylinder_42
+    3301054: Cylinder_43
+    3301056: Cylinder_44
+    3301058: Cylinder_45
+    3301060: Cylinder_46
+    3301062: Cylinder_47
+    3301064: Cylinder_48
+    3301066: Cylinder_49
+    3301068: Cylinder_5
+    3301070: Cylinder_50
+    3301072: Cylinder_51
+    3301074: Cylinder_52
+    3301076: Cylinder_53
+    3301078: Cylinder_54
+    3301080: Cylinder_55
+    3301082: Cylinder_56
+    3301084: Cylinder_57
+    3301086: Cylinder_58
+    3301088: Cylinder_59
+    3301090: Cylinder_6
+    3301092: Cylinder_60
+    3301094: Cylinder_61
+    3301096: Cylinder_62
+    3301098: Cylinder_63
+    3301100: Cylinder_64
+    3301102: Cylinder_65
+    3301104: Cylinder_66
+    3301106: Cylinder_67
+    3301108: Cylinder_68
+    3301110: Cylinder_69
+    3301112: Cylinder_7
+    3301114: Cylinder_70
+    3301116: Cylinder_71
+    3301118: Cylinder_72
+    3301120: Cylinder_73
+    3301122: Cylinder_74
+    3301124: Cylinder_75
+    3301126: Cylinder_76
+    3301128: Cylinder_77
+    3301130: Cylinder_78
+    3301132: Cylinder_79
+    3301134: Cylinder_8
+    3301136: Cylinder_80
+    3301138: Cylinder_81
+    3301140: Cylinder_82
+    3301142: Cylinder_83
+    3301144: Cylinder_84
+    3301146: Cylinder_85
+    3301148: Cylinder_86
+    3301150: Cylinder_87
+    3301152: Cylinder_88
+    3301154: Cylinder_89
+    3301156: Cylinder_9
+    3301158: Cylinder_90
+    3301160: Cylinder_91
+    3301162: Cylinder_92
+    3301164: Cylinder_93
+    3301166: Cylinder_94
+    3301168: Cylinder_95
+    3301170: Cylinder_96
+    3301172: Cylinder_97
+    3301174: Cylinder_98
+    3301176: Cylinder_99
+    3301178: Disc
+    3301180: Ground
+    3301182: Landscape_1
+    3301184: Landscape_2
+    3301186: Landscape_3
+    3301188: Landscape_4
+    3301190: Landscape_5
+    3301192: Landscape_6
+    3301194: Landscape_7
+    3301196: Torch
+    3301198: Torch_1
+    3301200: Torch_10
+    3301202: Torch_11
+    3301204: Torch_12
+    3301206: Torch_13
+    3301208: Torch_14
+    3301210: Torch_15
+    3301212: Torch_16
+    3301214: Torch_17
+    3301216: Torch_2
+    3301218: Torch_3
+    3301220: Torch_4
+    3301222: Torch_5
+    3301224: Torch_6
+    3301226: Torch_7
+    3301228: Torch_8
+    3301230: Torch_9
+    4300000: Ground
+    4300002: Torch_17
+    4300004: Torch_16
+    4300006: Torch_15
+    4300008: Torch_14
+    4300010: Torch_13
+    4300012: Torch_12
+    4300014: Torch_11
+    4300016: Torch_10
+    4300018: Torch_9
+    4300020: Torch_8
+    4300022: Torch_7
+    4300024: Torch_6
+    4300026: Torch_5
+    4300028: Torch_4
+    4300030: Torch_3
+    4300032: Torch_2
+    4300034: Torch_1
+    4300036: Torch
+    4300038: Bush_7
+    4300040: Bush_6
+    4300042: Bush_5
+    4300044: Bush_4
+    4300046: Bush_3
+    4300048: Bush_2
+    4300050: Bush_1
+    4300052: Bush_2_2
+    4300054: Cone
+    4300056: Cylinder
+    4300058: Cone_2
+    4300060: Cylinder_2
+    4300062: Cone_3
+    4300064: Cylinder_3
+    4300066: Cone_4
+    4300068: Cylinder_4
+    4300070: Cone_5
+    4300072: Cylinder_5
+    4300074: Cone_6
+    4300076: Cylinder_6
+    4300078: Cone_7
+    4300080: Cylinder_7
+    4300082: Cone_8
+    4300084: Cylinder_8
+    4300086: Cone_9
+    4300088: Cylinder_9
+    4300090: Cone_10
+    4300092: Cylinder_10
+    4300094: Cone_11
+    4300096: Cylinder_11
+    4300098: Cone_12
+    4300100: Cylinder_12
+    4300102: Cone_13
+    4300104: Cylinder_13
+    4300106: Cone_14
+    4300108: Cylinder_14
+    4300110: Cone_15
+    4300112: Cylinder_15
+    4300114: Cone_16
+    4300116: Cylinder_16
+    4300118: Cone_17
+    4300120: Cylinder_17
+    4300122: Cone_18
+    4300124: Cylinder_18
+    4300126: Cone_19
+    4300128: Cylinder_19
+    4300130: Cone_20
+    4300132: Cylinder_20
+    4300134: Cone_21
+    4300136: Cylinder_21
+    4300138: Cone_22
+    4300140: Cylinder_22
+    4300142: Cone_23
+    4300144: Cylinder_23
+    4300146: Cone_24
+    4300148: Cylinder_24
+    4300150: Cone_25
+    4300152: Cylinder_25
+    4300154: Cone_26
+    4300156: Cylinder_26
+    4300158: Cone_27
+    4300160: Cylinder_27
+    4300162: Cone_28
+    4300164: Cylinder_28
+    4300166: Cone_29
+    4300168: Cylinder_29
+    4300170: Cone_30
+    4300172: Cylinder_30
+    4300174: Cone_31
+    4300176: Cylinder_31
+    4300178: Cone_32
+    4300180: Cylinder_32
+    4300182: Cone_33
+    4300184: Cylinder_33
+    4300186: Cone_34
+    4300188: Cylinder_34
+    4300190: Cone_35
+    4300192: Cylinder_35
+    4300194: Cone_36
+    4300196: Cylinder_36
+    4300198: Cone_37
+    4300200: Cylinder_37
+    4300202: Cone_38
+    4300204: Cylinder_38
+    4300206: Cone_39
+    4300208: Cylinder_39
+    4300210: Cone_40
+    4300212: Cylinder_40
+    4300214: Cone_41
+    4300216: Cylinder_41
+    4300218: Cone_42
+    4300220: Cylinder_42
+    4300222: Cone_43
+    4300224: Cylinder_43
+    4300226: Cone_44
+    4300228: Cylinder_44
+    4300230: Cone_45
+    4300232: Cylinder_45
+    4300234: Cone_46
+    4300236: Cylinder_46
+    4300238: Cone_47
+    4300240: Cylinder_47
+    4300242: Cone_48
+    4300244: Cylinder_48
+    4300246: Cone_49
+    4300248: Cylinder_49
+    4300250: Cone_50
+    4300252: Cylinder_50
+    4300254: Cone_51
+    4300256: Cylinder_51
+    4300258: Cone_52
+    4300260: Cylinder_52
+    4300262: Cone_53
+    4300264: Cylinder_53
+    4300266: Cone_54
+    4300268: Cylinder_54
+    4300270: Cone_55
+    4300272: Cylinder_55
+    4300274: Cone_56
+    4300276: Cylinder_56
+    4300278: Cone_57
+    4300280: Cylinder_57
+    4300282: Cone_58
+    4300284: Cylinder_58
+    4300286: Cone_59
+    4300288: Cylinder_59
+    4300290: Cone_60
+    4300292: Cylinder_60
+    4300294: Cone_61
+    4300296: Cylinder_61
+    4300298: Cone_62
+    4300300: Cylinder_62
+    4300302: Cone_63
+    4300304: Cylinder_63
+    4300306: Cone_64
+    4300308: Cylinder_64
+    4300310: Cone_65
+    4300312: Cylinder_65
+    4300314: Cone_66
+    4300316: Cylinder_66
+    4300318: Cone_67
+    4300320: Cylinder_67
+    4300322: Cone_68
+    4300324: Cylinder_68
+    4300326: Cone_69
+    4300328: Cylinder_69
+    4300330: Cone_70
+    4300332: Cylinder_70
+    4300334: Cone_71
+    4300336: Cylinder_71
+    4300338: Cone_72
+    4300340: Cylinder_72
+    4300342: Cone_73
+    4300344: Cylinder_73
+    4300346: Cone_74
+    4300348: Cylinder_74
+    4300350: Cone_75
+    4300352: Cylinder_75
+    4300354: Cone_76
+    4300356: Cylinder_76
+    4300358: Cone_77
+    4300360: Cylinder_77
+    4300362: Cone_78
+    4300364: Cylinder_78
+    4300366: Cone_79
+    4300368: Cylinder_79
+    4300370: Cone_80
+    4300372: Cylinder_80
+    4300374: Cone_81
+    4300376: Cylinder_81
+    4300378: Cone_82
+    4300380: Cylinder_82
+    4300382: Cone_83
+    4300384: Cylinder_83
+    4300386: Cone_84
+    4300388: Cylinder_84
+    4300390: Cone_85
+    4300392: Cylinder_85
+    4300394: Cone_86
+    4300396: Cylinder_86
+    4300398: Cone_87
+    4300400: Cylinder_87
+    4300402: Cone_88
+    4300404: Cylinder_88
+    4300406: Cone_89
+    4300408: Cylinder_89
+    4300410: Cone_90
+    4300412: Cylinder_90
+    4300414: Cone_91
+    4300416: Cylinder_91
+    4300418: Cone_92
+    4300420: Cylinder_92
+    4300422: Cone_93
+    4300424: Cylinder_93
+    4300426: Cone_94
+    4300428: Cylinder_94
+    4300430: Cone_95
+    4300432: Cylinder_95
+    4300434: Cone_96
+    4300436: Cylinder_96
+    4300438: Cone_97
+    4300440: Cylinder_97
+    4300442: Cone_98
+    4300444: Cylinder_98
+    4300446: Cone_99
+    4300448: Cylinder_99
+    4300450: Cone_100
+    4300452: Cylinder_100
+    4300454: Cone_101
+    4300456: Cylinder_101
+    4300458: Cone_102
+    4300460: Cylinder_102
+    4300462: Cone_103
+    4300464: Cylinder_103
+    4300466: Cone_104
+    4300468: Cylinder_104
+    4300470: Cone_105
+    4300472: Cylinder_105
+    4300474: Cone_106
+    4300476: Cylinder_106
+    4300478: Cone_107
+    4300480: Cylinder_107
+    4300482: Cone_108
+    4300484: Cylinder_108
+    4300486: Cone_109
+    4300488: Cylinder_109
+    4300490: Cone_110
+    4300492: Cylinder_110
+    4300494: Cone_111
+    4300496: Cylinder_111
+    4300498: Cone_112
+    4300500: Cylinder_112
+    4300502: Cone_113
+    4300504: Cylinder_113
+    4300506: Cone_114
+    4300508: Cylinder_114
+    4300510: Cone_115
+    4300512: Cylinder_115
+    4300514: Cone_116
+    4300516: Cylinder_116
+    4300518: Cone_117
+    4300520: Cylinder_117
+    4300522: Cone_118
+    4300524: Cylinder_118
+    4300526: Cone_119
+    4300528: Cylinder_119
+    4300530: Cone_120
+    4300532: Cylinder_120
+    4300534: Cone_121
+    4300536: Cylinder_121
+    4300538: Cone_122
+    4300540: Cylinder_122
+    4300542: Cone_123
+    4300544: Cylinder_123
+    4300546: Cone_124
+    4300548: Cylinder_124
+    4300550: Cone_125
+    4300552: Cylinder_125
+    4300554: Cone_126
+    4300556: Cylinder_126
+    4300558: Cone_127
+    4300560: Cylinder_127
+    4300562: Cone_128
+    4300564: Cylinder_128
+    4300566: Cone_129
+    4300568: Cylinder_129
+    4300570: Cone_130
+    4300572: Cylinder_130
+    4300574: Cone_131
+    4300576: Cylinder_131
+    4300578: Cone_132
+    4300580: Cylinder_132
+    4300582: Cone_133
+    4300584: Cylinder_133
+    4300586: Cone_134
+    4300588: Cylinder_134
+    4300590: Cone_135
+    4300592: Cylinder_135
+    4300594: Cone_136
+    4300596: Cylinder_136
+    4300598: Cone_137
+    4300600: Cylinder_137
+    4300602: Cone_138
+    4300604: Cylinder_138
+    4300606: Cone_139
+    4300608: Cylinder_139
+    4300610: Cone_140
+    4300612: Cylinder_140
+    4300614: Cone_141
+    4300616: Cylinder_141
+    4300618: Cone_142
+    4300620: Cylinder_142
+    4300622: Cone_143
+    4300624: Cylinder_143
+    4300626: Cone_144
+    4300628: Cylinder_144
+    4300630: Cone_145
+    4300632: Cylinder_145
+    4300634: Cone_146
+    4300636: Cylinder_146
+    4300638: Cone_147
+    4300640: Cylinder_147
+    4300642: Cone_148
+    4300644: Cylinder_148
+    4300646: Cone_149
+    4300648: Cylinder_149
+    4300650: Cone_150
+    4300652: Cylinder_150
+    4300654: Cone_151
+    4300656: Cylinder_151
+    4300658: Cone_152
+    4300660: Cylinder_152
+    4300662: Cone_153
+    4300664: Cylinder_153
+    4300666: Cone_154
+    4300668: Cylinder_154
+    4300670: Cone_155
+    4300672: Cylinder_155
+    4300674: Cone_156
+    4300676: Cylinder_156
+    4300678: Cone_157
+    4300680: Cylinder_157
+    4300682: Cone_158
+    4300684: Cylinder_158
+    4300686: Cone_159
+    4300688: Cylinder_159
+    4300690: Cone_160
+    4300692: Cylinder_160
+    4300694: Cone_161
+    4300696: Cylinder_161
+    4300698: Cone_162
+    4300700: Cylinder_162
+    4300702: Cone_163
+    4300704: Cylinder_163
+    4300706: Cone_164
+    4300708: Cylinder_164
+    4300710: Cone_165
+    4300712: Cylinder_165
+    4300714: Cone_166
+    4300716: Cylinder_166
+    4300718: Cone_167
+    4300720: Cylinder_167
+    4300722: Cone_168
+    4300724: Cylinder_168
+    4300726: Cone_169
+    4300728: Cylinder_169
+    4300730: Cone_170
+    4300732: Cylinder_170
+    4300734: Cone_171
+    4300736: Cylinder_171
+    4300738: Cone_172
+    4300740: Cylinder_172
+    4300742: Cone_173
+    4300744: Cylinder_173
+    4300746: Cone_174
+    4300748: Cylinder_174
+    4300750: Cone_175
+    4300752: Cylinder_175
+    4300754: Cone_176
+    4300756: Cylinder_176
+    4300758: Cone_177
+    4300760: Cylinder_177
+    4300762: Cone_178
+    4300764: Cylinder_178
+    4300766: Cone_179
+    4300768: Cylinder_179
+    4300770: Cone_180
+    4300772: Cylinder_180
+    4300774: Cone_181
+    4300776: Cylinder_181
+    4300778: Cone_182
+    4300780: Cylinder_182
+    4300782: Cone_183
+    4300784: Cylinder_183
+    4300786: Cone_184
+    4300788: Cylinder_184
+    4300790: Cone_185
+    4300792: Cylinder_185
+    4300794: Cone_186
+    4300796: Cylinder_186
+    4300798: Cone_187
+    4300800: Cylinder_187
+    4300802: Cone_188
+    4300804: Cylinder_188
+    4300806: Cone_189
+    4300808: Cylinder_189
+    4300810: Cone_190
+    4300812: Cylinder_190
+    4300814: Cone_191
+    4300816: Cylinder_191
+    4300818: Cone_192
+    4300820: Cylinder_192
+    4300822: Cone_193
+    4300824: Cylinder_193
+    4300826: Cone_194
+    4300828: Cylinder_194
+    4300830: Cone_195
+    4300832: Cylinder_195
+    4300834: Cone_196
+    4300836: Cylinder_196
+    4300838: Cone_197
+    4300840: Cylinder_197
+    4300842: Cone_198
+    4300844: Cylinder_198
+    4300846: Cone_199
+    4300848: Cylinder_199
+    4300850: Cone_200
+    4300852: Cylinder_200
+    4300854: Cone_201
+    4300856: Cylinder_201
+    4300858: Cone_202
+    4300860: Cylinder_202
+    4300862: Cone_203
+    4300864: Cylinder_203
+    4300866: Cone_204
+    4300868: Cylinder_204
+    4300870: Cone_205
+    4300872: Cylinder_205
+    4300874: Cone_206
+    4300876: Cylinder_206
+    4300878: Cone_207
+    4300880: Cylinder_207
+    4300882: Cone_208
+    4300884: Cylinder_208
+    4300886: Cone_209
+    4300888: Cylinder_209
+    4300890: Cone_210
+    4300892: Cylinder_210
+    4300894: Cone_211
+    4300896: Cylinder_211
+    4300898: Cone_212
+    4300900: Cylinder_212
+    4300902: Cone_213
+    4300904: Cylinder_213
+    4300906: Cone_214
+    4300908: Cylinder_214
+    4300910: Cone_215
+    4300912: Cylinder_215
+    4300914: Cone_216
+    4300916: Cylinder_216
+    4300918: Cone_217
+    4300920: Cylinder_217
+    4300922: Cone_218
+    4300924: Cylinder_218
+    4300926: Cone_219
+    4300928: Cylinder_219
+    4300930: Cone_220
+    4300932: Cylinder_220
+    4300934: Cone_221
+    4300936: Cylinder_221
+    4300938: Cone_222
+    4300940: Cylinder_222
+    4300942: Cone_223
+    4300944: Cylinder_223
+    4300946: Cone_3_2
+    4300948: Cone_2_2
+    4300950: Cone_1
+    4300952: Cylinder_1
+    4300954: Cone_3_3
+    4300956: Cone_2_3
+    4300958: Cone_1_2
+    4300960: Cylinder_1_2
+    4300962: Cone_3_4
+    4300964: Cone_2_4
+    4300966: Cone_1_3
+    4300968: Cylinder_1_3
+    4300970: Cone_3_5
+    4300972: Cone_2_5
+    4300974: Cone_1_4
+    4300976: Cylinder_1_4
+    4300978: Cone_3_6
+    4300980: Cone_2_6
+    4300982: Cone_1_5
+    4300984: Cylinder_1_5
+    4300986: Cone_3_7
+    4300988: Cone_2_7
+    4300990: Cone_1_6
+    4300992: Cylinder_1_6
+    4300994: Cone_3_8
+    4300996: Cone_2_8
+    4300998: Cone_1_7
+    4301000: Cylinder_1_7
+    4301002: Cone_3_9
+    4301004: Cone_2_9
+    4301006: Cone_1_8
+    4301008: Cylinder_1_8
+    4301010: Cone_3_10
+    4301012: Cone_2_10
+    4301014: Cone_1_9
+    4301016: Cylinder_1_9
+    4301018: Cone_3_11
+    4301020: Cone_2_11
+    4301022: Cone_1_10
+    4301024: Cylinder_1_10
+    4301026: Landscape_7
+    4301028: Landscape_6
+    4301030: Landscape_5
+    4301032: Landscape_4
+    4301034: Landscape_3
+    4301036: Landscape_2
+    4301038: Landscape_1
+    4301040: Cube_1
+    4301042: Cube
+    4301044: Cube_1_2
+    4301046: Cube_2
+    4301048: Cube_1_3
+    4301050: Cube_3
+    4301052: Cube_1_4
+    4301054: Cube_4
+    4301056: Cube_1_5
+    4301058: Cube_5
+    4301060: Cube_1_6
+    4301062: Cube_6
+    4301064: Cube_1_7
+    4301066: Cube_7
+    4301068: Cube_1_8
+    4301070: Cube_8
+    4301072: Cube_1_9
+    4301074: Cube_9
+    4301076: Cube_1_10
+    4301078: Cube_10
+    4301080: Cube_1_11
+    4301082: Cube_11
+    4301084: Cube_1_12
+    4301086: Cube_12
+    4301088: Cube_1_13
+    4301090: Cube_13
+    4301092: Cube_1_14
+    4301094: Cube_14
+    4301096: Cube_1_15
+    4301098: Cube_15
+    4301100: Cube_1_16
+    4301102: Cube_16
+    4301104: Cube_1_17
+    4301106: Cube_17
+    4301108: Cube_1_18
+    4301110: Cube_18
+    4301112: Cube_1_19
+    4301114: Cube_19
+    4301116: Cube_1_20
+    4301118: Cube_20
+    4301120: Cube_1_21
+    4301122: Cube_21
+    4301124: Cube_1_22
+    4301126: Cube_22
+    4301128: Cube_1_23
+    4301130: Cube_23
+    4301132: Cube_1_24
+    4301134: Cube_24
+    4301136: Cube_1_25
+    4301138: Cube_25
+    4301140: Cube_1_26
+    4301142: Cube_26
+    4301144: Cube_1_27
+    4301146: Cube_27
+    4301148: Cube_1_28
+    4301150: Cube_28
+    4301152: Cylinder_224
+    4301154: Cone_224
+    4301156: Cylinder_225
+    4301158: Cone_225
+    4301160: Cylinder_226
+    4301162: Cone_226
+    4301164: Cylinder_227
+    4301166: Cone_227
+    4301168: Cylinder_228
+    4301170: Cone_228
+    4301172: Disc
+    4301174: Cube_1_29
+    4301176: Cube_29
+    4301178: Cube_3_2
+    4301180: Cube_2_2
+    4301182: Cylinder_2_2
+    4301184: Cube_1_30
+    4301186: Cube_30
+    4301188: Cylinder_1_11
+    4301190: Cylinder_229
+    4301192: Cube_31
+    4301194: Cylinder_2_3
+    4301196: Cylinder_1_12
+    4301198: Cylinder_230
+    4301200: Cube_32
+    4301202: Cylinder_2_4
+    4301204: Cylinder_1_13
+    4301206: Cylinder_231
+    4301208: Cube_33
+    4301210: Cylinder_2_5
+    4301212: Cylinder_1_14
+    4301214: Cylinder_232
+    4301216: Cube_34
+    4301218: Cylinder_2_6
+    4301220: Cylinder_1_15
+    4301222: Cylinder_233
+    4301224: Cube_1_31
+    4301226: Cube_35
+    4301228: Cube_1_32
+    4301230: Cube_36
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bush
+        weight: 1
+      - path: Bush/Bush_1
+        weight: 1
+      - path: Bush/Bush_2
+        weight: 1
+      - path: Bush/Bush_2_2
+        weight: 1
+      - path: Bush/Bush_3
+        weight: 1
+      - path: Bush/Bush_4
+        weight: 1
+      - path: Bush/Bush_5
+        weight: 1
+      - path: Bush/Bush_6
+        weight: 1
+      - path: Bush/Bush_7
+        weight: 1
+      - path: Gate
+        weight: 1
+      - path: Gate/Cube_1_29
+        weight: 1
+      - path: Gate/Cube_1_30
+        weight: 1
+      - path: Gate/Cube_2_2
+        weight: 1
+      - path: Gate/Cube_3_2
+        weight: 1
+      - path: Gate/Cube_29
+        weight: 1
+      - path: Gate/Cube_30
+        weight: 1
+      - path: Gate/Cylinder_1_11
+        weight: 1
+      - path: Gate/Cylinder_2_2
+        weight: 1
+      - path: Gate/Cylinder_229
+        weight: 1
+      - path: Gate/Disc
+        weight: 1
+      - path: Gate/Trees_2
+        weight: 1
+      - path: Gate/Trees_2/Tree
+        weight: 1
+      - path: Gate/Trees_2/Tree/Cone_228
+        weight: 1
+      - path: Gate/Trees_2/Tree/Cylinder_228
+        weight: 1
+      - path: Gate/Trees_2/Tree_1
+        weight: 1
+      - path: Gate/Trees_2/Tree_1/Cone_227
+        weight: 1
+      - path: Gate/Trees_2/Tree_1/Cylinder_227
+        weight: 1
+      - path: Gate/Trees_2/Tree_2
+        weight: 1
+      - path: Gate/Trees_2/Tree_2/Cone_226
+        weight: 1
+      - path: Gate/Trees_2/Tree_2/Cylinder_226
+        weight: 1
+      - path: Gate/Trees_2/Tree_3
+        weight: 1
+      - path: Gate/Trees_2/Tree_3/Cone_225
+        weight: 1
+      - path: Gate/Trees_2/Tree_3/Cylinder_225
+        weight: 1
+      - path: Gate/Trees_2/Tree_4
+        weight: 1
+      - path: Gate/Trees_2/Tree_4/Cone_224
+        weight: 1
+      - path: Gate/Trees_2/Tree_4/Cylinder_224
+        weight: 1
+      - path: Ground
+        weight: 1
+      - path: Outer_edge
+        weight: 1
+      - path: Outer_edge/Tree_line
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_1_42
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_1_42/Cone_209
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_1_42/Cylinder_209
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_2_43
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_2_43/Cone_208
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_2_43/Cylinder_208
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_3_43
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_3_43/Cone_207
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_3_43/Cylinder_207
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_4_43
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_4_43/Cone_206
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_4_43/Cylinder_206
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_42
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_42/Cone_210
+        weight: 1
+      - path: Outer_edge/Tree_line/Pine_Tree_1_42/Cylinder_210
+        weight: 1
+      - path: Outer_edge/Tree_line_1
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_1_41
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_1_41/Cone_204
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_1_41/Cylinder_204
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_2_42
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_2_42/Cone_203
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_2_42/Cylinder_203
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_3_42
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_3_42/Cone_202
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_3_42/Cylinder_202
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_4_42
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_4_42/Cone_201
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_4_42/Cylinder_201
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_41
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_41/Cone_205
+        weight: 1
+      - path: Outer_edge/Tree_line_1/Pine_Tree_1_41/Cylinder_205
+        weight: 1
+      - path: Outer_edge/Tree_line_2
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_1_40
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_1_40/Cone_199
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_1_40/Cylinder_199
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_2_41
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_2_41/Cone_198
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_2_41/Cylinder_198
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_3_41
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_3_41/Cone_197
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_3_41/Cylinder_197
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_4_41
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_4_41/Cone_196
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_4_41/Cylinder_196
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_40
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_40/Cone_200
+        weight: 1
+      - path: Outer_edge/Tree_line_2/Pine_Tree_1_40/Cylinder_200
+        weight: 1
+      - path: Outer_edge/Tree_line_3
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_1_39
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_1_39/Cone_194
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_1_39/Cylinder_194
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_2_40
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_2_40/Cone_193
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_2_40/Cylinder_193
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_3_40
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_3_40/Cone_192
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_3_40/Cylinder_192
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_4_40
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_4_40/Cone_191
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_4_40/Cylinder_191
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_39
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_39/Cone_195
+        weight: 1
+      - path: Outer_edge/Tree_line_3/Pine_Tree_1_39/Cylinder_195
+        weight: 1
+      - path: Outer_edge/Tree_line_4
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_1_38
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_1_38/Cone_189
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_1_38/Cylinder_189
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_2_39
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_2_39/Cone_188
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_2_39/Cylinder_188
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_3_39
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_3_39/Cone_187
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_3_39/Cylinder_187
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_4_39
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_4_39/Cone_186
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_4_39/Cylinder_186
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_38
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_38/Cone_190
+        weight: 1
+      - path: Outer_edge/Tree_line_4/Pine_Tree_1_38/Cylinder_190
+        weight: 1
+      - path: Outer_edge/Tree_line_5
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_1_37
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_1_37/Cone_184
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_1_37/Cylinder_184
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_2_38
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_2_38/Cone_183
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_2_38/Cylinder_183
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_3_38
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_3_38/Cone_182
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_3_38/Cylinder_182
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_4_38
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_4_38/Cone_181
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_4_38/Cylinder_181
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_37
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_37/Cone_185
+        weight: 1
+      - path: Outer_edge/Tree_line_5/Pine_Tree_1_37/Cylinder_185
+        weight: 1
+      - path: Outer_edge/Tree_line_6
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_1_36
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_1_36/Cone_179
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_1_36/Cylinder_179
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_2_37
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_2_37/Cone_178
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_2_37/Cylinder_178
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_3_37
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_3_37/Cone_177
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_3_37/Cylinder_177
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_4_37
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_4_37/Cone_176
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_4_37/Cylinder_176
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_36
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_36/Cone_180
+        weight: 1
+      - path: Outer_edge/Tree_line_6/Pine_Tree_1_36/Cylinder_180
+        weight: 1
+      - path: Outer_edge/Tree_line_7
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_1_35
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_1_35/Cone_174
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_1_35/Cylinder_174
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_2_36
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_2_36/Cone_173
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_2_36/Cylinder_173
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_3_36
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_3_36/Cone_172
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_3_36/Cylinder_172
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_4_36
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_4_36/Cone_171
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_4_36/Cylinder_171
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_35
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_35/Cone_175
+        weight: 1
+      - path: Outer_edge/Tree_line_7/Pine_Tree_1_35/Cylinder_175
+        weight: 1
+      - path: Outer_edge/Tree_line_8
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_1_34
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_1_34/Cone_169
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_1_34/Cylinder_169
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_2_35
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_2_35/Cone_168
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_2_35/Cylinder_168
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_3_35
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_3_35/Cone_167
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_3_35/Cylinder_167
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_4_35
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_4_35/Cone_166
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_4_35/Cylinder_166
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_34
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_34/Cone_170
+        weight: 1
+      - path: Outer_edge/Tree_line_8/Pine_Tree_1_34/Cylinder_170
+        weight: 1
+      - path: Outer_edge/Tree_line_9
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_1_33
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_1_33/Cone_164
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_1_33/Cylinder_164
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_2_34
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_2_34/Cone_163
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_2_34/Cylinder_163
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_3_34
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_3_34/Cone_162
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_3_34/Cylinder_162
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_4_34
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_4_34/Cone_161
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_4_34/Cylinder_161
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_33
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_33/Cone_165
+        weight: 1
+      - path: Outer_edge/Tree_line_9/Pine_Tree_1_33/Cylinder_165
+        weight: 1
+      - path: Outer_edge/Tree_line_10
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_1_32
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_1_32/Cone_159
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_1_32/Cylinder_159
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_2_33
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_2_33/Cone_158
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_2_33/Cylinder_158
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_3_33
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_3_33/Cone_157
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_3_33/Cylinder_157
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_4_33
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_4_33/Cone_156
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_4_33/Cylinder_156
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_32
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_32/Cone_160
+        weight: 1
+      - path: Outer_edge/Tree_line_10/Pine_Tree_1_32/Cylinder_160
+        weight: 1
+      - path: Outer_edge/Tree_line_11
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_1_31
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_1_31/Cone_154
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_1_31/Cylinder_154
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_2_32
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_2_32/Cone_153
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_2_32/Cylinder_153
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_3_32
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_3_32/Cone_152
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_3_32/Cylinder_152
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_4_32
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_4_32/Cone_151
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_4_32/Cylinder_151
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_31
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_31/Cone_155
+        weight: 1
+      - path: Outer_edge/Tree_line_11/Pine_Tree_1_31/Cylinder_155
+        weight: 1
+      - path: Outer_edge/Tree_line_12
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_1_30
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_1_30/Cone_149
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_1_30/Cylinder_149
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_2_31
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_2_31/Cone_148
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_2_31/Cylinder_148
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_3_31
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_3_31/Cone_147
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_3_31/Cylinder_147
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_4_31
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_4_31/Cone_146
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_4_31/Cylinder_146
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_30
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_30/Cone_150
+        weight: 1
+      - path: Outer_edge/Tree_line_12/Pine_Tree_1_30/Cylinder_150
+        weight: 1
+      - path: Outer_edge/Tree_line_13
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_1_29
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_1_29/Cone_144
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_1_29/Cylinder_144
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_2_30
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_2_30/Cone_143
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_2_30/Cylinder_143
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_3_30
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_3_30/Cone_142
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_3_30/Cylinder_142
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_4_30
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_4_30/Cone_141
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_4_30/Cylinder_141
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_29
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_29/Cone_145
+        weight: 1
+      - path: Outer_edge/Tree_line_13/Pine_Tree_1_29/Cylinder_145
+        weight: 1
+      - path: Outer_edge/Tree_line_14
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_1_28
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_1_28/Cone_139
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_1_28/Cylinder_139
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_2_29
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_2_29/Cone_138
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_2_29/Cylinder_138
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_3_29
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_3_29/Cone_137
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_3_29/Cylinder_137
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_4_29
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_4_29/Cone_136
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_4_29/Cylinder_136
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_28
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_28/Cone_140
+        weight: 1
+      - path: Outer_edge/Tree_line_14/Pine_Tree_1_28/Cylinder_140
+        weight: 1
+      - path: Outer_edge/Tree_line_15
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_1_27
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_1_27/Cone_134
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_1_27/Cylinder_134
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_2_28
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_2_28/Cone_133
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_2_28/Cylinder_133
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_3_28
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_3_28/Cone_132
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_3_28/Cylinder_132
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_4_28
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_4_28/Cone_131
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_4_28/Cylinder_131
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_27
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_27/Cone_135
+        weight: 1
+      - path: Outer_edge/Tree_line_15/Pine_Tree_1_27/Cylinder_135
+        weight: 1
+      - path: Outer_edge/Tree_line_16
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_1_26
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_1_26/Cone_129
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_1_26/Cylinder_129
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_2_27
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_2_27/Cone_128
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_2_27/Cylinder_128
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_3_27
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_3_27/Cone_127
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_3_27/Cylinder_127
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_4_27
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_4_27/Cone_126
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_4_27/Cylinder_126
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_26
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_26/Cone_130
+        weight: 1
+      - path: Outer_edge/Tree_line_16/Pine_Tree_1_26/Cylinder_130
+        weight: 1
+      - path: Outer_edge/Tree_line_17
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_1_25
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_1_25/Cone_124
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_1_25/Cylinder_124
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_2_26
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_2_26/Cone_123
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_2_26/Cylinder_123
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_3_26
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_3_26/Cone_122
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_3_26/Cylinder_122
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_4_26
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_4_26/Cone_121
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_4_26/Cylinder_121
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_25
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_25/Cone_125
+        weight: 1
+      - path: Outer_edge/Tree_line_17/Pine_Tree_1_25/Cylinder_125
+        weight: 1
+      - path: Outer_edge/Tree_line_18
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_1_24
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_1_24/Cone_119
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_1_24/Cylinder_119
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_2_25
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_2_25/Cone_118
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_2_25/Cylinder_118
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_3_25
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_3_25/Cone_117
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_3_25/Cylinder_117
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_4_25
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_4_25/Cone_116
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_4_25/Cylinder_116
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_24
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_24/Cone_120
+        weight: 1
+      - path: Outer_edge/Tree_line_18/Pine_Tree_1_24/Cylinder_120
+        weight: 1
+      - path: Outer_edge/Tree_line_19
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_1_23
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_1_23/Cone_114
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_1_23/Cylinder_114
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_2_24
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_2_24/Cone_113
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_2_24/Cylinder_113
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_3_24
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_3_24/Cone_112
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_3_24/Cylinder_112
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_4_24
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_4_24/Cone_111
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_4_24/Cylinder_111
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_23
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_23/Cone_115
+        weight: 1
+      - path: Outer_edge/Tree_line_19/Pine_Tree_1_23/Cylinder_115
+        weight: 1
+      - path: Outer_edge/Tree_line_20
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_1_22
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_1_22/Cone_109
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_1_22/Cylinder_109
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_2_23
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_2_23/Cone_108
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_2_23/Cylinder_108
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_3_23
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_3_23/Cone_107
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_3_23/Cylinder_107
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_4_23
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_4_23/Cone_106
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_4_23/Cylinder_106
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_22
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_22/Cone_110
+        weight: 1
+      - path: Outer_edge/Tree_line_20/Pine_Tree_1_22/Cylinder_110
+        weight: 1
+      - path: Outer_edge/Tree_line_21
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_1_21
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_1_21/Cone_104
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_1_21/Cylinder_104
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_2_22
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_2_22/Cone_103
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_2_22/Cylinder_103
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_3_22
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_3_22/Cone_102
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_3_22/Cylinder_102
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_4_22
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_4_22/Cone_101
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_4_22/Cylinder_101
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_21
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_21/Cone_105
+        weight: 1
+      - path: Outer_edge/Tree_line_21/Pine_Tree_1_21/Cylinder_105
+        weight: 1
+      - path: Outer_edge/Tree_line_22
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_1_20
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_1_20/Cone_99
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_1_20/Cylinder_99
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_2_21
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_2_21/Cone_98
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_2_21/Cylinder_98
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_3_21
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_3_21/Cone_97
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_3_21/Cylinder_97
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_4_21
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_4_21/Cone_96
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_4_21/Cylinder_96
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_20
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_20/Cone_100
+        weight: 1
+      - path: Outer_edge/Tree_line_22/Pine_Tree_1_20/Cylinder_100
+        weight: 1
+      - path: Outer_edge/Tree_line_23
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_1_19
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_1_19/Cone_94
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_1_19/Cylinder_94
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_2_20
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_2_20/Cone_93
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_2_20/Cylinder_93
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_3_20
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_3_20/Cone_92
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_3_20/Cylinder_92
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_4_20
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_4_20/Cone_91
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_4_20/Cylinder_91
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_19
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_19/Cone_95
+        weight: 1
+      - path: Outer_edge/Tree_line_23/Pine_Tree_1_19/Cylinder_95
+        weight: 1
+      - path: Outer_edge/Tree_line_24
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_1_18
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_1_18/Cone_89
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_1_18/Cylinder_89
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_2_19
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_2_19/Cone_88
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_2_19/Cylinder_88
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_3_19
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_3_19/Cone_87
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_3_19/Cylinder_87
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_4_19
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_4_19/Cone_86
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_4_19/Cylinder_86
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_18
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_18/Cone_90
+        weight: 1
+      - path: Outer_edge/Tree_line_24/Pine_Tree_1_18/Cylinder_90
+        weight: 1
+      - path: Outer_edge/Tree_line_25
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_1_17
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_1_17/Cone_84
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_1_17/Cylinder_84
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_2_18
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_2_18/Cone_83
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_2_18/Cylinder_83
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_3_18
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_3_18/Cone_82
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_3_18/Cylinder_82
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_4_18
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_4_18/Cone_81
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_4_18/Cylinder_81
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_17
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_17/Cone_85
+        weight: 1
+      - path: Outer_edge/Tree_line_25/Pine_Tree_1_17/Cylinder_85
+        weight: 1
+      - path: Outer_edge/Tree_line_26
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_1_16
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_1_16/Cone_79
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_1_16/Cylinder_79
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_2_17
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_2_17/Cone_78
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_2_17/Cylinder_78
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_3_17
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_3_17/Cone_77
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_3_17/Cylinder_77
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_4_17
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_4_17/Cone_76
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_4_17/Cylinder_76
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_16
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_16/Cone_80
+        weight: 1
+      - path: Outer_edge/Tree_line_26/Pine_Tree_1_16/Cylinder_80
+        weight: 1
+      - path: Outer_edge/Tree_line_27
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_1_15
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_1_15/Cone_74
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_1_15/Cylinder_74
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_2_16
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_2_16/Cone_73
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_2_16/Cylinder_73
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_3_16
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_3_16/Cone_72
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_3_16/Cylinder_72
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_4_16
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_4_16/Cone_71
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_4_16/Cylinder_71
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_15
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_15/Cone_75
+        weight: 1
+      - path: Outer_edge/Tree_line_27/Pine_Tree_1_15/Cylinder_75
+        weight: 1
+      - path: Outer_edge/Tree_line_28
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_1_14
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_1_14/Cone_69
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_1_14/Cylinder_69
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_2_15
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_2_15/Cone_68
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_2_15/Cylinder_68
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_3_15
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_3_15/Cone_67
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_3_15/Cylinder_67
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_4_15
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_4_15/Cone_66
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_4_15/Cylinder_66
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_14
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_14/Cone_70
+        weight: 1
+      - path: Outer_edge/Tree_line_28/Pine_Tree_1_14/Cylinder_70
+        weight: 1
+      - path: Outer_edge/Tree_line_29
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_1_13
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_1_13/Cone_64
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_1_13/Cylinder_64
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_2_14
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_2_14/Cone_63
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_2_14/Cylinder_63
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_3_14
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_3_14/Cone_62
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_3_14/Cylinder_62
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_4_14
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_4_14/Cone_61
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_4_14/Cylinder_61
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_13
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_13/Cone_65
+        weight: 1
+      - path: Outer_edge/Tree_line_29/Pine_Tree_1_13/Cylinder_65
+        weight: 1
+      - path: Outer_edge/Tree_line_30
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_1_12
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_1_12/Cone_59
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_1_12/Cylinder_59
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_2_13
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_2_13/Cone_58
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_2_13/Cylinder_58
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_3_13
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_3_13/Cone_57
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_3_13/Cylinder_57
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_4_13
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_4_13/Cone_56
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_4_13/Cylinder_56
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_12
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_12/Cone_60
+        weight: 1
+      - path: Outer_edge/Tree_line_30/Pine_Tree_1_12/Cylinder_60
+        weight: 1
+      - path: Outer_edge/Tree_line_31
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_1_11
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_1_11/Cone_54
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_1_11/Cylinder_54
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_2_12
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_2_12/Cone_53
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_2_12/Cylinder_53
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_3_12
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_3_12/Cone_52
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_3_12/Cylinder_52
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_4_12
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_4_12/Cone_51
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_4_12/Cylinder_51
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_11
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_11/Cone_55
+        weight: 1
+      - path: Outer_edge/Tree_line_31/Pine_Tree_1_11/Cylinder_55
+        weight: 1
+      - path: Outer_edge/Tree_line_32
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_1_10
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_1_10/Cone_49
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_1_10/Cylinder_49
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_2_11
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_2_11/Cone_48
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_2_11/Cylinder_48
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_3_11
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_3_11/Cone_47
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_3_11/Cylinder_47
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_4_11
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_4_11/Cone_46
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_4_11/Cylinder_46
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_10
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_10/Cone_50
+        weight: 1
+      - path: Outer_edge/Tree_line_32/Pine_Tree_1_10/Cylinder_50
+        weight: 1
+      - path: Outer_edge/Tree_line_33
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_1_9
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_1_9/Cone_44
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_1_9/Cylinder_44
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_2_10
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_2_10/Cone_43
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_2_10/Cylinder_43
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_3_10
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_3_10/Cone_42
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_3_10/Cylinder_42
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_4_10
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_4_10/Cone_41
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_4_10/Cylinder_41
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_9
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_9/Cone_45
+        weight: 1
+      - path: Outer_edge/Tree_line_33/Pine_Tree_1_9/Cylinder_45
+        weight: 1
+      - path: Outer_edge/Tree_line_34
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_1_8
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_1_8/Cone_39
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_1_8/Cylinder_39
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_2_9
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_2_9/Cone_38
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_2_9/Cylinder_38
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_3_9
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_3_9/Cone_37
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_3_9/Cylinder_37
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_4_9
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_4_9/Cone_36
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_4_9/Cylinder_36
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_8
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_8/Cone_40
+        weight: 1
+      - path: Outer_edge/Tree_line_34/Pine_Tree_1_8/Cylinder_40
+        weight: 1
+      - path: Outer_edge/Tree_line_35
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_1_7
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_1_7/Cone_34
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_1_7/Cylinder_34
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_2_8
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_2_8/Cone_33
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_2_8/Cylinder_33
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_3_8
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_3_8/Cone_32
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_3_8/Cylinder_32
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_4_8
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_4_8/Cone_31
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_4_8/Cylinder_31
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_7
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_7/Cone_35
+        weight: 1
+      - path: Outer_edge/Tree_line_35/Pine_Tree_1_7/Cylinder_35
+        weight: 1
+      - path: Outer_edge/Tree_line_36
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_1_6
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_1_6/Cone_29
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_1_6/Cylinder_29
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_2_7
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_2_7/Cone_28
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_2_7/Cylinder_28
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_3_7
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_3_7/Cone_27
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_3_7/Cylinder_27
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_4_7
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_4_7/Cone_26
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_4_7/Cylinder_26
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_6
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_6/Cone_30
+        weight: 1
+      - path: Outer_edge/Tree_line_36/Pine_Tree_1_6/Cylinder_30
+        weight: 1
+      - path: Outer_edge/Tree_line_37
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_1_5
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_1_5/Cone_24
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_1_5/Cylinder_24
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_2_6
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_2_6/Cone_23
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_2_6/Cylinder_23
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_3_6
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_3_6/Cone_22
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_3_6/Cylinder_22
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_4_6
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_4_6/Cone_21
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_4_6/Cylinder_21
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_5
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_5/Cone_25
+        weight: 1
+      - path: Outer_edge/Tree_line_37/Pine_Tree_1_5/Cylinder_25
+        weight: 1
+      - path: Outer_edge/Tree_line_38
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_1_4
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_1_4/Cone_19
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_1_4/Cylinder_19
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_2_5
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_2_5/Cone_18
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_2_5/Cylinder_18
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_3_5
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_3_5/Cone_17
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_3_5/Cylinder_17
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_4_4
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_4_4/Cone_16
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_4_4/Cylinder_16
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_4_5
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_4_5/Cone_20
+        weight: 1
+      - path: Outer_edge/Tree_line_38/Pine_Tree_1_4_5/Cylinder_20
+        weight: 1
+      - path: Outer_edge/Tree_line_39
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_1_3
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_1_3/Cone_14
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_1_3/Cylinder_14
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_2_4
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_2_4/Cone_13
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_2_4/Cylinder_13
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_3_3
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_3_3/Cone_12
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_3_3/Cylinder_12
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_3_4
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_3_4/Cone_15
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_3_4/Cylinder_15
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_4_3
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_4_3/Cone_11
+        weight: 1
+      - path: Outer_edge/Tree_line_39/Pine_Tree_1_4_3/Cylinder_11
+        weight: 1
+      - path: Outer_edge/Tree_line_40
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_1_2
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_1_2/Cone_9
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_1_2/Cylinder_9
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_2_2
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_2_2/Cone_8
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_2_2/Cylinder_8
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_2_3
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_2_3/Cone_10
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_2_3/Cylinder_10
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_3_2
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_3_2/Cone_7
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_3_2/Cylinder_7
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_4_2
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_4_2/Cone_6
+        weight: 1
+      - path: Outer_edge/Tree_line_40/Pine_Tree_1_4_2/Cylinder_6
+        weight: 1
+      - path: Outer_edge/Tree_line_41
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1/Cone_5
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1/Cylinder_5
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1_1
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1_1/Cone_4
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1_1/Cylinder_4
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1_2
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1_2/Cone_3
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1_2/Cylinder_3
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1_3
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1_3/Cone_2
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1_3/Cylinder_2
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1_4
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1_4/Cone
+        weight: 1
+      - path: Outer_edge/Tree_line_41/Pine_Tree_1_4/Cylinder
+        weight: 1
+      - path: Shrine
+        weight: 1
+      - path: Shrine/Small_things
+        weight: 1
+      - path: Shrine/Small_things/Cube_34
+        weight: 1
+      - path: Shrine/Small_things/Cylinder_1_15
+        weight: 1
+      - path: Shrine/Small_things/Cylinder_2_6
+        weight: 1
+      - path: Shrine/Small_things/Cylinder_233
+        weight: 1
+      - path: Shrine/Small_things_1
+        weight: 1
+      - path: Shrine/Small_things_1/Cube_33
+        weight: 1
+      - path: Shrine/Small_things_1/Cylinder_1_14
+        weight: 1
+      - path: Shrine/Small_things_1/Cylinder_2_5
+        weight: 1
+      - path: Shrine/Small_things_1/Cylinder_232
+        weight: 1
+      - path: Shrine/Small_things_2
+        weight: 1
+      - path: Shrine/Small_things_2/Cube_32
+        weight: 1
+      - path: Shrine/Small_things_2/Cylinder_1_13
+        weight: 1
+      - path: Shrine/Small_things_2/Cylinder_2_4
+        weight: 1
+      - path: Shrine/Small_things_2/Cylinder_231
+        weight: 1
+      - path: Shrine/Small_things_3
+        weight: 1
+      - path: Shrine/Small_things_3/Cube_31
+        weight: 1
+      - path: Shrine/Small_things_3/Cylinder_1_12
+        weight: 1
+      - path: Shrine/Small_things_3/Cylinder_2_3
+        weight: 1
+      - path: Shrine/Small_things_3/Cylinder_230
+        weight: 1
+      - path: Shrine/Tower
+        weight: 1
+      - path: Shrine/Tower/Cube_1_31
+        weight: 1
+      - path: Shrine/Tower/Cube_35
+        weight: 1
+      - path: Shrine/Tower_1
+        weight: 1
+      - path: Shrine/Tower_1/Cube_1_32
+        weight: 1
+      - path: Shrine/Tower_1/Cube_36
+        weight: 1
+      - path: Stone_fences_left_side
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence/Cube_1_12
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence/Cube_12
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_1
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_1/Cube_1_13
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_1/Cube_13
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_2
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_2/Cube_1_11
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_2/Cube_11
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_3
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_3/Cube_1_10
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_3/Cube_10
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_4
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_4/Cube_1_9
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_4/Cube_9
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_5
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_5/Cube_1_8
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_5/Cube_8
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_6
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_6/Cube_1_7
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_6/Cube_7
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_7
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_7/Cube_1_6
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_7/Cube_6
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_8
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_8/Cube_1_5
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_8/Cube_5
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_9
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_9/Cube_1_4
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_9/Cube_4
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_10
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_10/Cube_1_3
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_10/Cube_3
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_11
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_11/Cube_1_2
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_11/Cube_2
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_12
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_12/Cube
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_12/Cube_1
+        weight: 1
+      - path: Stone_fences_right_side
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_2_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_2_2/Cube_1_15
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_2_2/Cube_15
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_2_3
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_2_3/Cube_1_28
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_2_3/Cube_28
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_3_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_3_2/Cube_1_27
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_3_2/Cube_27
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_4_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_4_2/Cube_1_26
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_4_2/Cube_26
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_5_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_5_2/Cube_1_25
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_5_2/Cube_25
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_6_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_6_2/Cube_1_24
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_6_2/Cube_24
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_7_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_7_2/Cube_1_23
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_7_2/Cube_23
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_8_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_8_2/Cube_1_22
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_8_2/Cube_22
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_9_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_9_2/Cube_1_21
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_9_2/Cube_21
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_10_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_10_2/Cube_1_20
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_10_2/Cube_20
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_11_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_11_2/Cube_1_19
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_11_2/Cube_19
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_12_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_12_2/Cube_1_18
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_12_2/Cube_18
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_13
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_13/Cube_1_17
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_13/Cube_17
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_14
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_14/Cube_1_16
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_14/Cube_16
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_15
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_15/Cube_1_14
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_15/Cube_14
+        weight: 1
+      - path: stones
+        weight: 1
+      - path: stones/Landscape_1
+        weight: 1
+      - path: stones/Landscape_2
+        weight: 1
+      - path: stones/Landscape_3
+        weight: 1
+      - path: stones/Landscape_4
+        weight: 1
+      - path: stones/Landscape_5
+        weight: 1
+      - path: stones/Landscape_6
+        weight: 1
+      - path: stones/Landscape_7
+        weight: 1
+      - path: Torches
+        weight: 1
+      - path: Torches/Torch
+        weight: 1
+      - path: Torches/Torch_1
+        weight: 1
+      - path: Torches/Torch_2
+        weight: 1
+      - path: Torches/Torch_3
+        weight: 1
+      - path: Torches/Torch_4
+        weight: 1
+      - path: Torches/Torch_5
+        weight: 1
+      - path: Torches/Torch_6
+        weight: 1
+      - path: Torches/Torch_7
+        weight: 1
+      - path: Torches/Torch_8
+        weight: 1
+      - path: Torches/Torch_9
+        weight: 1
+      - path: Torches/Torch_10
+        weight: 1
+      - path: Torches/Torch_11
+        weight: 1
+      - path: Torches/Torch_12
+        weight: 1
+      - path: Torches/Torch_13
+        weight: 1
+      - path: Torches/Torch_14
+        weight: 1
+      - path: Torches/Torch_15
+        weight: 1
+      - path: Torches/Torch_16
+        weight: 1
+      - path: Torches/Torch_17
+        weight: 1
+      - path: Trees
+        weight: 1
+      - path: Trees/Pine_Tree_1_1_43
+        weight: 1
+      - path: Trees/Pine_Tree_1_1_43/Cone_222
+        weight: 1
+      - path: Trees/Pine_Tree_1_1_43/Cylinder_222
+        weight: 1
+      - path: Trees/Pine_Tree_1_2_44
+        weight: 1
+      - path: Trees/Pine_Tree_1_2_44/Cone_221
+        weight: 1
+      - path: Trees/Pine_Tree_1_2_44/Cylinder_221
+        weight: 1
+      - path: Trees/Pine_Tree_1_3_44
+        weight: 1
+      - path: Trees/Pine_Tree_1_3_44/Cone_220
+        weight: 1
+      - path: Trees/Pine_Tree_1_3_44/Cylinder_220
+        weight: 1
+      - path: Trees/Pine_Tree_1_4_44
+        weight: 1
+      - path: Trees/Pine_Tree_1_4_44/Cone_219
+        weight: 1
+      - path: Trees/Pine_Tree_1_4_44/Cylinder_219
+        weight: 1
+      - path: Trees/Pine_Tree_1_5_2
+        weight: 1
+      - path: Trees/Pine_Tree_1_5_2/Cone_218
+        weight: 1
+      - path: Trees/Pine_Tree_1_5_2/Cylinder_218
+        weight: 1
+      - path: Trees/Pine_Tree_1_6_2
+        weight: 1
+      - path: Trees/Pine_Tree_1_6_2/Cone_217
+        weight: 1
+      - path: Trees/Pine_Tree_1_6_2/Cylinder_217
+        weight: 1
+      - path: Trees/Pine_Tree_1_7_2
+        weight: 1
+      - path: Trees/Pine_Tree_1_7_2/Cone_216
+        weight: 1
+      - path: Trees/Pine_Tree_1_7_2/Cylinder_216
+        weight: 1
+      - path: Trees/Pine_Tree_1_8_2
+        weight: 1
+      - path: Trees/Pine_Tree_1_8_2/Cone_215
+        weight: 1
+      - path: Trees/Pine_Tree_1_8_2/Cylinder_215
+        weight: 1
+      - path: Trees/Pine_Tree_1_9_2
+        weight: 1
+      - path: Trees/Pine_Tree_1_9_2/Cone_214
+        weight: 1
+      - path: Trees/Pine_Tree_1_9_2/Cylinder_214
+        weight: 1
+      - path: Trees/Pine_Tree_1_10_2
+        weight: 1
+      - path: Trees/Pine_Tree_1_10_2/Cone_213
+        weight: 1
+      - path: Trees/Pine_Tree_1_10_2/Cylinder_213
+        weight: 1
+      - path: Trees/Pine_Tree_1_11_2
+        weight: 1
+      - path: Trees/Pine_Tree_1_11_2/Cone_212
+        weight: 1
+      - path: Trees/Pine_Tree_1_11_2/Cylinder_212
+        weight: 1
+      - path: Trees/Pine_Tree_1_12_2
+        weight: 1
+      - path: Trees/Pine_Tree_1_12_2/Cone_211
+        weight: 1
+      - path: Trees/Pine_Tree_1_12_2/Cylinder_211
+        weight: 1
+      - path: Trees/Pine_Tree_1_43
+        weight: 1
+      - path: Trees/Pine_Tree_1_43/Cone_223
+        weight: 1
+      - path: Trees/Pine_Tree_1_43/Cylinder_223
+        weight: 1
+      - path: Trees/Pine_Tree_2
+        weight: 1
+      - path: Trees/Pine_Tree_2/Cone_1_10
+        weight: 1
+      - path: Trees/Pine_Tree_2/Cone_2_11
+        weight: 1
+      - path: Trees/Pine_Tree_2/Cone_3_11
+        weight: 1
+      - path: Trees/Pine_Tree_2/Cylinder_1_10
+        weight: 1
+      - path: Trees/Pine_Tree_2_1
+        weight: 1
+      - path: Trees/Pine_Tree_2_1/Cone_1_9
+        weight: 1
+      - path: Trees/Pine_Tree_2_1/Cone_2_10
+        weight: 1
+      - path: Trees/Pine_Tree_2_1/Cone_3_10
+        weight: 1
+      - path: Trees/Pine_Tree_2_1/Cylinder_1_9
+        weight: 1
+      - path: Trees/Pine_Tree_2_2
+        weight: 1
+      - path: Trees/Pine_Tree_2_2/Cone_1_8
+        weight: 1
+      - path: Trees/Pine_Tree_2_2/Cone_2_9
+        weight: 1
+      - path: Trees/Pine_Tree_2_2/Cone_3_9
+        weight: 1
+      - path: Trees/Pine_Tree_2_2/Cylinder_1_8
+        weight: 1
+      - path: Trees/Pine_Tree_2_3
+        weight: 1
+      - path: Trees/Pine_Tree_2_3/Cone_1_7
+        weight: 1
+      - path: Trees/Pine_Tree_2_3/Cone_2_8
+        weight: 1
+      - path: Trees/Pine_Tree_2_3/Cone_3_8
+        weight: 1
+      - path: Trees/Pine_Tree_2_3/Cylinder_1_7
+        weight: 1
+      - path: Trees/Pine_Tree_2_4
+        weight: 1
+      - path: Trees/Pine_Tree_2_4/Cone_1_6
+        weight: 1
+      - path: Trees/Pine_Tree_2_4/Cone_2_7
+        weight: 1
+      - path: Trees/Pine_Tree_2_4/Cone_3_7
+        weight: 1
+      - path: Trees/Pine_Tree_2_4/Cylinder_1_6
+        weight: 1
+      - path: Trees/Pine_Tree_2_5
+        weight: 1
+      - path: Trees/Pine_Tree_2_5/Cone_1_5
+        weight: 1
+      - path: Trees/Pine_Tree_2_5/Cone_2_6
+        weight: 1
+      - path: Trees/Pine_Tree_2_5/Cone_3_6
+        weight: 1
+      - path: Trees/Pine_Tree_2_5/Cylinder_1_5
+        weight: 1
+      - path: Trees/Pine_Tree_2_6
+        weight: 1
+      - path: Trees/Pine_Tree_2_6/Cone_1_4
+        weight: 1
+      - path: Trees/Pine_Tree_2_6/Cone_2_5
+        weight: 1
+      - path: Trees/Pine_Tree_2_6/Cone_3_5
+        weight: 1
+      - path: Trees/Pine_Tree_2_6/Cylinder_1_4
+        weight: 1
+      - path: Trees/Pine_Tree_2_7
+        weight: 1
+      - path: Trees/Pine_Tree_2_7/Cone_1_3
+        weight: 1
+      - path: Trees/Pine_Tree_2_7/Cone_2_4
+        weight: 1
+      - path: Trees/Pine_Tree_2_7/Cone_3_4
+        weight: 1
+      - path: Trees/Pine_Tree_2_7/Cylinder_1_3
+        weight: 1
+      - path: Trees/Pine_Tree_2_8
+        weight: 1
+      - path: Trees/Pine_Tree_2_8/Cone_1_2
+        weight: 1
+      - path: Trees/Pine_Tree_2_8/Cone_2_3
+        weight: 1
+      - path: Trees/Pine_Tree_2_8/Cone_3_3
+        weight: 1
+      - path: Trees/Pine_Tree_2_8/Cylinder_1_2
+        weight: 1
+      - path: Trees/Pine_Tree_2_9
+        weight: 1
+      - path: Trees/Pine_Tree_2_9/Cone_1
+        weight: 1
+      - path: Trees/Pine_Tree_2_9/Cone_2_2
+        weight: 1
+      - path: Trees/Pine_Tree_2_9/Cone_3_2
+        weight: 1
+      - path: Trees/Pine_Tree_2_9/Cylinder_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

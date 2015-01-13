@@ -1,0 +1,1337 @@
+fileFormatVersion: 2
+guid: 81205073d195b4a70a5cdfba30e8770e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Cone
+    100002: Cone_1
+    100004: Cone_1_10
+    100006: Cone_1_2
+    100008: Cone_1_3
+    100010: Cone_1_4
+    100012: Cone_1_5
+    100014: Cone_1_6
+    100016: Cone_1_7
+    100018: Cone_1_8
+    100020: Cone_1_9
+    100022: Cone_2
+    100024: Cone_2_10
+    100026: Cone_2_11
+    100028: Cone_2_2
+    100030: Cone_2_3
+    100032: Cone_2_4
+    100034: Cone_2_5
+    100036: Cone_2_6
+    100038: Cone_2_7
+    100040: Cone_2_8
+    100042: Cone_2_9
+    100044: Cone_3
+    100046: Cone_3_10
+    100048: Cone_3_11
+    100050: Cone_3_2
+    100052: Cone_3_3
+    100054: Cone_3_4
+    100056: Cone_3_5
+    100058: Cone_3_6
+    100060: Cone_3_7
+    100062: Cone_3_8
+    100064: Cone_3_9
+    100066: Cone_4
+    100068: Cone_5
+    100070: Cube
+    100072: Cube_1
+    100074: Cube_10
+    100076: Cube_11
+    100078: Cube_12
+    100080: Cube_13
+    100082: Cube_14
+    100084: Cube_15
+    100086: Cube_16
+    100088: Cube_17
+    100090: Cube_18
+    100092: Cube_19
+    100094: Cube_1_10
+    100096: Cube_1_11
+    100098: Cube_1_12
+    100100: Cube_1_13
+    100102: Cube_1_14
+    100104: Cube_1_15
+    100106: Cube_1_16
+    100108: Cube_1_17
+    100110: Cube_1_18
+    100112: Cube_1_19
+    100114: Cube_1_2
+    100116: Cube_1_20
+    100118: Cube_1_21
+    100120: Cube_1_22
+    100122: Cube_1_23
+    100124: Cube_1_24
+    100126: Cube_1_25
+    100128: Cube_1_26
+    100130: Cube_1_27
+    100132: Cube_1_28
+    100134: Cube_1_29
+    100136: Cube_1_3
+    100138: Cube_1_30
+    100140: Cube_1_31
+    100142: Cube_1_32
+    100144: Cube_1_4
+    100146: Cube_1_5
+    100148: Cube_1_6
+    100150: Cube_1_7
+    100152: Cube_1_8
+    100154: Cube_1_9
+    100156: Cube_2
+    100158: Cube_20
+    100160: Cube_21
+    100162: Cube_22
+    100164: Cube_23
+    100166: Cube_24
+    100168: Cube_25
+    100170: Cube_26
+    100172: Cube_27
+    100174: Cube_28
+    100176: Cube_29
+    100178: Cube_2_2
+    100180: Cube_3
+    100182: Cube_30
+    100184: Cube_31
+    100186: Cube_32
+    100188: Cube_33
+    100190: Cube_34
+    100192: Cube_35
+    100194: Cube_36
+    100196: Cube_37
+    100198: Cube_3_2
+    100200: Cube_4
+    100202: Cube_5
+    100204: Cube_6
+    100206: Cube_7
+    100208: Cube_8
+    100210: Cube_9
+    100212: Cylinder
+    100214: Cylinder_1
+    100216: Cylinder_10
+    100218: Cylinder_11
+    100220: Cylinder_1_10
+    100222: Cylinder_1_11
+    100224: Cylinder_1_12
+    100226: Cylinder_1_13
+    100228: Cylinder_1_14
+    100230: Cylinder_1_15
+    100232: Cylinder_1_2
+    100234: Cylinder_1_3
+    100236: Cylinder_1_4
+    100238: Cylinder_1_5
+    100240: Cylinder_1_6
+    100242: Cylinder_1_7
+    100244: Cylinder_1_8
+    100246: Cylinder_1_9
+    100248: Cylinder_2
+    100250: Cylinder_2_2
+    100252: Cylinder_2_3
+    100254: Cylinder_2_4
+    100256: Cylinder_2_5
+    100258: Cylinder_2_6
+    100260: Cylinder_3
+    100262: Cylinder_4
+    100264: Cylinder_5
+    100266: Cylinder_6
+    100268: Cylinder_7
+    100270: Cylinder_8
+    100272: Cylinder_9
+    100274: Disc
+    100276: Gate
+    100278: Landscape_1
+    100280: Landscape_2
+    100282: Landscape_3
+    100284: Landscape_4
+    100286: Landscape_5
+    100288: Landscape_6
+    100290: Landscape_7
+    100292: Level
+    100294: Middle
+    100296: //RootNode
+    100298: Pine_Tree_2
+    100300: Pine_Tree_2_1
+    100302: Pine_Tree_2_2
+    100304: Pine_Tree_2_3
+    100306: Pine_Tree_2_4
+    100308: Pine_Tree_2_5
+    100310: Pine_Tree_2_6
+    100312: Pine_Tree_2_7
+    100314: Pine_Tree_2_8
+    100316: Pine_Tree_2_9
+    100318: Shrine
+    100320: Small_things
+    100322: Small_things_1
+    100324: Small_things_2
+    100326: Small_things_3
+    100328: Stone_Fence
+    100330: Stone_Fence_1
+    100332: Stone_Fence_10
+    100334: Stone_Fence_10_2
+    100336: Stone_Fence_11
+    100338: Stone_Fence_11_2
+    100340: Stone_Fence_12
+    100342: Stone_Fence_12_2
+    100344: Stone_Fence_13
+    100346: Stone_Fence_14
+    100348: Stone_Fence_15
+    100350: Stone_Fence_2
+    100352: Stone_Fence_2_2
+    100354: Stone_Fence_2_3
+    100356: Stone_Fence_3
+    100358: Stone_Fence_3_2
+    100360: Stone_Fence_4
+    100362: Stone_Fence_4_2
+    100364: Stone_Fence_5
+    100366: Stone_Fence_5_2
+    100368: Stone_Fence_6
+    100370: Stone_Fence_6_2
+    100372: Stone_Fence_7
+    100374: Stone_Fence_7_2
+    100376: Stone_Fence_8
+    100378: Stone_Fence_8_2
+    100380: Stone_Fence_9
+    100382: Stone_Fence_9_2
+    100384: Stone_fences_left_side
+    100386: Stone_fences_right_side
+    100388: stones
+    100390: Tower
+    100392: Tower_1
+    100394: Tree
+    100396: Tree_1
+    100398: Tree_2
+    100400: Tree_3
+    100402: Tree_4
+    100404: Trees
+    400000: Cone
+    400002: Cone_1
+    400004: Cone_1_10
+    400006: Cone_1_2
+    400008: Cone_1_3
+    400010: Cone_1_4
+    400012: Cone_1_5
+    400014: Cone_1_6
+    400016: Cone_1_7
+    400018: Cone_1_8
+    400020: Cone_1_9
+    400022: Cone_2
+    400024: Cone_2_10
+    400026: Cone_2_11
+    400028: Cone_2_2
+    400030: Cone_2_3
+    400032: Cone_2_4
+    400034: Cone_2_5
+    400036: Cone_2_6
+    400038: Cone_2_7
+    400040: Cone_2_8
+    400042: Cone_2_9
+    400044: Cone_3
+    400046: Cone_3_10
+    400048: Cone_3_11
+    400050: Cone_3_2
+    400052: Cone_3_3
+    400054: Cone_3_4
+    400056: Cone_3_5
+    400058: Cone_3_6
+    400060: Cone_3_7
+    400062: Cone_3_8
+    400064: Cone_3_9
+    400066: Cone_4
+    400068: Cone_5
+    400070: Cube
+    400072: Cube_1
+    400074: Cube_10
+    400076: Cube_11
+    400078: Cube_12
+    400080: Cube_13
+    400082: Cube_14
+    400084: Cube_15
+    400086: Cube_16
+    400088: Cube_17
+    400090: Cube_18
+    400092: Cube_19
+    400094: Cube_1_10
+    400096: Cube_1_11
+    400098: Cube_1_12
+    400100: Cube_1_13
+    400102: Cube_1_14
+    400104: Cube_1_15
+    400106: Cube_1_16
+    400108: Cube_1_17
+    400110: Cube_1_18
+    400112: Cube_1_19
+    400114: Cube_1_2
+    400116: Cube_1_20
+    400118: Cube_1_21
+    400120: Cube_1_22
+    400122: Cube_1_23
+    400124: Cube_1_24
+    400126: Cube_1_25
+    400128: Cube_1_26
+    400130: Cube_1_27
+    400132: Cube_1_28
+    400134: Cube_1_29
+    400136: Cube_1_3
+    400138: Cube_1_30
+    400140: Cube_1_31
+    400142: Cube_1_32
+    400144: Cube_1_4
+    400146: Cube_1_5
+    400148: Cube_1_6
+    400150: Cube_1_7
+    400152: Cube_1_8
+    400154: Cube_1_9
+    400156: Cube_2
+    400158: Cube_20
+    400160: Cube_21
+    400162: Cube_22
+    400164: Cube_23
+    400166: Cube_24
+    400168: Cube_25
+    400170: Cube_26
+    400172: Cube_27
+    400174: Cube_28
+    400176: Cube_29
+    400178: Cube_2_2
+    400180: Cube_3
+    400182: Cube_30
+    400184: Cube_31
+    400186: Cube_32
+    400188: Cube_33
+    400190: Cube_34
+    400192: Cube_35
+    400194: Cube_36
+    400196: Cube_37
+    400198: Cube_3_2
+    400200: Cube_4
+    400202: Cube_5
+    400204: Cube_6
+    400206: Cube_7
+    400208: Cube_8
+    400210: Cube_9
+    400212: Cylinder
+    400214: Cylinder_1
+    400216: Cylinder_10
+    400218: Cylinder_11
+    400220: Cylinder_1_10
+    400222: Cylinder_1_11
+    400224: Cylinder_1_12
+    400226: Cylinder_1_13
+    400228: Cylinder_1_14
+    400230: Cylinder_1_15
+    400232: Cylinder_1_2
+    400234: Cylinder_1_3
+    400236: Cylinder_1_4
+    400238: Cylinder_1_5
+    400240: Cylinder_1_6
+    400242: Cylinder_1_7
+    400244: Cylinder_1_8
+    400246: Cylinder_1_9
+    400248: Cylinder_2
+    400250: Cylinder_2_2
+    400252: Cylinder_2_3
+    400254: Cylinder_2_4
+    400256: Cylinder_2_5
+    400258: Cylinder_2_6
+    400260: Cylinder_3
+    400262: Cylinder_4
+    400264: Cylinder_5
+    400266: Cylinder_6
+    400268: Cylinder_7
+    400270: Cylinder_8
+    400272: Cylinder_9
+    400274: Disc
+    400276: Gate
+    400278: Landscape_1
+    400280: Landscape_2
+    400282: Landscape_3
+    400284: Landscape_4
+    400286: Landscape_5
+    400288: Landscape_6
+    400290: Landscape_7
+    400292: Level
+    400294: Middle
+    400296: //RootNode
+    400298: Pine_Tree_2
+    400300: Pine_Tree_2_1
+    400302: Pine_Tree_2_2
+    400304: Pine_Tree_2_3
+    400306: Pine_Tree_2_4
+    400308: Pine_Tree_2_5
+    400310: Pine_Tree_2_6
+    400312: Pine_Tree_2_7
+    400314: Pine_Tree_2_8
+    400316: Pine_Tree_2_9
+    400318: Shrine
+    400320: Small_things
+    400322: Small_things_1
+    400324: Small_things_2
+    400326: Small_things_3
+    400328: Stone_Fence
+    400330: Stone_Fence_1
+    400332: Stone_Fence_10
+    400334: Stone_Fence_10_2
+    400336: Stone_Fence_11
+    400338: Stone_Fence_11_2
+    400340: Stone_Fence_12
+    400342: Stone_Fence_12_2
+    400344: Stone_Fence_13
+    400346: Stone_Fence_14
+    400348: Stone_Fence_15
+    400350: Stone_Fence_2
+    400352: Stone_Fence_2_2
+    400354: Stone_Fence_2_3
+    400356: Stone_Fence_3
+    400358: Stone_Fence_3_2
+    400360: Stone_Fence_4
+    400362: Stone_Fence_4_2
+    400364: Stone_Fence_5
+    400366: Stone_Fence_5_2
+    400368: Stone_Fence_6
+    400370: Stone_Fence_6_2
+    400372: Stone_Fence_7
+    400374: Stone_Fence_7_2
+    400376: Stone_Fence_8
+    400378: Stone_Fence_8_2
+    400380: Stone_Fence_9
+    400382: Stone_Fence_9_2
+    400384: Stone_fences_left_side
+    400386: Stone_fences_right_side
+    400388: stones
+    400390: Tower
+    400392: Tower_1
+    400394: Tree
+    400396: Tree_1
+    400398: Tree_2
+    400400: Tree_3
+    400402: Tree_4
+    400404: Trees
+    2300000: Cone
+    2300002: Cone_1
+    2300004: Cone_1_10
+    2300006: Cone_1_2
+    2300008: Cone_1_3
+    2300010: Cone_1_4
+    2300012: Cone_1_5
+    2300014: Cone_1_6
+    2300016: Cone_1_7
+    2300018: Cone_1_8
+    2300020: Cone_1_9
+    2300022: Cone_2
+    2300024: Cone_2_10
+    2300026: Cone_2_11
+    2300028: Cone_2_2
+    2300030: Cone_2_3
+    2300032: Cone_2_4
+    2300034: Cone_2_5
+    2300036: Cone_2_6
+    2300038: Cone_2_7
+    2300040: Cone_2_8
+    2300042: Cone_2_9
+    2300044: Cone_3
+    2300046: Cone_3_10
+    2300048: Cone_3_11
+    2300050: Cone_3_2
+    2300052: Cone_3_3
+    2300054: Cone_3_4
+    2300056: Cone_3_5
+    2300058: Cone_3_6
+    2300060: Cone_3_7
+    2300062: Cone_3_8
+    2300064: Cone_3_9
+    2300066: Cone_4
+    2300068: Cone_5
+    2300070: Cube
+    2300072: Cube_1
+    2300074: Cube_10
+    2300076: Cube_11
+    2300078: Cube_12
+    2300080: Cube_13
+    2300082: Cube_14
+    2300084: Cube_15
+    2300086: Cube_16
+    2300088: Cube_17
+    2300090: Cube_18
+    2300092: Cube_19
+    2300094: Cube_1_10
+    2300096: Cube_1_11
+    2300098: Cube_1_12
+    2300100: Cube_1_13
+    2300102: Cube_1_14
+    2300104: Cube_1_15
+    2300106: Cube_1_16
+    2300108: Cube_1_17
+    2300110: Cube_1_18
+    2300112: Cube_1_19
+    2300114: Cube_1_2
+    2300116: Cube_1_20
+    2300118: Cube_1_21
+    2300120: Cube_1_22
+    2300122: Cube_1_23
+    2300124: Cube_1_24
+    2300126: Cube_1_25
+    2300128: Cube_1_26
+    2300130: Cube_1_27
+    2300132: Cube_1_28
+    2300134: Cube_1_29
+    2300136: Cube_1_3
+    2300138: Cube_1_30
+    2300140: Cube_1_31
+    2300142: Cube_1_32
+    2300144: Cube_1_4
+    2300146: Cube_1_5
+    2300148: Cube_1_6
+    2300150: Cube_1_7
+    2300152: Cube_1_8
+    2300154: Cube_1_9
+    2300156: Cube_2
+    2300158: Cube_20
+    2300160: Cube_21
+    2300162: Cube_22
+    2300164: Cube_23
+    2300166: Cube_24
+    2300168: Cube_25
+    2300170: Cube_26
+    2300172: Cube_27
+    2300174: Cube_28
+    2300176: Cube_29
+    2300178: Cube_2_2
+    2300180: Cube_3
+    2300182: Cube_30
+    2300184: Cube_31
+    2300186: Cube_32
+    2300188: Cube_33
+    2300190: Cube_34
+    2300192: Cube_35
+    2300194: Cube_36
+    2300196: Cube_37
+    2300198: Cube_3_2
+    2300200: Cube_4
+    2300202: Cube_5
+    2300204: Cube_6
+    2300206: Cube_7
+    2300208: Cube_8
+    2300210: Cube_9
+    2300212: Cylinder
+    2300214: Cylinder_1
+    2300216: Cylinder_10
+    2300218: Cylinder_11
+    2300220: Cylinder_1_10
+    2300222: Cylinder_1_11
+    2300224: Cylinder_1_12
+    2300226: Cylinder_1_13
+    2300228: Cylinder_1_14
+    2300230: Cylinder_1_15
+    2300232: Cylinder_1_2
+    2300234: Cylinder_1_3
+    2300236: Cylinder_1_4
+    2300238: Cylinder_1_5
+    2300240: Cylinder_1_6
+    2300242: Cylinder_1_7
+    2300244: Cylinder_1_8
+    2300246: Cylinder_1_9
+    2300248: Cylinder_2
+    2300250: Cylinder_2_2
+    2300252: Cylinder_2_3
+    2300254: Cylinder_2_4
+    2300256: Cylinder_2_5
+    2300258: Cylinder_2_6
+    2300260: Cylinder_3
+    2300262: Cylinder_4
+    2300264: Cylinder_5
+    2300266: Cylinder_6
+    2300268: Cylinder_7
+    2300270: Cylinder_8
+    2300272: Cylinder_9
+    2300274: Disc
+    2300276: Landscape_1
+    2300278: Landscape_2
+    2300280: Landscape_3
+    2300282: Landscape_4
+    2300284: Landscape_5
+    2300286: Landscape_6
+    2300288: Landscape_7
+    2300290: Level
+    3300000: Cone
+    3300002: Cone_1
+    3300004: Cone_1_10
+    3300006: Cone_1_2
+    3300008: Cone_1_3
+    3300010: Cone_1_4
+    3300012: Cone_1_5
+    3300014: Cone_1_6
+    3300016: Cone_1_7
+    3300018: Cone_1_8
+    3300020: Cone_1_9
+    3300022: Cone_2
+    3300024: Cone_2_10
+    3300026: Cone_2_11
+    3300028: Cone_2_2
+    3300030: Cone_2_3
+    3300032: Cone_2_4
+    3300034: Cone_2_5
+    3300036: Cone_2_6
+    3300038: Cone_2_7
+    3300040: Cone_2_8
+    3300042: Cone_2_9
+    3300044: Cone_3
+    3300046: Cone_3_10
+    3300048: Cone_3_11
+    3300050: Cone_3_2
+    3300052: Cone_3_3
+    3300054: Cone_3_4
+    3300056: Cone_3_5
+    3300058: Cone_3_6
+    3300060: Cone_3_7
+    3300062: Cone_3_8
+    3300064: Cone_3_9
+    3300066: Cone_4
+    3300068: Cone_5
+    3300070: Cube
+    3300072: Cube_1
+    3300074: Cube_10
+    3300076: Cube_11
+    3300078: Cube_12
+    3300080: Cube_13
+    3300082: Cube_14
+    3300084: Cube_15
+    3300086: Cube_16
+    3300088: Cube_17
+    3300090: Cube_18
+    3300092: Cube_19
+    3300094: Cube_1_10
+    3300096: Cube_1_11
+    3300098: Cube_1_12
+    3300100: Cube_1_13
+    3300102: Cube_1_14
+    3300104: Cube_1_15
+    3300106: Cube_1_16
+    3300108: Cube_1_17
+    3300110: Cube_1_18
+    3300112: Cube_1_19
+    3300114: Cube_1_2
+    3300116: Cube_1_20
+    3300118: Cube_1_21
+    3300120: Cube_1_22
+    3300122: Cube_1_23
+    3300124: Cube_1_24
+    3300126: Cube_1_25
+    3300128: Cube_1_26
+    3300130: Cube_1_27
+    3300132: Cube_1_28
+    3300134: Cube_1_29
+    3300136: Cube_1_3
+    3300138: Cube_1_30
+    3300140: Cube_1_31
+    3300142: Cube_1_32
+    3300144: Cube_1_4
+    3300146: Cube_1_5
+    3300148: Cube_1_6
+    3300150: Cube_1_7
+    3300152: Cube_1_8
+    3300154: Cube_1_9
+    3300156: Cube_2
+    3300158: Cube_20
+    3300160: Cube_21
+    3300162: Cube_22
+    3300164: Cube_23
+    3300166: Cube_24
+    3300168: Cube_25
+    3300170: Cube_26
+    3300172: Cube_27
+    3300174: Cube_28
+    3300176: Cube_29
+    3300178: Cube_2_2
+    3300180: Cube_3
+    3300182: Cube_30
+    3300184: Cube_31
+    3300186: Cube_32
+    3300188: Cube_33
+    3300190: Cube_34
+    3300192: Cube_35
+    3300194: Cube_36
+    3300196: Cube_37
+    3300198: Cube_3_2
+    3300200: Cube_4
+    3300202: Cube_5
+    3300204: Cube_6
+    3300206: Cube_7
+    3300208: Cube_8
+    3300210: Cube_9
+    3300212: Cylinder
+    3300214: Cylinder_1
+    3300216: Cylinder_10
+    3300218: Cylinder_11
+    3300220: Cylinder_1_10
+    3300222: Cylinder_1_11
+    3300224: Cylinder_1_12
+    3300226: Cylinder_1_13
+    3300228: Cylinder_1_14
+    3300230: Cylinder_1_15
+    3300232: Cylinder_1_2
+    3300234: Cylinder_1_3
+    3300236: Cylinder_1_4
+    3300238: Cylinder_1_5
+    3300240: Cylinder_1_6
+    3300242: Cylinder_1_7
+    3300244: Cylinder_1_8
+    3300246: Cylinder_1_9
+    3300248: Cylinder_2
+    3300250: Cylinder_2_2
+    3300252: Cylinder_2_3
+    3300254: Cylinder_2_4
+    3300256: Cylinder_2_5
+    3300258: Cylinder_2_6
+    3300260: Cylinder_3
+    3300262: Cylinder_4
+    3300264: Cylinder_5
+    3300266: Cylinder_6
+    3300268: Cylinder_7
+    3300270: Cylinder_8
+    3300272: Cylinder_9
+    3300274: Disc
+    3300276: Landscape_1
+    3300278: Landscape_2
+    3300280: Landscape_3
+    3300282: Landscape_4
+    3300284: Landscape_5
+    3300286: Landscape_6
+    3300288: Landscape_7
+    3300290: Level
+    4300000: Cone_3
+    4300002: Cone_2
+    4300004: Cone_1
+    4300006: Cylinder_1
+    4300008: Cone_3_2
+    4300010: Cone_2_2
+    4300012: Cone_1_2
+    4300014: Cylinder_1_2
+    4300016: Cone_3_3
+    4300018: Cone_2_3
+    4300020: Cone_1_3
+    4300022: Cylinder_1_3
+    4300024: Cone_3_4
+    4300026: Cone_2_4
+    4300028: Cone_1_4
+    4300030: Cylinder_1_4
+    4300032: Cone_3_5
+    4300034: Cone_2_5
+    4300036: Cone_1_5
+    4300038: Cylinder_1_5
+    4300040: Cone_3_6
+    4300042: Cone_2_6
+    4300044: Cone_1_6
+    4300046: Cylinder_1_6
+    4300048: Cone_3_7
+    4300050: Cone_2_7
+    4300052: Cone_1_7
+    4300054: Cylinder_1_7
+    4300056: Cone_3_8
+    4300058: Cone_2_8
+    4300060: Cone_1_8
+    4300062: Cylinder_1_8
+    4300064: Cone_3_9
+    4300066: Cone_2_9
+    4300068: Cone_1_9
+    4300070: Cylinder_1_9
+    4300072: Cone_3_10
+    4300074: Cone_2_10
+    4300076: Cone_1_10
+    4300078: Cylinder_1_10
+    4300080: Landscape_7
+    4300082: Landscape_6
+    4300084: Landscape_5
+    4300086: Landscape_4
+    4300088: Landscape_3
+    4300090: Landscape_2
+    4300092: Landscape_1
+    4300094: Cube_1
+    4300096: Cube
+    4300098: Cube_1_2
+    4300100: Cube_2
+    4300102: Cube_1_3
+    4300104: Cube_3
+    4300106: Cube_1_4
+    4300108: Cube_4
+    4300110: Cube_1_5
+    4300112: Cube_5
+    4300114: Cube_1_6
+    4300116: Cube_6
+    4300118: Cube_1_7
+    4300120: Cube_7
+    4300122: Cube_1_8
+    4300124: Cube_8
+    4300126: Cube_1_9
+    4300128: Cube_9
+    4300130: Cube_1_10
+    4300132: Cube_10
+    4300134: Cube_1_11
+    4300136: Cube_11
+    4300138: Cube_1_12
+    4300140: Cube_12
+    4300142: Cube_1_13
+    4300144: Cube_13
+    4300146: Cube_1_14
+    4300148: Cube_14
+    4300150: Cube_1_15
+    4300152: Cube_15
+    4300154: Cube_1_16
+    4300156: Cube_16
+    4300158: Cube_1_17
+    4300160: Cube_17
+    4300162: Cube_1_18
+    4300164: Cube_18
+    4300166: Cube_1_19
+    4300168: Cube_19
+    4300170: Cube_1_20
+    4300172: Cube_20
+    4300174: Cube_1_21
+    4300176: Cube_21
+    4300178: Cube_1_22
+    4300180: Cube_22
+    4300182: Cube_1_23
+    4300184: Cube_23
+    4300186: Cube_1_24
+    4300188: Cube_24
+    4300190: Cube_1_25
+    4300192: Cube_25
+    4300194: Cube_1_26
+    4300196: Cube_26
+    4300198: Cube_1_27
+    4300200: Cube_27
+    4300202: Cube_1_28
+    4300204: Cube_28
+    4300206: Cylinder
+    4300208: Cone
+    4300210: Cylinder_2
+    4300212: Cone_2_11
+    4300214: Cylinder_3
+    4300216: Cone_3_11
+    4300218: Cylinder_4
+    4300220: Cone_4
+    4300222: Cylinder_5
+    4300224: Cone_5
+    4300226: Disc
+    4300228: Cube_1_29
+    4300230: Cube_29
+    4300232: Cube_3_2
+    4300234: Cube_2_2
+    4300236: Cylinder_2_2
+    4300238: Cylinder_1_11
+    4300240: Cube_1_30
+    4300242: Cube_30
+    4300244: Cylinder_6
+    4300246: Cube_31
+    4300248: Cylinder_2_3
+    4300250: Cylinder_1_12
+    4300252: Cylinder_7
+    4300254: Cube_32
+    4300256: Cylinder_2_4
+    4300258: Cylinder_1_13
+    4300260: Cylinder_8
+    4300262: Cube_33
+    4300264: Cylinder_2_5
+    4300266: Cylinder_1_14
+    4300268: Cylinder_9
+    4300270: Cube_34
+    4300272: Cylinder_2_6
+    4300274: Cylinder_1_15
+    4300276: Cylinder_10
+    4300278: Cube_35
+    4300280: Cylinder_11
+    4300282: Cube_1_31
+    4300284: Cube_36
+    4300286: Cube_1_32
+    4300288: Cube_37
+    4300290: Level
+    7400000: C4D Animation Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gate
+        weight: 1
+      - path: Gate/Cube_1_29
+        weight: 1
+      - path: Gate/Cube_1_30
+        weight: 1
+      - path: Gate/Cube_2_2
+        weight: 1
+      - path: Gate/Cube_3_2
+        weight: 1
+      - path: Gate/Cube_29
+        weight: 1
+      - path: Gate/Cube_30
+        weight: 1
+      - path: Gate/Cylinder_1_11
+        weight: 1
+      - path: Gate/Cylinder_2_2
+        weight: 1
+      - path: Gate/Cylinder_6
+        weight: 1
+      - path: Gate/Disc
+        weight: 1
+      - path: Gate/Trees
+        weight: 1
+      - path: Gate/Trees/Tree
+        weight: 1
+      - path: Gate/Trees/Tree/Cone_5
+        weight: 1
+      - path: Gate/Trees/Tree/Cylinder_5
+        weight: 1
+      - path: Gate/Trees/Tree_1
+        weight: 1
+      - path: Gate/Trees/Tree_1/Cone_4
+        weight: 1
+      - path: Gate/Trees/Tree_1/Cylinder_4
+        weight: 1
+      - path: Gate/Trees/Tree_2
+        weight: 1
+      - path: Gate/Trees/Tree_2/Cone_3_11
+        weight: 1
+      - path: Gate/Trees/Tree_2/Cylinder_3
+        weight: 1
+      - path: Gate/Trees/Tree_3
+        weight: 1
+      - path: Gate/Trees/Tree_3/Cone_2_11
+        weight: 1
+      - path: Gate/Trees/Tree_3/Cylinder_2
+        weight: 1
+      - path: Gate/Trees/Tree_4
+        weight: 1
+      - path: Gate/Trees/Tree_4/Cone
+        weight: 1
+      - path: Gate/Trees/Tree_4/Cylinder
+        weight: 1
+      - path: Level
+        weight: 1
+      - path: Pine_Tree_2
+        weight: 1
+      - path: Pine_Tree_2/Cone_1_10
+        weight: 1
+      - path: Pine_Tree_2/Cone_2_10
+        weight: 1
+      - path: Pine_Tree_2/Cone_3_10
+        weight: 1
+      - path: Pine_Tree_2/Cylinder_1_10
+        weight: 1
+      - path: Pine_Tree_2_1
+        weight: 1
+      - path: Pine_Tree_2_1/Cone_1_9
+        weight: 1
+      - path: Pine_Tree_2_1/Cone_2_9
+        weight: 1
+      - path: Pine_Tree_2_1/Cone_3_9
+        weight: 1
+      - path: Pine_Tree_2_1/Cylinder_1_9
+        weight: 1
+      - path: Pine_Tree_2_2
+        weight: 1
+      - path: Pine_Tree_2_2/Cone_1_8
+        weight: 1
+      - path: Pine_Tree_2_2/Cone_2_8
+        weight: 1
+      - path: Pine_Tree_2_2/Cone_3_8
+        weight: 1
+      - path: Pine_Tree_2_2/Cylinder_1_8
+        weight: 1
+      - path: Pine_Tree_2_3
+        weight: 1
+      - path: Pine_Tree_2_3/Cone_1_7
+        weight: 1
+      - path: Pine_Tree_2_3/Cone_2_7
+        weight: 1
+      - path: Pine_Tree_2_3/Cone_3_7
+        weight: 1
+      - path: Pine_Tree_2_3/Cylinder_1_7
+        weight: 1
+      - path: Pine_Tree_2_4
+        weight: 1
+      - path: Pine_Tree_2_4/Cone_1_6
+        weight: 1
+      - path: Pine_Tree_2_4/Cone_2_6
+        weight: 1
+      - path: Pine_Tree_2_4/Cone_3_6
+        weight: 1
+      - path: Pine_Tree_2_4/Cylinder_1_6
+        weight: 1
+      - path: Pine_Tree_2_5
+        weight: 1
+      - path: Pine_Tree_2_5/Cone_1_5
+        weight: 1
+      - path: Pine_Tree_2_5/Cone_2_5
+        weight: 1
+      - path: Pine_Tree_2_5/Cone_3_5
+        weight: 1
+      - path: Pine_Tree_2_5/Cylinder_1_5
+        weight: 1
+      - path: Pine_Tree_2_6
+        weight: 1
+      - path: Pine_Tree_2_6/Cone_1_4
+        weight: 1
+      - path: Pine_Tree_2_6/Cone_2_4
+        weight: 1
+      - path: Pine_Tree_2_6/Cone_3_4
+        weight: 1
+      - path: Pine_Tree_2_6/Cylinder_1_4
+        weight: 1
+      - path: Pine_Tree_2_7
+        weight: 1
+      - path: Pine_Tree_2_7/Cone_1_3
+        weight: 1
+      - path: Pine_Tree_2_7/Cone_2_3
+        weight: 1
+      - path: Pine_Tree_2_7/Cone_3_3
+        weight: 1
+      - path: Pine_Tree_2_7/Cylinder_1_3
+        weight: 1
+      - path: Pine_Tree_2_8
+        weight: 1
+      - path: Pine_Tree_2_8/Cone_1_2
+        weight: 1
+      - path: Pine_Tree_2_8/Cone_2_2
+        weight: 1
+      - path: Pine_Tree_2_8/Cone_3_2
+        weight: 1
+      - path: Pine_Tree_2_8/Cylinder_1_2
+        weight: 1
+      - path: Pine_Tree_2_9
+        weight: 1
+      - path: Pine_Tree_2_9/Cone_1
+        weight: 1
+      - path: Pine_Tree_2_9/Cone_2
+        weight: 1
+      - path: Pine_Tree_2_9/Cone_3
+        weight: 1
+      - path: Pine_Tree_2_9/Cylinder_1
+        weight: 1
+      - path: Shrine
+        weight: 1
+      - path: Shrine/Middle
+        weight: 1
+      - path: Shrine/Middle/Cube_35
+        weight: 1
+      - path: Shrine/Middle/Cylinder_11
+        weight: 1
+      - path: Shrine/Small_things
+        weight: 1
+      - path: Shrine/Small_things/Cube_34
+        weight: 1
+      - path: Shrine/Small_things/Cylinder_1_15
+        weight: 1
+      - path: Shrine/Small_things/Cylinder_2_6
+        weight: 1
+      - path: Shrine/Small_things/Cylinder_10
+        weight: 1
+      - path: Shrine/Small_things_1
+        weight: 1
+      - path: Shrine/Small_things_1/Cube_33
+        weight: 1
+      - path: Shrine/Small_things_1/Cylinder_1_14
+        weight: 1
+      - path: Shrine/Small_things_1/Cylinder_2_5
+        weight: 1
+      - path: Shrine/Small_things_1/Cylinder_9
+        weight: 1
+      - path: Shrine/Small_things_2
+        weight: 1
+      - path: Shrine/Small_things_2/Cube_32
+        weight: 1
+      - path: Shrine/Small_things_2/Cylinder_1_13
+        weight: 1
+      - path: Shrine/Small_things_2/Cylinder_2_4
+        weight: 1
+      - path: Shrine/Small_things_2/Cylinder_8
+        weight: 1
+      - path: Shrine/Small_things_3
+        weight: 1
+      - path: Shrine/Small_things_3/Cube_31
+        weight: 1
+      - path: Shrine/Small_things_3/Cylinder_1_12
+        weight: 1
+      - path: Shrine/Small_things_3/Cylinder_2_3
+        weight: 1
+      - path: Shrine/Small_things_3/Cylinder_7
+        weight: 1
+      - path: Shrine/Tower
+        weight: 1
+      - path: Shrine/Tower/Cube_1_31
+        weight: 1
+      - path: Shrine/Tower/Cube_36
+        weight: 1
+      - path: Shrine/Tower_1
+        weight: 1
+      - path: Shrine/Tower_1/Cube_1_32
+        weight: 1
+      - path: Shrine/Tower_1/Cube_37
+        weight: 1
+      - path: Stone_fences_left_side
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence/Cube_1_12
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence/Cube_12
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_1
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_1/Cube_1_13
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_1/Cube_13
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_2
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_2/Cube_1_11
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_2/Cube_11
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_3
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_3/Cube_1_10
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_3/Cube_10
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_4
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_4/Cube_1_9
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_4/Cube_9
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_5
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_5/Cube_1_8
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_5/Cube_8
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_6
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_6/Cube_1_7
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_6/Cube_7
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_7
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_7/Cube_1_6
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_7/Cube_6
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_8
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_8/Cube_1_5
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_8/Cube_5
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_9
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_9/Cube_1_4
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_9/Cube_4
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_10
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_10/Cube_1_3
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_10/Cube_3
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_11
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_11/Cube_1_2
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_11/Cube_2
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_12
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_12/Cube
+        weight: 1
+      - path: Stone_fences_left_side/Stone_Fence_12/Cube_1
+        weight: 1
+      - path: Stone_fences_right_side
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_2_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_2_2/Cube_1_15
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_2_2/Cube_15
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_2_3
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_2_3/Cube_1_28
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_2_3/Cube_28
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_3_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_3_2/Cube_1_27
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_3_2/Cube_27
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_4_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_4_2/Cube_1_26
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_4_2/Cube_26
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_5_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_5_2/Cube_1_25
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_5_2/Cube_25
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_6_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_6_2/Cube_1_24
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_6_2/Cube_24
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_7_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_7_2/Cube_1_23
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_7_2/Cube_23
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_8_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_8_2/Cube_1_22
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_8_2/Cube_22
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_9_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_9_2/Cube_1_21
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_9_2/Cube_21
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_10_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_10_2/Cube_1_20
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_10_2/Cube_20
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_11_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_11_2/Cube_1_19
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_11_2/Cube_19
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_12_2
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_12_2/Cube_1_18
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_12_2/Cube_18
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_13
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_13/Cube_1_17
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_13/Cube_17
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_14
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_14/Cube_1_16
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_14/Cube_16
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_15
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_15/Cube_1_14
+        weight: 1
+      - path: Stone_fences_right_side/Stone_Fence_15/Cube_14
+        weight: 1
+      - path: stones
+        weight: 1
+      - path: stones/Landscape_1
+        weight: 1
+      - path: stones/Landscape_2
+        weight: 1
+      - path: stones/Landscape_3
+        weight: 1
+      - path: stones/Landscape_4
+        weight: 1
+      - path: stones/Landscape_5
+        weight: 1
+      - path: stones/Landscape_6
+        weight: 1
+      - path: stones/Landscape_7
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
