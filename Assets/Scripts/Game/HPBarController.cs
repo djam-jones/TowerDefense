@@ -6,7 +6,7 @@ public class HPBarController : MonoBehaviour {
 	private Vector3 target;
 	private Camera maincamera;
 	private Camera topcamera;
-	//private Camera freecamera;
+	private Camera freecamera;
 
 	public Texture LifeBarBack;
 	public Texture LifeBarFront;
@@ -30,7 +30,7 @@ public class HPBarController : MonoBehaviour {
 		//Sets the Cameras for different views
 		maincamera = GameObject.Find("Main Camera").camera;
 		topcamera = GameObject.Find("Top Camera").camera;
-		//freecamera = GameObject.Find("Free Camera").camera;
+		freecamera = GameObject.Find("Free Camera").camera;
 
 		//Sets the width and height for the HP Bar
 		barWidth = 60f;
@@ -108,10 +108,10 @@ public class HPBarController : MonoBehaviour {
 				}
 			}
 			//Displays the HP Bar, current HP and max HP that the GO has with the Free Camera view
-//			else
-//			{
-//				target = freecamera.WorldToScreenPoint(transform.position);
-//				
+			else
+			{
+				target = freecamera.WorldToScreenPoint(transform.position);
+				
 //				GUI.DrawTexture(new Rect(target.x - (barWidth / 2), Screen.height - (target.y + 80), barWidth, barHeight), LifeBarBack);
 //				GUI.DrawTexture(new Rect(target.x - (barWidth / 2), Screen.height - (target.y + 80), lifeWidth, barHeight), LifeBarFront);
 //				
@@ -128,7 +128,7 @@ public class HPBarController : MonoBehaviour {
 //				{
 //					GUI.Label(new Rect(target.x - (barWidth / 4f), Screen.height - (target.y + 100), 60, 20), shrine.currentHealth + "/" + shrine.maxHealth);
 //				}
-//			}
+			}
 		}
 	}
 

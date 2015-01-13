@@ -27,7 +27,7 @@ public class Actions : MonoBehaviour {
 		turretSelected = false;
 		yAxis = allTurrets[selectedTower].transform.position.y + transform.lossyScale.y;
 	}
-
+	
 	void Update()
 	{
 		Spawn();

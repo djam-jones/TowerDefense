@@ -39,6 +39,7 @@ public class AllTurret : MonoBehaviour {
 		gm = gameManager.GetComponent<GameManager>();
 
 		upgradeMenu = GameObject.FindWithTag("UpgradeMenu");
+		upgradeMenu.SetActive(false);
 
 		lossOfGold = Random.Range(200, 250);
 	}

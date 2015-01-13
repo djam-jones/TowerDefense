@@ -59,6 +59,6 @@ public class EnemyBehaviour : MonoBehaviour {
 
 	public void Attack()
 	{
-
+		Debug.Log("Attack!");
 	}
 }

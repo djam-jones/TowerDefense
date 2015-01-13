@@ -21,6 +21,8 @@ public class UIManager : MonoBehaviour {
 
 	void Update()
 	{
+		//Camera.main.transform.position += transform.forward * (0.1f * Time.deltaTime);
+
 		if(pausing)
 		{
 			PauseGame();
@@ -38,7 +40,6 @@ public class UIManager : MonoBehaviour {
 		{
 			pauseMenu.SetActive(false);
 		}
-
 	}
 
 	void OnGUI()

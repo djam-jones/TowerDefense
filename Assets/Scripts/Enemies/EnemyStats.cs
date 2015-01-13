@@ -6,12 +6,9 @@ public class EnemyStats : MonoBehaviour {
 	public float maxHealth;
 	public float currentHealth;
 	public bool dead;
-
+	
 	private GameManager gm;
 	private GameObject gameManager;
-
-	private LookAtEnemy lae;
-	private GameObject[] turrets;
 
 	public int gold;
 	public int points;
@@ -22,8 +19,6 @@ public class EnemyStats : MonoBehaviour {
 
 		gameManager = GameObject.FindGameObjectWithTag("GameController");
 		gm = gameManager.GetComponent<GameManager>();
-
-		turrets = GameObject.FindGameObjectsWithTag("TurretEye");
 
 		dead = false;
 
@@ -46,17 +41,6 @@ public class EnemyStats : MonoBehaviour {
 		{
 			dead = true;
 
-			foreach(GameObject t in turrets)
-			{
-				lae = t.GetComponent<LookAtEnemy>();
-			}
-
-			if(lae)
-			{
-				lae.inRange.Remove(this.transform);
-				Invoke("Death", 1f);
-			}
-
 			if(gm)
 			{
 				//Add Gold
@@ -65,6 +49,8 @@ public class EnemyStats : MonoBehaviour {
 				//Add Score
 				gm.AddScore(points);
 			}
+			
+			Death();
 		}
 	}
 
