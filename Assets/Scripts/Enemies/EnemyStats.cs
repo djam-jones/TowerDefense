@@ -22,7 +22,7 @@ public class EnemyStats : MonoBehaviour {
 
 		dead = false;
 
-		gold = Random.Range(100, 125);
+		gold = Random.Range(80, 100);
 		points = Random.Range(74, 92);
 	}
 

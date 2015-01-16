@@ -6,16 +6,12 @@ public class ShrineStats : MonoBehaviour {
 
 	public float maxHealth;
 	public float currentHealth;
-	
-	private GameObject gameManager;
-	Text displayText;
+
+	public Text displayText;
 
 	void Start()
 	{
 		currentHealth = maxHealth;
-
-		gameManager = GameObject.FindGameObjectWithTag("GameController");
-		displayText = gameManager.GetComponentInChildren<Text>();
 	}
 
 	void Update()
@@ -35,7 +31,6 @@ public class ShrineStats : MonoBehaviour {
 		if(currentHealth <= 0)
 		{
 			displayText.text = "YOU LOSE!";
-			print("YOU LOSE");
 			Time.timeScale = 0;
 
 			Death();

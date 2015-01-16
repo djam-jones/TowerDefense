@@ -12,6 +12,7 @@ public class SpawnSystem : MonoBehaviour {
 	//The amount of time between Waves and Enemies per wave
 	private float spawnDelay = 3f;
 	public Text displayText;
+	public Text notifcationText;
 	public bool showCountdown;
 
 	//The Current Wave Number
@@ -40,10 +41,18 @@ public class SpawnSystem : MonoBehaviour {
 		enemyIndex = Random.Range(0, AllEnemies.Length);
 		waveText.text = "Wave: " + currentWave.ToString() + " / " + maxWave.ToString();
 
+		if(currentWave > maxWave)
+		{
+			StopCoroutine(NewWave());
+			showCountdown = true;
+			notifcationText.text = "Level Completed!";
+			Time.timeScale = 0;
+		}
+
 		if(showCountdown && isSpawning)
 		{
 			spawnDelay -= Time.deltaTime;
-			displayText.text = "Next Wave in: " + spawnDelay.ToString("f0") + " s";
+			displayText.text = "Next Wave in: " + spawnDelay.ToString("f0") + "s";
 			
 			if(spawnDelay <= 0)
 			{
@@ -81,27 +90,15 @@ public class SpawnSystem : MonoBehaviour {
 			yield return new WaitForSeconds(spawnDelay);
 
 			//Instantiate Basic Enemy at the spawn location if the wave number is or is below Wave 3
-			if(currentWave <= 3)
+			if(currentWave < 3)
 			{
 				Instantiate(AllEnemies[0], spawnPoint.position, spawnPoint.rotation);
 			}
 			//Instantiate either a Basic Enemy or a Heavy Enemy if the wave number is or is above Wave 4
-			else if(currentWave >= 4)
+			else
 			{
 				Instantiate(AllEnemies[enemyIndex], spawnPoint.position, spawnPoint.rotation);
-			}
-			else if(currentWave >= maxWave)
-			{
-//				if(MiniBoss != null)
-//				{
-//					Instantiate(MiniBoss, spawnPoint.position, spawnPoint.rotation);
-//				}
-//				else if(MiniBoss == null)
-//				{
-					displayText.text = "Level Completed!";
-					Time.timeScale = 0;
-//				}
-			}
+			} 
 		}
 
 		//Done Spawning enemies for this round

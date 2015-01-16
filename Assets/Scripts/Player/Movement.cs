@@ -16,6 +16,9 @@ public class Movement : MonoBehaviour {
 
 	//Vertical Position of the Player/Object
 	private float yAxis;
+
+	//Audio
+	public AudioClip[] walkingSounds;
 	
 	void Start() 
 	{
@@ -35,6 +38,9 @@ public class Movement : MonoBehaviour {
 				flag = true;
 				newPos = hit.point;
 				newPos.y = yAxis;
+
+				audio.clip = walkingSounds[Random.Range(0, walkingSounds.Length)];
+				audio.Play();
 			}
 		}
 		if(flag && !Mathf.Approximately(gameObject.transform.position.magnitude, newPos.magnitude))
@@ -45,13 +51,13 @@ public class Movement : MonoBehaviour {
 		else if(flag && Mathf.Approximately(gameObject.transform.position.magnitude, newPos.magnitude))
 		{
 			flag = false;
+			audio.Stop();
 		}
 	}
 
 	void MoveToPos()
 	{
 		Quaternion newRot = Quaternion.LookRotation(newPos - transform.position);
-
 		transform.rotation = Quaternion.Slerp(transform.rotation, newRot, Time.deltaTime * rotSpeed);
 	}
 }

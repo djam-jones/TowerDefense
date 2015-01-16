@@ -33,7 +33,7 @@ public class Shoot : MonoBehaviour {
 				anim.SetTrigger("StartShoot");
 
 				Shooting();
-				cooldown = 3f;
+				cooldown = 6.5f;
 			}
 		}
 		else if(isActive == false)
@@ -44,6 +44,7 @@ public class Shoot : MonoBehaviour {
 
 	void Shooting()
 	{
+		audio.Play();
 		Instantiate(bullet, spawnPoint.position, spawnPoint.rotation);
 	}
 }

@@ -83,7 +83,6 @@ public class GameManager : MonoBehaviour {
 			else
 			{
 				moneyIndex = 0;
-				print("WRONG KEY INPUT");
 			}
 		}
 		
@@ -91,7 +90,6 @@ public class GameManager : MonoBehaviour {
 		{
 			totalGold = 1000000;
 
-			print("GETTIN' MONEY!");
 			moneyIndex = 0;
 		}
 	}
@@ -107,7 +105,6 @@ public class GameManager : MonoBehaviour {
 			else
 			{
 				enemyIndex = 0;
-				print("WRONG KEY INPUT");
 			}
 		}
 		
@@ -122,7 +119,6 @@ public class GameManager : MonoBehaviour {
 				Destroy(enemies[i]);
 			}
 
-			print("KILL ALL ENEMIES");
 			enemyIndex = 0;
 		}
 	}
@@ -138,15 +134,12 @@ public class GameManager : MonoBehaviour {
 			else
 			{
 				timeIndex = 0;
-				print("WRONG KEY INPUT");
 			}
 		}
 
 		if(timeIndex == timeCheat.Length)
 		{
 			Time.timeScale *= 2;
-
-			print("SPEED UP TIME");
 			timeIndex = 0;
 		}
 	}

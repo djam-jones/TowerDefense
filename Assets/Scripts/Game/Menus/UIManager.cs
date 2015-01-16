@@ -9,6 +9,8 @@ public class UIManager : MonoBehaviour {
 	//Booleans for certain Menus
 	private bool showPauseMenu = false;
 	private GameObject pauseMenu;
+	public GameObject howTo;
+	public GameObject mainMenu;
 
 	//Textures for Buttons
 	public Texture settingsTexture;
@@ -17,6 +19,8 @@ public class UIManager : MonoBehaviour {
 	{
 		DontDestroyOnLoad(pauseMenu);
 		pauseMenu = GameObject.Find("Pause Menu");
+
+		howTo.SetActive(false);
 	}
 
 	void Update()
@@ -51,6 +55,18 @@ public class UIManager : MonoBehaviour {
 		}
 	}
 
+	public void HowToPlay()
+	{
+		howTo.SetActive(true);
+		mainMenu.SetActive(false);
+	}
+
+	public void Back()
+	{
+		howTo.SetActive(false);
+		mainMenu.SetActive(true);
+	}
+
 	public void StartGame()
 	{
 		StartCoroutine(ChangeLevel("Level_1"));
@@ -70,6 +86,8 @@ public class UIManager : MonoBehaviour {
 	{
 		Time.timeScale = 0;
 		showPauseMenu = true;
+
+		//Input.ResetInputAxes();
 	}
 	public void ResumeGame()
 	{

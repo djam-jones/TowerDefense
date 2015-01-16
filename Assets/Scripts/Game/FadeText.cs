@@ -16,7 +16,7 @@ public class FadeText : MonoBehaviour {
 	{
 		if(Time.time > duration)
 		{
-			text.text = " ";
+			text.text = "";
 		}
 
 		Color color = text.color;
@@ -24,7 +24,7 @@ public class FadeText : MonoBehaviour {
 		color.a = Mathf.Lerp(1, 0, ratio);
 		text.color = color;
 
-		if(text.text != " ")
+		if(text.text != "")
 		{
 			color.a = Mathf.Lerp(0, 1, 3);
 		}

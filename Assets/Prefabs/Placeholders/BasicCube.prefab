@@ -183,6 +183,7 @@ MonoBehaviour:
   - {fileID: 400000, guid: f43f806c560a8480ea48dce1d74217a5, type: 2}
   - {fileID: 400000, guid: a18f5ad42beb04908bddd21a2e4620a6, type: 2}
   - {fileID: 400000, guid: abe7289a215cd4a3f90a90bdca964b93, type: 2}
+  doneDMG: 10
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1

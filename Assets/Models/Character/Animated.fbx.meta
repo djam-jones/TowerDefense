@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 18da93a83e3cb49c99c906fedcf159c2
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: arm_l
+    100004: arm_r
+    100006: head
+    100008: Joint
+    100010: Joint_1
+    100012: Joint_1_2
+    100014: Joint_1_3
+    100016: Joint_2
+    100018: Joint_2_2
+    100020: Joint_2_3
+    100022: Joint_2_4
+    100024: Joint_3
+    100026: Joint_3_2
+    100028: Joint_3_3
+    100030: Joint_4
+    100032: Joint_4_2
+    100034: Joint_4_3
+    100036: Joint_4_4
+    100038: Joint_5
+    100040: Joint_5_2
+    100042: Joint_6
+    100044: Joint_7
+    100046: leg_L
+    100048: leg_R
+    100050: player_1
+    100052: Root
+    100054: Skin
+    400000: //RootNode
+    400002: arm_l
+    400004: arm_r
+    400006: head
+    400008: Joint
+    400010: Joint_1
+    400012: Joint_1_2
+    400014: Joint_1_3
+    400016: Joint_2
+    400018: Joint_2_2
+    400020: Joint_2_3
+    400022: Joint_2_4
+    400024: Joint_3
+    400026: Joint_3_2
+    400028: Joint_3_3
+    400030: Joint_4
+    400032: Joint_4_2
+    400034: Joint_4_3
+    400036: Joint_4_4
+    400038: Joint_5
+    400040: Joint_5_2
+    400042: Joint_6
+    400044: Joint_7
+    400046: leg_L
+    400048: leg_R
+    400050: player_1
+    400052: Root
+    400054: Skin
+    2300000: player_1
+    3300000: player_1
+    4300000: player_1
+    7400000: Walk_anim
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: player_1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk_anim
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: player_1
+        weight: 1
+      - path: player_1/Skin
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Joint
+        weight: 1
+      - path: Root/Joint/Joint_1_2
+        weight: 1
+      - path: Root/Joint/Joint_1_2/Joint_2_3
+        weight: 1
+      - path: Root/Joint/Joint_1_2/Joint_2_3/arm_l
+        weight: 1
+      - path: Root/Joint/Joint_1_2/Joint_2_3/arm_l/Joint_1_3
+        weight: 1
+      - path: Root/Joint/Joint_1_2/Joint_2_3/arm_l/Joint_1_3/Joint_2_4
+        weight: 1
+      - path: Root/Joint/Joint_1_2/Joint_2_3/arm_l/Joint_1_3/Joint_2_4/Joint_3_3
+        weight: 1
+      - path: Root/Joint/Joint_1_2/Joint_2_3/arm_r
+        weight: 1
+      - path: Root/Joint/Joint_1_2/Joint_2_3/arm_r/Joint_4_3
+        weight: 1
+      - path: Root/Joint/Joint_1_2/Joint_2_3/arm_r/Joint_4_3/Joint_5_2
+        weight: 1
+      - path: Root/Joint/Joint_1_2/Joint_2_3/arm_r/Joint_4_3/Joint_5_2/Joint_6
+        weight: 1
+      - path: Root/Joint/Joint_1_2/Joint_2_3/arm_r/Joint_4_3/Joint_5_2/Joint_6/Joint_7
+        weight: 1
+      - path: Root/Joint/Joint_1_2/Joint_2_3/head
+        weight: 1
+      - path: Root/Joint/Joint_1_2/Joint_2_3/head/Joint_4_4
+        weight: 1
+      - path: Root/Joint/leg_L
+        weight: 1
+      - path: Root/Joint/leg_L/Joint_1
+        weight: 1
+      - path: Root/Joint/leg_L/Joint_1/Joint_2
+        weight: 1
+      - path: Root/Joint/leg_L/Joint_1/Joint_2/Joint_3
+        weight: 1
+      - path: Root/Joint/leg_L/Joint_1/Joint_2/Joint_3/Joint_4
+        weight: 1
+      - path: Root/Joint/leg_R
+        weight: 1
+      - path: Root/Joint/leg_R/Joint_2_2
+        weight: 1
+      - path: Root/Joint/leg_R/Joint_2_2/Joint_3_2
+        weight: 1
+      - path: Root/Joint/leg_R/Joint_2_2/Joint_3_2/Joint_4_2
+        weight: 1
+      - path: Root/Joint/leg_R/Joint_2_2/Joint_3_2/Joint_4_2/Joint_5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -31,8 +31,29 @@ public class Actions : MonoBehaviour {
 	void Update()
 	{
 		Spawn();
-	}
 
+		if(Input.GetKey(KeyCode.Z) && turretSelected == true)
+		{
+			Debug.Log("Deselect");
+			
+			canSelect = true;
+			turretSelected = false;
+			
+			if(selectedTower == 0)
+			{
+				gm.totalGold += 100;
+			}
+			else if(selectedTower == 1)
+			{
+				gm.totalGold += 150;
+			}
+			else if(selectedTower == 2)
+			{
+				gm.totalGold += 250;
+			}
+		}
+	}
+	
 	//Buttons for Selecting the different kinds of Turrets
 	void OnGUI()
 	{
@@ -94,31 +115,12 @@ public class Actions : MonoBehaviour {
 					displayText.text = "Insufficient Funds!";
 				}
 			}
-
-			if(Input.GetKeyDown(KeyCode.Z) && turretSelected == true)
-			{
-				canSelect = true;
-				turretSelected = false;
-
-				if(selectedTower == 0)
-				{
-					gm.totalGold += 100;
-				}
-				else if(selectedTower == 1)
-				{
-					gm.totalGold += 150;
-				}
-				else if(selectedTower == 2)
-				{
-					gm.totalGold += 250;
-				}
-			}
 		}
 
 		GUI.EndGroup();
 	}
 
-	//Spawn the Selected Turret on the Hotspot you have clicked on
+	//Spawn the Selected Turret on the Place you have clicked on
 	void Spawn()
 	{
 		if(turretSelected && Input.GetMouseButtonDown(1))
@@ -136,6 +138,7 @@ public class Actions : MonoBehaviour {
 				turPos.y = yAxis;
 
 				Instantiate(allTurrets[selectedTower], turPos, Quaternion.identity);
+				audio.Play();
 			}
 		}
 	}

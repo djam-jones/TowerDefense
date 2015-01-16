@@ -8,30 +8,41 @@ public class AllTurret : MonoBehaviour {
 	public bool armorMaxed;
 	public bool armorAvailable;
 	private int armorLVL = 1;
+	private int armorCost = 135;
 
 	public float rateOfFire;
 	public bool rateMaxed;
 	public bool rateAvailable;
 	private int rateLVL = 1;
+	private int rateCost = 200;
 
 	private float range;
 	public bool rangeMaxed;
 	public bool rangeAvailable;
 	private int rangeLVL = 1;
+	private int rangeCost = 160;
 
 	public int lvl;
-	public string description;
+	public int maxLVL = 2;
 
 	private GameManager gm;
 	private GameObject gameManager;
 
+	//Upgrade Menu
 	public bool showUpgrades = false;
 	private GameObject upgradeMenu;
 
+
+
+	public int cost;
 	public int lossOfGold;
 
 	void Start()
 	{
+		armorAvailable = true;
+		rangeAvailable = true;
+		rateAvailable = true;
+
 		currentArmor = maxArmor;
 		lvl = 1;
 
@@ -41,11 +52,41 @@ public class AllTurret : MonoBehaviour {
 		upgradeMenu = GameObject.FindWithTag("UpgradeMenu");
 		upgradeMenu.SetActive(false);
 
-		lossOfGold = Random.Range(200, 250);
+		lossOfGold = 75;
 	}
 
 	void Update()
 	{
+		//Armor
+		if(gm.totalGold <= armorCost)
+		{
+			armorAvailable = false;
+		}
+		else
+		{
+			armorAvailable = true;
+		}
+
+		//Range
+		if(gm.totalGold <= rangeCost)
+		{
+			rangeAvailable = false;
+		}
+		else
+		{
+			rangeAvailable = true;
+		}
+
+		//Rate
+		if(gm.totalGold <= rateCost)
+		{
+			rateAvailable = false;
+		}
+		else
+		{
+			rateAvailable = true;
+		}
+
 		if(currentArmor >= maxArmor)
 		{
 			currentArmor = maxArmor;
@@ -59,6 +100,34 @@ public class AllTurret : MonoBehaviour {
 		{
 			upgradeMenu.SetActive(false);
 		}
+
+		if(armorLVL == 5)
+		{
+			armorMaxed = true;
+			armorAvailable = false;
+		}
+		if(rangeLVL == 3)
+		{
+			rangeMaxed = true;
+			rangeAvailable = true;
+		}
+		if(rateLVL == 3)
+		{
+			rateMaxed = true;
+			rateAvailable = false;
+		}
+
+		if(armorMaxed && rangeMaxed && rateMaxed)
+		{
+			lvl += 1;
+
+			if(lvl >= maxLVL)
+			{
+				lvl = maxLVL;
+				//different model
+			}
+		}
+
 	}
 
 	void OnMouseDown()
@@ -68,20 +137,44 @@ public class AllTurret : MonoBehaviour {
 
 	public void UpgradeArmor()
 	{
-		maxArmor *= 1.12f;
-		armorLVL += 1;
+		if(armorAvailable)
+		{
+			maxArmor *= 1.15f;
+			armorLVL += 1;
+			currentArmor = maxArmor;
+
+			gm.LoseGold(armorCost);
+		}
 	}
 
 	public void UpgradeRateOfFire()
 	{
-		rateOfFire *= 1.12f;
-		rateLVL += 1;
+		if(rateAvailable)
+		{
+			rateOfFire *= 1.12f;
+			rateLVL += 1;
+
+			gm.LoseGold(rateCost);
+		}
 	}
 
 	public void UpgradeRange()
 	{
-		range *= 1.12f;
-		rangeLVL += 1;
+		if(rangeAvailable)
+		{
+			range *= 1.12f;
+			rangeLVL += 1;
+
+			gm.LoseGold(rangeCost);
+		}
+	}
+
+	public void RepairTurret()
+	{
+		if(currentArmor <= maxArmor)
+		{
+			currentArmor = maxArmor;
+		}
 	}
 
 	public void TakeDamage(float dmg)
@@ -92,13 +185,13 @@ public class AllTurret : MonoBehaviour {
 		//If the health of the Turret reaches zero. Destroy the Turret and lose Gold
 		if(currentArmor <= 0)
 		{	
-			Death();
-
 			if(gm)
 			{
 				//Lose Gold
 				gm.LoseGold(lossOfGold);
 			}
+
+			Death();
 		}
 	}
 	
